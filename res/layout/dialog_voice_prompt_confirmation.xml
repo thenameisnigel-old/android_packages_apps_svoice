@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/dialog_voice_prompt_confirmation_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#fff5f5f5" android:id="@id/text" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voice_prompt_confirmation_for_off" />
+    <CheckBox android:textColor="#fff5f5f5" android:id="@id/dont_ask" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/do_not_display_again" />
+</LinearLayout>

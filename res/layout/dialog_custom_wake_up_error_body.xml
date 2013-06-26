@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.wakeupsetting.CustomWakeUpRecordError android:id="@id/custom_wake_up_record_error" android:layout_height="wrap_content" style="@style/dialog_custom_wake_up_error_body_record_error"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/custom_wake_up_error_body" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/wake_up_setting" android:background="@drawable/voice_talk_setting_icon_01" android:layout_centerHorizontal="true" style="@style/dialog_custom_wake_up_error_body_setting" />
+    </RelativeLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="12.0dip" android:layout_below="@id/custom_wake_up_error_body" style="@style/dialog_custom_wake_up_error_body_linear">
+        <com.vlingo.midas.gui.customviews.Button android:textColor="@color/widget_button_color" android:id="@id/retry_button" android:background="@drawable/btn_overlay_button" android:text="@string/retry_wake_up_word" style="@style/dialog_custom_wake_up_error_body_retry_button" />
+    </LinearLayout>
+</com.samsung.wakeupsetting.CustomWakeUpRecordError>

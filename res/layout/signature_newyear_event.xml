@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/newyear_event_window_layout" android:layout_width="fill_parent" android:layout_height="285.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/newyear_image" android:background="@drawable/signature_newyear" android:layout_width="fill_parent" android:layout_height="285.0dip" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="57.0sp" android:textStyle="bold" android:textColor="#ff93decd" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/newyear" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_marginTop="41.0dip" />
+            <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#ffda7431" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="130.0dip" android:text="@string/new_year_title" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textSize="23.0sp" android:textStyle="bold" android:textColor="#ff93decd" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/new_year_greet_text" android:paddingBottom="28.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/newyear_event_window_layout" android:layout_centerInParent="true" />
+</RelativeLayout>

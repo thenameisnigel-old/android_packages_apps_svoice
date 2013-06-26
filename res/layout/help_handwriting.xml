@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="#ff1e1e1e" android:id="@id/description_handwriting_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iux_handwriting_1" style="@style/description_handwriting_1_style" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip">
+                <ImageView android:id="@id/img_handwriting_1" android:src="@drawable/pen_mode_off_help" style="@style/img_handwriting_1_style" />
+                <TextView android:textColor="#ff1e1e1e" android:layout_gravity="center_vertical" android:id="@id/handwriting_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/handwriting_mode_off" style="@style/handwriting_off_style" />
+            </LinearLayout>
+            <TextView android:textColor="#ff1e1e1e" android:id="@id/description_handwriting_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iux_handwriting_2" style="@style/description_handwriting_2_style" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip">
+                <ImageView android:id="@id/img_handwriting_2" android:src="@drawable/pen_mode_on_help" style="@style/img_handwriting_2_style" />
+                <TextView android:textColor="#ff1e1e1e" android:layout_gravity="center_vertical" android:id="@id/handwriting_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/handwriting_mode_on" style="@style/handwriting_on_style" />
+            </LinearLayout>
+            <TextView android:textColor="#ff1e1e1e" android:id="@id/description_handwriting_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iux_handwriting_3" style="@style/description_handwriting_3_style" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

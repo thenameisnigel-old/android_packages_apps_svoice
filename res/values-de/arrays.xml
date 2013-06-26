@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="monthMatchers">
+        <item>januar|erster|ersten</item>
+        <item>februar|zweiter|zweiten</item>
+        <item>märz|dritter|dritten</item>
+        <item>april|vierter|vierten</item>
+        <item>mai|fünfter|fünften</item>
+        <item>juni|sechster|sechsten</item>
+        <item>juli|siebter|siebten</item>
+        <item>august|achter|achten</item>
+        <item>september|neunter|neunten</item>
+        <item>oktober|zehnter|zehnten</item>
+        <item>november|elfter|elften</item>
+        <item>dezember|zwölfter|zwölften</item>
+    </string-array>
+    <string-array name="dayMatchers">
+        <item>sonntag</item>
+        <item>montag</item>
+        <item>dienstag</item>
+        <item>mittwoch</item>
+        <item>donnerstag</item>
+        <item>freitag</item>
+        <item>samstag</item>
+    </string-array>
+    <string-array name="weather_sunny">
+        <item>Am $[day] wird die Sonne scheinen.</item>
+        <item>Am $[day] solltest du die Sonnenbrille nicht vergessen.</item>
+        <item>Am $[day] werden es Höchsttemperaturen von $[temp]° mit viel Sonne.</item>
+    </string-array>
+    <string-array name="weather_sunny_today">
+        <item>$[day] scheint die Sonne.</item>
+        <item>Hol deine Sonnebrille.</item>
+        <item>$[day] ist es $[cur_temp]° und sehr sonnig.</item>
+    </string-array>
+    <string-array name="weather_partly_sunny">
+        <item>Am $[day] werden es Höchsttemperaturen von $[temp]° mit gelegentlichem Sonnenschein.</item>
+        <item>Am $[day] wird sich die Sonne immer mal wieder blicken lassen.</item>
+        <item>Am $[day] werden wir Sonnenschein und ein paar Wolken am Himmel haben.</item>
+        <item>Am $[day] werden wir Höchsttemperaturen von $[temp]° und ein paar Wolken am Himmel haben.</item>
+        <item>Am $[day] wird es teilweise sonnig mit Höchsttemperaturen von $[temp]°.</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_today">
+        <item>$[day] sind es $[cur_temp]° mit gelegentlichem Sonnenschein.</item>
+        <item>Die Sonne lässt sich $[day] immer mal wieder blicken.</item>
+        <item>$[day] haben wir Sonnenschein und ein paar Wolken am Himmel.</item>
+        <item>$[day] haben wir $[cur_temp]° und ein paar Wolken am Himmel.</item>
+        <item>$[day] ist es teilweise sonnig und $[cur_temp]°.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy">
+        <item>Am $[day] wird es bewölkt und höchstens $[temp]° werden.</item>
+        <item>Am $[day] werden es Höchsttemperaturen von $[temp]° mit Wolken tagsüber.</item>
+        <item>Wie es aussieht, wird der $[day] ein wolkiger Tag mit Höchsttemperaturen von $[temp]° werden.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_today">
+        <item>$[day] ist es teilweise bewölkt und $[cur_temp]°.</item>
+        <item>$[day] ist es $[cur_temp]° und tagsüber wolkig.</item>
+        <item>Wie es aussieht, ist $[day] ein wolkiger Tag mit $[cur_temp]°.</item>
+    </string-array>
+    <string-array name="weather_foggy">
+        <item>Wie es aussieht, wird der $[day] neblig werden.</item>
+        <item>Draußen wird es neblig und höchstens $[temp]°.</item>
+        <item>Es wird am $[day] neblig, du wirst die Frontscheinwerfer einschalten müssen.</item>
+    </string-array>
+    <string-array name="weather_foggy_today">
+        <item>$[day] sieht es neblig aus.</item>
+        <item>Draußen ist es neblig und $[cur_temp]°.</item>
+        <item>Es ist $[day] neblig, schalte die Frontscheinwerfer ein.</item>
+    </string-array>
+    <string-array name="weather_showers">
+        <item>Am $[day] wird es nach Regenschauern aussehen.</item>
+        <item>Am $[day] gibt es Höchsttemperaturen von $[temp]° und es wird bewölkt mit vereinzelten Schauern.</item>
+        <item>Halte am $[day] deinen Regenschirm bereit.</item>
+        <item>Am $[day] wird es $[temp]° und wolkig, Schauer sind möglich.</item>
+        <item>Zieh am $[day] Gummistiefel an.</item>
+    </string-array>
+    <string-array name="weather_showers_today">
+        <item>$[day] sieht es nach Regenschauern aus.</item>
+        <item>$[day] ist es $[cur_temp]° und bewölkt mit vereinzelten Schauern.</item>
+        <item>Halte $[day] deinen Regenschirm bereit.</item>
+        <item>$[day] ist es $[cur_temp]° und wolkig, Schauer sind möglich.</item>
+        <item>Zieh $[day] Gummistiefel an.</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_with_showers">
+        <item>Am $[day] wird es Sonne und Regen geben.</item>
+        <item>Wie es aussieht, wird es am $[day] Sonne und Regen geben.</item>
+        <item>Am $[day] wirst du einen Regenschirm und eine Sonnenbrille brauchen.</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_with_showers_today">
+        <item>$[day] gibt es Sonne und Regen.</item>
+        <item>$[day] sieht es nach Sonne und Regen aus.</item>
+        <item>$[day] brauchst du einen Regenschirm und eine Sonnenbrille.</item>
+    </string-array>
+    <string-array name="weather_thunderstorms">
+        <item>Am $[day] sieht es nach Unwetter und Temperaturen von höchstens $[temp]° aus.</item>
+        <item>Am $[day] wird es ein Unwetter geben.</item>
+        <item>Für den $[day] werden Wolken, Donner und Regen vorhergesagt.</item>
+        <item>Laut Vorhersage wird es am $[day] bewölkt sein mit höchstens $[temp]° und unwetterartigen Stürmen.</item>
+        <item>Du solltest am $[day] für Unwetter gerüstet sein.</item>
+    </string-array>
+    <string-array name="weather_thunderstorms_today">
+        <item>$[day] sieht es nach Unwetter und Temperaturen von $[cur_temp]° aus.</item>
+        <item>$[day] gibt es ein Unwetter.</item>
+        <item>Für $[day] sind Wolken, Donner und Regen vorhergesagt.</item>
+        <item>Laut Vorhersage ist es $[day] bewölkt mit und höchstens $[cur_temp]° mit unwetterartigen Stürmen.</item>
+        <item>Du solltest $[day] für Unwetter gerüstet sein.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_thunder_showers">
+        <item>Am $[day] wird es unwetterartige Schauer geben.</item>
+        <item>Wie es aussieht, wird es am $[day] Höchsttemperaturen von $[temp]° und Donner und Regen geben.</item>
+        <item>Du wirst am $[day] etwas Donner hören.</item>
+        <item>Am $[day] werden es Höchsttemperaturen von $[temp]° mit einigen unwetterartigen Schauern.</item>
+        <item>Die Vorhersage meldet für den $[day] Donner und Regen.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_thunder_showers_today">
+        <item>$[day] gibt es unwetterartige Schauer.</item>
+        <item>Wie es aussieht, gibt es $[day] $[cur_temp]° und Donner und Regen.</item>
+        <item>Du hörst $[day] etwas Donner.</item>
+        <item>$[day] ist es $[cur_temp]° mit einigen unwetterartigen Schauern.</item>
+        <item>Die Vorhersage meldet für $[day] Donner und Regen.</item>
+    </string-array>
+    <string-array name="weather_rainy">
+        <item>Nimm am $[day] deinen Regenschirm mit.</item>
+        <item>Vergiss am $[day] deine Gummistiefel nicht.</item>
+    </string-array>
+    <string-array name="weather_rainy_today">
+        <item>Nimm $[day] deinen Regenschirm mit.</item>
+        <item>Vergiss $[day] deine Gummistiefel nicht.</item>
+    </string-array>
+    <string-array name="weather_flurries">
+        <item>Am $[day] wird es bewölkt sein mit einigen Schneeschauern und höchstens $[temp]°.</item>
+        <item>Wie es aussieht, wird es am $[day] Schnee und Höchsttemperaturen von $[temp]° geben.</item>
+        <item>Vergiss am $[day] deine Schneeschuhe nicht.</item>
+        <item>Am $[day] werden es höchstens $[temp]° und es wird schneien.</item>
+        <item>Am $[day] wirst du Schneeflocken sehen.</item>
+    </string-array>
+    <string-array name="weather_flurries_today">
+        <item>$[day] ist es bewölkt mit einigen Schneeschauern und $[cur_temp]°.</item>
+        <item>Wie es aussieht, gibt es $[day] Schnee und höchstens $[cur_temp]°.</item>
+        <item>Vergiss $[day] deine Schneeschuhe nicht.</item>
+        <item>$[day] ist es $[cur_temp]° und es schneit.</item>
+        <item>$[day] siehst du Schneeflocken.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_flurries">
+        <item>Am $[day] wird es bewölkt sein mit einigen Schneeschauern und höchstens $[temp]°.</item>
+        <item>Wie es aussieht, wird es am $[day] Schnee und Höchsttemperaturen von $[temp]° geben.</item>
+        <item>Vergiss am $[day] deine Schneeschuhe nicht.</item>
+        <item>Am $[day] werden es höchstens $[temp]° und es wird schneien.</item>
+        <item>Am $[day] wirst du Schneeflocken sehen.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_flurries_today">
+        <item>$[day] ist es bewölkt mit einigen Schneeschauern und $[cur_temp]°.</item>
+        <item>Wie es aussieht, gibt es $[day] Schnee und höchstens $[cur_temp]°.</item>
+        <item>Vergiss $[day] deine Schneeschuhe nicht.</item>
+        <item>$[day] ist es $[cur_temp]° und es schneit.</item>
+        <item>$[day] siehst du Schneeflocken.</item>
+    </string-array>
+    <string-array name="weather_snow">
+        <item>Für $[day] sieht es nach Schnee und Höchsttemperaturen von $[temp]° aus.</item>
+        <item>Am $[day] wird es später Schneeflocken geben.</item>
+        <item>Es wird am $[day] Schnee geben, nimm Handschuhe mit.</item>
+        <item>Vergiss am $[day] deine Schneeschuhe nicht.</item>
+    </string-array>
+    <string-array name="weather_snow_today">
+        <item>$[day] sieht es nach Schnee und Höchsttemperaturen von $[cur_temp]° aus.</item>
+        <item>$[day] gibt es später Schneeflocken.</item>
+        <item>Es gibt $[day] Schnee, nimm Handschuhe mit.</item>
+        <item>Vergiss $[day] deine Schneeschuhe nicht.</item>
+    </string-array>
+    <string-array name="weather_ice">
+        <item>Wie es aussieht, wird es am $[day] Eis und Schnee und höchstens $[temp]° geben.</item>
+        <item>Am $[day] wird es eisig mit nur $[temp]°.</item>
+        <item>Am $[day] wird es draußen frieren.</item>
+        <item>Sei am $[day] vorsichtig, es wird eisig bei nur $[temp]°.</item>
+        <item>Nimm am $[day] deine Handschuhe mit, es wird draußen eisig bei nur $[temp]°.</item>
+    </string-array>
+    <string-array name="weather_ice_today">
+        <item>$[day] sieht es nach Eis und höchstens $[cur_temp]° aus.</item>
+        <item>$[day] ist es eisig mit höchstens $[cur_temp]°.</item>
+        <item>$[day] friert es draußen.</item>
+        <item>Sei $[day] vorsichtig, es ist eisig bei nur $[cur_temp]°.</item>
+        <item>Nimm $[day] deine Handschuhe mit, es ist draußen eisig bei nur $[cur_temp]°.</item>
+    </string-array>
+    <string-array name="weather_mixed_rain_and_snow">
+        <item>Am $[day] wird es etwas Regen gemischt mit Schneeflocken geben.</item>
+        <item>Am $[day] wird es draußen matschig und $[temp]°.</item>
+        <item>Am $[day] wird es eine Mischung aus Schnee und Regen geben.</item>
+        <item>Am $[day] wird es Regen gemischt mit Schnee und Temperaturen von $[temp]° geben.</item>
+    </string-array>
+    <string-array name="weather_mixed_rain_and_snow_today">
+        <item>$[day] gibt es etwas Regen gemischt mit Schneeflocken.</item>
+        <item>$[day] ist es draußen matschig und $[cur_temp]°.</item>
+        <item>$[day] gibt es eine Mischung aus Schneeflocken und Regen.</item>
+        <item>$[day] gibt es Regen gemischt mit Schnee und Temperaturen von höchstens $[cur_temp]°.</item>
+    </string-array>
+    <string-array name="weather_hot">
+        <item>Am $[day] wird es heiß.</item>
+        <item>Am $[day] wird es heiß bei Höchsttemperaturen von $[temp]°.</item>
+        <item>Am $[day] werden die Temperaturen sehr hoch!</item>
+        <item>Wie es aussieht, wird es am $[day] heiß bei einer Temperatur von $[temp]°!</item>
+    </string-array>
+    <string-array name="weather_hot_today">
+        <item>$[day] ist es heiß.</item>
+        <item>$[day] ist es heiß bei $[cur_temp]°.</item>
+        <item>$[day] sind die Temperaturen sehr hoch!</item>
+        <item>$[day] ist es heiß bei einer Temperatur von $[cur_temp]°!</item>
+    </string-array>
+    <string-array name="weather_cold">
+        <item>Am $[day] wird es draußen kalt.</item>
+        <item>Es wird mit nur $[temp]° am $[day] kalt draußen, nimm deine Handschuhe mit.</item>
+        <item>Es wird am $[day] nur $[temp]°, zieh dich warm an.</item>
+        <item>Nimm am $[day] deine Jacke mit, es werden nur $[temp]° draußen.</item>
+        <item>Es sieht am $[day] nach einem kalten Tag aus, mit einer Temperatur von nur $[temp]°.</item>
+    </string-array>
+    <string-array name="weather_cold_today">
+        <item>$[day] ist es draußen kalt.</item>
+        <item>Es ist mit nur $[cur_temp]° $[day] kalt draußen, nimm deine Handschuhe mit.</item>
+        <item>Es ist $[day] nur $[cur_temp]°, zieh dich warm an.</item>
+        <item>Nimm $[day] deine Jacke mit, es ist nur $[cur_temp]° draußen.</item>
+        <item>Es sieht $[day] nach einem kalten Tag aus, mit einer Temperatur von nur $[cur_temp]°.</item>
+    </string-array>
+    <string-array name="weather_windy">
+        <item>Halt am $[day] deinen Hut fest, draußen wird es windig.</item>
+        <item>Wie es aussieht, wird es am $[day] windig draußen.</item>
+        <item>Am $[day] wird es windig mit einer Höchsttemperatur von $[temp]°.</item>
+        <item>Der $[day] wird ein guter Tag, um Drachen steigen zu lassen.</item>
+        <item>Der $[day] wird ein windiger Tag.</item>
+    </string-array>
+    <string-array name="weather_windy_today">
+        <item>Halt $[day] deinen Hut fest, draußen ist es windig.</item>
+        <item>Wie es aussieht, ist es $[day] windig draußen.</item>
+        <item>$[day] ist es windig mit einer Temperatur von $[cur_temp]°.</item>
+        <item>$[day] ist ein guter Tag, um Drachen steigen zu lassen.</item>
+        <item>$[day] ist ein windiger Tag.</item>
+    </string-array>
+    <string-array name="weather_clear">
+        <item>Am $[day] sieht es nach einem klaren Himmel aus.</item>
+        <item>Am $[day] wird es klar und $[temp]°.</item>
+        <item>Am $[day] werden keine Wolken am Himmel sein.</item>
+        <item>Am $[day] sieht es nach einem klaren Himmel und Temperaturen von $[temp]° aus.</item>
+        <item>Wie es aussieht, wird es am $[day] klar bei Temperaturen von höchstens $[temp]°.</item>
+    </string-array>
+    <string-array name="weather_clear_today">
+        <item>$[day] sieht es nach klarem Himmel aus.</item>
+        <item>$[day] ist es klar und $[cur_temp]°.</item>
+        <item>$[day] sind keine Wolken am Himmel.</item>
+        <item>$[day] sieht es nach klarem Himmel und Temperaturen von $[cur_temp]° aus.</item>
+        <item>Wie es aussieht, ist es $[day] klar bei Temperaturen von $[cur_temp]°.</item>
+    </string-array>
+    <string-array name="weather_moslty_clear">
+        <item>Wie es aussieht, wird es am $[day] meist klar bei Höchsttemperaturen von $[temp]°.</item>
+        <item>Am $[day] wird es meist klar mit Höchsttemperaturen von $[temp]°.</item>
+        <item>Am $[day] wird es nicht viele Wolken am Himmel geben.</item>
+        <item>Am $[day] wird man am Himmel nicht viele Wolken sehen.</item>
+        <item>Am $[day] wird es meist klar aussehen mit einer Höchsttemperatur von $[temp]°.</item>
+    </string-array>
+    <string-array name="weather_moslty_clear_today">
+        <item>Wie es aussieht, ist es $[day] meist klar bei Temperaturen von $[cur_temp]°.</item>
+        <item>$[day] ist es meist klar mit Temperaturen von $[cur_temp]°.</item>
+        <item>$[day] gibt es nicht viele Wolken am Himmel.</item>
+        <item>$[day] sieht man am Himmel nicht viele Wolken.</item>
+        <item>$[day] sieht es meist klar aus mit einer Temperatur von $[cur_temp]°.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_night">
+        <item>Am $[day] wird es bewölkt und höchstens $[temp]° werden.</item>
+        <item>Am $[day] werden es Höchsttemperaturen von $[temp]° mit Wolken tagsüber.</item>
+        <item>Wie es aussieht, wird der $[day] ein wolkiger Tag mit Höchsttemperaturen von $[temp]° werden.</item>
+    </string-array>
+    <string-array name="weather_phenomenon">
+        <item>Sonnig</item>
+        <item>Wolkig</item>
+        <item>Bedeckt</item>
+        <item>Regenschauer</item>
+        <item>Gewitterregen</item>
+        <item>Gewitterregen mit Hagel</item>
+        <item>Graupel</item>
+        <item>Leichter Regen</item>
+        <item>Mäßiger Regen</item>
+        <item>Starker Regen</item>
+        <item>Unwetter</item>
+        <item>Starkes Unwetter</item>
+        <item>Heftiges Unwetter</item>
+        <item>Schneegestöber</item>
+        <item>Leichter Schneefall</item>
+        <item>Mäßiger Schneefall</item>
+        <item>Starker Schneefall</item>
+        <item>Schneesturm</item>
+        <item>Nebelig</item>
+        <item>Eisregen</item>
+        <item>Staubsturm</item>
+        <item>Leicht bis mäßig Regen</item>
+        <item>Mäßiger bis starker Regen</item>
+        <item>Starker Regen bis Gewitter</item>
+        <item>Gewitter bis starkes Gewitter</item>
+        <item>Starkes Gewitter bis sehr starkes Gewitter</item>
+        <item>Leichter bis mäßiger Schneefall</item>
+        <item>Mäßiger bis starker Schneefall</item>
+        <item>Starker Schneefall bis Schneesturm</item>
+        <item>Staub</item>
+        <item>Sand</item>
+        <item>Sandsturm</item>
+    </string-array>
+    <string-array name="weather_wind_direction">
+        <item>Kein Wind</item>
+        <item>Nordost</item>
+        <item>Ost</item>
+        <item>Südost</item>
+        <item>Süd</item>
+        <item>Südwest</item>
+        <item>West</item>
+        <item>Nordwest</item>
+        <item>Nord</item>
+        <item>Wirbelsturm</item>
+    </string-array>
+    <string-array name="weather_wind_force">
+        <item>&amp;lt;10m/h</item>
+        <item>10~17m/h</item>
+        <item>17~25m/h</item>
+        <item>25~34m/h</item>
+        <item>34~43m/h</item>
+        <item>43~54m/h</item>
+        <item>54~65m/h</item>
+        <item>65~77m/h</item>
+        <item>77~89m/h</item>
+        <item>89~102m/h</item>
+    </string-array>
+</resources>

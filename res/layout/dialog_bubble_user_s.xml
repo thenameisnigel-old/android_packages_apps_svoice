@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.DialogBubble android:orientation="vertical" android:id="@id/dialog_bubble_user_s" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/user_body" android:visibility="gone" layout="@layout/dialog_bubble_user" />
+</com.vlingo.midas.gui.DialogBubble>

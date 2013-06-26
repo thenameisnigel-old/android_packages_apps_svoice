@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/driving_mode_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <com.vlingo.midas.settings.TwoLinePreference android:title="Set My place" android:key="my_place" />
+</PreferenceScreen>

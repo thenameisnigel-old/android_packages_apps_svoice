@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.ButtonWidget android:gravity="center" android:id="@id/widget_button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/widget_button_color" android:id="@id/button" android:text="@string/set" style="@style/widget_button_button" />
+</com.vlingo.midas.gui.widgets.ButtonWidget>

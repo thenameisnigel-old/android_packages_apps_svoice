@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/audioTemplateRLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/audioTemplateRLayout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/audioImage" android:background="@drawable/music_play_thumb_loading" android:scaleType="fitXY" style="@style/music_audioImage" />
+    <LinearLayout android:orientation="vertical" android:id="@id/audioTemplateRLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/music_audioTemplateRLayout">
+        <com.vlingo.midas.gui.customviews.TextView android:textStyle="normal" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/audioTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" style="@style/music_audioTitle" />
+        <com.vlingo.midas.gui.customviews.TextView android:textStyle="normal" android:textColor="#ff007ad2" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/audioArtist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" style="@style/music_audioArtist" />
+    </LinearLayout>
+</LinearLayout>

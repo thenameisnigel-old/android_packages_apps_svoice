@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="checkEventNameTimeDetail">
+        <item quantity="other">de %1$s à %2$s</item>
+    </plurals>
+    <plurals name="checkEventTimeDetail">
+        <item quantity="other">à %1$s</item>
+    </plurals>
+    <plurals name="numberOfUnreadSMS">
+        <item quantity="other">%1$d nouveaux messages</item>
+        <item quantity="one">%1$d nouveau message</item>
+    </plurals>
+    <plurals name="numberOfMissedCalls">
+        <item quantity="other">%1$d appels manqués</item>
+        <item quantity="one">%1$d appel manqué</item>
+    </plurals>
+    <plurals name="numberOfFiredEvents">
+        <item quantity="other">%1$d événements manqués</item>
+        <item quantity="one">%1$d événement manqué</item>
+    </plurals>
+    <plurals name="plurals_hours">
+        <item quantity="other">%1$d heures</item>
+        <item quantity="one">%1$d heure</item>
+    </plurals>
+    <plurals name="plurals_minutes">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">%1$d minute</item>
+    </plurals>
+    <plurals name="plurals_seconds">
+        <item quantity="other">%1$d secondes</item>
+        <item quantity="one">%1$d seconde</item>
+    </plurals>
+</resources>

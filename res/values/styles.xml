@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="dialogedittyping">
+        <item name="android:textSize">21.0dip</item>
+        <item name="android:paddingLeft">28.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">28.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+    </style>
+    <style name="dialog_custom_wake_up_initial_body_rl">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="dialog_custom_wake_up_initial_body_rl_custom_wake_up_info_body">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">54.0dip</item>
+    </style>
+    <style name="dialog_help_screen_parent_container">
+        <item name="android:layout_marginLeft">13.0dip</item>
+        <item name="android:layout_marginRight">13.0dip</item>
+    </style>
+    <style name="dialog_voice_prompt_confirmation_layout">
+        <item name="android:paddingLeft">15.0dip</item>
+    </style>
+    <style name="helpEditWhatYouSaidDescription1">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">#ff9cafb8</item>
+        <item name="android:paddingTop">18.0dip</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+    </style>
+    <style name="helpEditWhatYouSaidRelative">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">268.0dip</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginTop">18.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+    </style>
+    <style name="helpEditWhatYouSaidImg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="helpEditWhatYouSaidText">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">#ff9cafb8</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginTop">18.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+    </style>
+    <style name="helpHandwrittingDescription1">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">#ff9cafb8</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginTop">18.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+    </style>
+    <style name="helpHandwrittingLinear">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">33.0dip</item>
+    </style>
+    <style name="helpHandwrittingImg">
+        <item name="android:layout_width">43.0dip</item>
+        <item name="android:layout_height">31.0dip</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+    </style>
+    <style name="helpHandwrittingText">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">#ff9cafb8</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+    </style>
+    <style name="helpHandwrittingDescription2">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">#ff9cafb8</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginTop">33.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+    </style>
+    <style name="AlarmListText.Days" parent="@style/AlarmListText">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ff646464</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">19.0dip</item>
+        <item name="android:shadowDy">-1.0</item>
+    </style>
+    <style name="ContactListStyle1" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="ContactListStyle4" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff007ad2</item>
+    </style>
+    <style name="item_local_search_detail_review_irdv">
+        <item name="android:layout_marginLeft">14.0dip</item>
+        <item name="android:layout_marginRight">14.0dip</item>
+    </style>
+    <style name="styleItemPhoneChoiceMainControl">
+        <item name="android:layout_marginLeft">15.0dip</item>
+    </style>
+    <style name="styleItemPhoneChoicePhone_type" parent="@style/ContactListStyle3">
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="styleItemPhoneChoicePhone_number" parent="@style/ContactListStyle1">
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="styleItemPhoneChoiceDivider">
+        <item name="android:layout_marginLeft">1.0dip</item>
+        <item name="android:layout_marginRight">1.0dip</item>
+    </style>
+    <style name="item_schedule_choice_relative">
+        <item name="android:paddingLeft">15.0dip</item>
+    </style>
+    <style name="item_schedule_choice_linear">
+        <item name="android:paddingTop">4.0dip</item>
+    </style>
+    <style name="item_schedule_choice_event_list_check">
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:layout_width">18.0dip</item>
+        <item name="android:layout_height">24.0dip</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+    </style>
+    <style name="item_schedule_choice_title">
+        <item name="android:textSize">21.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+    </style>
+    <style name="item_schedule_choice_date">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:paddingLeft">43.0dip</item>
+        <item name="android:paddingBottom">3.0dip</item>
+    </style>
+    <style name="item_schedule_choice_time">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+        <item name="android:paddingBottom">3.0dip</item>
+    </style>
+    <style name="item_schedule_choice_divider">
+        <item name="android:layout_marginLeft">15.0dip</item>
+        <item name="android:layout_marginTop">9.0dip</item>
+        <item name="android:layout_marginRight">15.0dip</item>
+    </style>
+    <style name="item_you_can_say_widget_normal_view_container">
+        <item name="android:layout_marginLeft">15.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginRight">15.0dip</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+    <style name="item_you_can_say_widget_thumnail">
+        <item name="android:layout_width">35.0dip</item>
+        <item name="android:layout_height">35.0dip</item>
+    </style>
+    <style name="item_you_can_say_widget_normal_text_container">
+        <item name="android:layout_marginLeft">10.0dip</item>
+    </style>
+    <style name="item_you_can_say_widget_title">
+        <item name="android:textSize">21.0dip</item>
+    </style>
+    <style name="item_you_can_say_widget_command">
+        <item name="android:textSize">17.0dip</item>
+    </style>
+    <style name="item_you_can_say_widget_examples_container">
+        <item name="android:layout_marginLeft">20.0dip</item>
+        <item name="android:layout_marginTop">13.0dip</item>
+        <item name="android:layout_marginRight">20.0dip</item>
+        <item name="android:layout_marginBottom">15.0dip</item>
+    </style>
+    <style name="item_you_can_say_widget_examples_title">
+        <item name="android:textSize">21.0dip</item>
+        <item name="android:layout_marginBottom">12.0dip</item>
+    </style>
+    <style name="item_you_can_say_widget_examples">
+        <item name="android:textSize">17.0dip</item>
+    </style>
+    <style name="styleIuxEditWhatYouSaidMainControl" />
+    <style name="description_wcis_handwriting_style">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:layout_marginTop">15.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="description_handwriting_1_style">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginTop">18.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+        <item name="android:minHeight">0.0dip</item>
+    </style>
+    <style name="img_handwriting_1_style">
+        <item name="android:layout_width">43.0dip</item>
+        <item name="android:layout_height">31.0dip</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+    </style>
+    <style name="handwriting_off_style">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+    </style>
+    <style name="description_handwriting_2_style">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginTop">33.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+    </style>
+    <style name="img_handwriting_2_style">
+        <item name="android:layout_width">43.0dip</item>
+        <item name="android:layout_height">31.0dip</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+    </style>
+    <style name="handwriting_on_style">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+    </style>
+    <style name="description_handwriting_3_style">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginTop">33.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+    </style>
+    <style name="IUXPrevBTN" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@drawable/iux_btn_color</item>
+        <item name="android:background">@drawable/btn_iux_previous_enabled</item>
+        <item name="android:layout_width">109.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="IUXDefaultBTN" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@drawable/iux_btn_color</item>
+        <item name="android:background">@drawable/btn_iux_default_enabled</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_width">109.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="IUXNextBTN" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@drawable/iux_btn_color</item>
+        <item name="android:background">@drawable/btn_iux_next_enabled</item>
+        <item name="android:layout_width">109.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="music_ll" />
+    <style name="audioTemplateRLayout_style">
+        <item name="android:paddingRight">13.0dip</item>
+        <item name="android:layout_marginLeft">15.0dip</item>
+        <item name="android:layout_marginRight">15.0dip</item>
+    </style>
+    <style name="music_audioImage">
+        <item name="android:layout_width">55.0dip</item>
+        <item name="android:layout_height">55.0dip</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+    <style name="music_audioTemplateRLayout" />
+    <style name="music_audioTitle">
+        <item name="android:textSize">21.0dip</item>
+    </style>
+    <style name="music_audioArtist">
+        <item name="android:textSize">17.0dip</item>
+    </style>
+    <style name="IUXBottomBTN" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff9cafb8</item>
+        <item name="android:background">@drawable/btn_voicetalk_popup</item>
+        <item name="android:layout_width">109.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="CustomNoActionBar" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="CustomBlackNoActionBar" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/show_up</item>
+        <item name="android:windowExitAnimation">@anim/show_down</item>
+    </style>
+    <style name="DialogSlideAnim" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <item name="android:actionBarSize">40.0dip</item>
+    </style>
+    <style name="CustomTheme">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="CustomLightTheme" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="IUXContextBTN" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff9cafb8</item>
+        <item name="android:background">@drawable/btn_voicetalk_popup</item>
+        <item name="android:layout_width">296.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+    </style>
+    <style name="ContactCountStyle" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffd7d7d7</item>
+    </style>
+    <style name="ContactListStyle2" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffef9d00</item>
+    </style>
+    <style name="ContactListStyle3" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff007ad2</item>
+    </style>
+    <style name="RatingBarSmall" parent="@*android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar</item>
+        <item name="android:minWidth">15.0dip</item>
+        <item name="android:minHeight">20.0dip</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+    <style name="RatingBarMoreSmall">
+        <item name="android:maxHeight">16.0dip</item>
+        <item name="android:progressDrawable">@drawable/smallratingbar</item>
+        <item name="android:minHeight">20.0dip</item>
+        <item name="android:stepSize">0.2</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+    <style name="CustomDialogStyle">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation.Dialog</item>
+        <item name="android:background">@drawable/voice_talk_screen_popup</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+    <style name="CustomWidgetStyle">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:background">@drawable/voice_talk_screen_popup</item>
+    </style>
+    <style name="CustomButtonStyle">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:background">@*android:color/transparent</item>
+    </style>
+    <style name="AlarmListText">
+        <item name="android:textColor">#ffdcdcdc</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.5</item>
+    </style>
+    <style name="wakeup_twoline_list_item_text1">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="wakeup_twoline_list_item_text2">
+        <item name="android:textColor">#ff657585</item>
+    </style>
+    <style name="wcis_info_with_caption_row_text1">
+        <item name="android:textSize">22.0dip</item>
+    </style>
+    <style name="wcis_info_with_caption_row_text2">
+        <item name="android:textSize">14.0dip</item>
+    </style>
+    <style name="wcis_subheading_row_text1">
+        <item name="android:textSize">19.0dip</item>
+    </style>
+    <style name="wcis_top_row_text1_style">
+        <item name="android:textSize">22.0sp</item>
+    </style>
+    <style name="wcis_top_row_text2_style">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="image">
+        <item name="android:layout_width">60.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+    </style>
+    <style name="stylesWidgetAlarmMainControlLL">
+        <item name="android:layout_marginLeft">20.0dip</item>
+        <item name="android:layout_marginRight">20.0dip</item>
+    </style>
+    <style name="stylesWidgetAlarmAlarm_container">
+        <item name="android:layout_width">220.0dip</item>
+        <item name="android:layout_height">110.0dip</item>
+        <item name="android:layout_marginLeft">50.0dip</item>
+        <item name="android:layout_marginTop">26.0dip</item>
+        <item name="android:layout_marginRight">50.0dip</item>
+        <item name="android:layout_marginBottom">27.0dip</item>
+    </style>
+    <style name="stylesWidgetAlarmAlarmampm">
+        <item name="android:layout_width">26.0dip</item>
+        <item name="android:layout_height">23.0dip</item>
+    </style>
+    <style name="stylesWidgetAlarmHourMinuteLL">
+        <item name="android:layout_marginLeft">14.0dip</item>
+        <item name="android:layout_marginRight">16.0dip</item>
+        <item name="android:layout_marginBottom">20.0dip</item>
+    </style>
+    <style name="stylesWidgetAlarmAlarmHourPrefix">
+        <item name="android:layout_width">39.0dip</item>
+        <item name="android:layout_height">67.0dip</item>
+        <item name="android:layout_marginRight">2.0dip</item>
+    </style>
+    <style name="stylesWidgetAlarmAlarmHourPostfix">
+        <item name="android:layout_width">39.0dip</item>
+        <item name="android:layout_height">67.0dip</item>
+    </style>
+    <style name="stylesWidgetAlarmView">
+        <item name="android:layout_width">30.0dip</item>
+    </style>
+    <style name="stylesWidgetAlarmAlarmMinutePrefix">
+        <item name="android:layout_width">39.0dip</item>
+        <item name="android:layout_height">67.0dip</item>
+        <item name="android:layout_marginRight">2.0dip</item>
+    </style>
+    <style name="stylesWidgetAlarmAlarmMinutePostfix">
+        <item name="android:layout_width">39.0dip</item>
+        <item name="android:layout_height">67.0dip</item>
+    </style>
+    <style name="stylesWidgetAlarmAlaramButtons">
+        <item name="android:layout_marginBottom">12.0dip</item>
+    </style>
+    <style name="stylesWidgetAlarmBtnCancelAlarm">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:layout_height">50.0dip</item>
+        <item name="android:layout_marginLeft">14.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+    </style>
+    <style name="stylesWidgetAlarmBtnSaveAlarm">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:layout_height">50.0dip</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_marginRight">14.0dip</item>
+    </style>
+    <style name="widget_answer_question_linear">
+        <item name="android:layout_marginLeft">14.0dip</item>
+        <item name="android:layout_marginRight">14.0dip</item>
+    </style>
+    <style name="mainclockwidget" />
+    <style name="clockwidget_clockContainer" />
+    <style name="clockwidget_hour_prefix_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">35.0dip</item>
+        <item name="android:layout_height">72.0dip</item>
+        <item name="android:layout_marginLeft">7.0dip</item>
+        <item name="android:layout_marginTop">42.0dip</item>
+        <item name="android:layout_marginBottom">42.0dip</item>
+    </style>
+    <style name="clockwidget_time_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">35.0dip</item>
+        <item name="android:layout_height">72.0dip</item>
+        <item name="android:layout_marginTop">42.0dip</item>
+        <item name="android:layout_marginBottom">42.0dip</item>
+    </style>
+    <style name="clockwidget_colon_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">16.0dip</item>
+        <item name="android:layout_height">72.0dip</item>
+        <item name="android:layout_marginTop">42.0dip</item>
+        <item name="android:layout_marginBottom">42.0dip</item>
+    </style>
+    <style name="clockwidget_horizontal_divider_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">92.0dip</item>
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:layout_marginTop">32.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+        <item name="android:layout_marginBottom">32.0dip</item>
+    </style>
+    <style name="clockwidget_vertical_divider">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="clockwidget_dayContainer">
+        <item name="android:layout_marginTop">42.0dip</item>
+        <item name="android:layout_marginRight">7.0dip</item>
+    </style>
+    <style name="clockwidget_ampm_text">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+    </style>
+    <style name="clockwidget_day_text">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="clockwidget_month_years_text">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="stylewidget_social_update" />
+    <style name="styleWigetComposeSocialMainLinear">
+        <item name="android:paddingLeft">22.0dip</item>
+        <item name="android:paddingRight">22.0dip</item>
+        <item name="android:paddingBottom">14.0dip</item>
+    </style>
+    <style name="styleWigetComposeSocialLinear1">
+        <item name="android:layout_width">16.0dip</item>
+        <item name="android:layout_height">16.0dip</item>
+    </style>
+    <style name="styleWigetComposeSocialVoice_talk_thumbnail_line_01">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:padding">2.0dip</item>
+        <item name="android:layout_width">56.0dip</item>
+        <item name="android:layout_height">56.0dip</item>
+    </style>
+    <style name="styleWigetComposeSocialSenderImage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="styleWigetComposeSocialContact_name">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+        <item name="android:layout_marginBottom">24.0dip</item>
+    </style>
+    <style name="styleWigetComposeSocialPopup_divide_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2.0dip</item>
+    </style>
+    <style name="styleWigetComposeSocialMsg_body">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:lineSpacingExtra">3.0dip</item>
+    </style>
+    <style name="styleWigetComposeSocialIconLayout">
+        <item name="android:layout_marginTop">8.0dip</item>
+    </style>
+    <style name="styleWigetComposeSocialFacebookIcon">
+        <item name="android:layout_width">30.0dip</item>
+        <item name="android:layout_height">30.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+    </style>
+    <style name="styleWigetComposeSocialTwitterIcon">
+        <item name="android:layout_width">30.0dip</item>
+        <item name="android:layout_height">30.0dip</item>
+    </style>
+    <style name="styleWigetComposeSocialButtonLL" />
+    <style name="styleWigetComposeSocialBtn_cancel_social">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+    </style>
+    <style name="styleWigetComposeSocialUpdateButton">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_marginRight">16.0dip</item>
+    </style>
+    <style name="widget_gretting_style_textview_1">
+        <item name="android:shadowColor">#ff242424</item>
+        <item name="android:shadowDx">2.0</item>
+        <item name="android:shadowDy">8.0</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+    <style name="widget_memo_widget_answer_question" />
+    <style name="widget_memo_style_linearlayout_1">
+        <item name="android:layout_marginLeft">20.0dip</item>
+        <item name="android:layout_marginRight">20.0dip</item>
+    </style>
+    <style name="widget_memo_style_linearlayout_2" />
+    <style name="widget_memo_style_textview_1">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">17.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">18.0dip</item>
+        <item name="android:minHeight">101.0dip</item>
+        <item name="android:lineSpacingExtra">6.0dip</item>
+    </style>
+    <style name="widget_movie_styles_View">
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+    </style>
+    <style name="widget_movie_styles_btn_more">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:layout_height">51.0dip</item>
+    </style>
+    <style name="widget_movie_styles_image_view">
+        <item name="android:layout_marginBottom">12.0dip</item>
+    </style>
+    <style name="widget_true_knowledge_true_knowledge_container">
+        <item name="android:paddingLeft">34.0dip</item>
+        <item name="android:paddingRight">34.0dip</item>
+    </style>
+    <style name="widget_true_knowledge_logoImage">
+        <item name="android:layout_width">130.0dip</item>
+        <item name="android:layout_height">38.0dip</item>
+        <item name="android:layout_marginRight">15.0dip</item>
+    </style>
+    <style name="widget_wolfram_alpha_wolfram_content_container">
+        <item name="android:paddingLeft">34.0dip</item>
+        <item name="android:paddingRight">34.0dip</item>
+    </style>
+    <style name="widget_wolfram_alpha_logoImage">
+        <item name="android:layout_width">130.0dip</item>
+        <item name="android:layout_height">38.0dip</item>
+        <item name="android:layout_marginRight">20.0dip</item>
+    </style>
+    <style name="widget_widget_you_can_say_title">
+        <item name="android:textSize">21.0dip</item>
+        <item name="android:layout_marginLeft">15.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginRight">15.0dip</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+</resources>

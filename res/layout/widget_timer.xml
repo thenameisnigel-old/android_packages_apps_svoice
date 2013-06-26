@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.TimerWidget android:id="@id/widget_timer" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/timerwidget_main"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/timer_body" android:background="@drawable/voice_talk_screen_custom_popup" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/timerwidget_timer_body">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/timer_head_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" style="@style/timerwidget_timer_head_text">
+            <TextView android:id="@id/head_text_hr" android:text="@string/timer_hour" style="@style/timerwidget_head_text_hr" />
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/head_text_min" android:text="@string/timer_minute" android:layout_toRightOf="@id/head_text_hr" style="@style/timerwidget_head_text_min" />
+            <TextView android:id="@id/head_text_sec" android:text="@string/timer_second" android:layout_toRightOf="@id/head_text_min" style="@style/timerwidget_head_text_sec" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/timer_number_bg" android:background="@drawable/timer_number_bg" android:layout_width="wrap_content" android:layout_below="@id/timer_head_text" android:layout_centerHorizontal="true" style="@style/timerwidget_timer_number_bg">
+            <com.vlingo.midas.gui.timer.TimeImageView android:id="@id/timer_hour_bg" android:focusable="true" android:contentDescription="@string/timer_hour" style="@style/timerwidget_timer_hour_bg" />
+            <com.vlingo.midas.gui.timer.TimeImageView android:id="@id/timer_minute_bg" android:focusable="true" android:layout_toRightOf="@id/timer_hour_bg" android:contentDescription="@string/timer_minute" style="@style/timerwidget_timer_minute_bg" />
+            <com.vlingo.midas.gui.timer.TimeImageView android:id="@id/timer_second_bg" android:focusable="true" android:layout_toRightOf="@id/timer_minute_bg" android:contentDescription="@string/timer_second" style="@style/timerwidget_timer_second_bg" />
+            <com.vlingo.midas.gui.timer.NumberImageView android:id="@id/timer_hour_prefix" style="@style/timerwidget_timer_hour_prefix" />
+            <com.vlingo.midas.gui.timer.NumberImageView android:id="@id/timer_hour_postfix" android:layout_toRightOf="@id/timer_hour_prefix" style="@style/timerwidget_timer_hour_postfix" />
+            <ImageView android:id="@id/first_colon" android:background="@drawable/timer_number_dot" android:layout_width="23.0dip" android:layout_height="50.0dip" android:layout_toRightOf="@id/timer_hour_postfix" />
+            <com.vlingo.midas.gui.timer.NumberImageView android:id="@id/timer_minute_prefix" style="@style/timerwidget_timer_minute_prefix" />
+            <com.vlingo.midas.gui.timer.NumberImageView android:id="@id/timer_minute_postfix" android:layout_toRightOf="@id/timer_minute_prefix" style="@style/timerwidget_timer_minute_postfix" />
+            <ImageView android:id="@id/second_colon" android:background="@drawable/timer_number_dot" android:layout_width="23.0dip" android:layout_height="50.0dip" android:layout_toRightOf="@id/timer_minute_postfix" />
+            <com.vlingo.midas.gui.timer.NumberImageView android:id="@id/timer_second_prefix" style="@style/timerwidget_timer_second_prefix" />
+            <com.vlingo.midas.gui.timer.NumberImageView android:id="@id/timer_second_postfix" android:layout_width="36.0dip" android:layout_toRightOf="@id/timer_second_prefix" style="@style/timerwidget_timer_second_postfix" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_below="@id/timer_body" style="@style/widget_common_shadow_styles" />
+</com.vlingo.midas.gui.widgets.TimerWidget>

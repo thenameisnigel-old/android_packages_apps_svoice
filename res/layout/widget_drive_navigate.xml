@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.DrivingNavWidget android:background="@drawable/driving_bg_02" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/navigation_empty_container" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:ellipsize="end" android:orientation="vertical" android:id="@id/navigation_empty_container_drive" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="11.0dip">
+            <TextView android:textSize="35.0dip" android:textColor="#ff000000" android:id="@id/widget_drive_empty_navigation_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/navigate" android:singleLine="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/navigation_empty_container_body" android:paddingLeft="11.0dip" android:paddingTop="0.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginRight="4.0dip">
+            <TextView android:textSize="35.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/navigation_empty_body" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="9.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</com.vlingo.midas.gui.widgets.DrivingNavWidget>

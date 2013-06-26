@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.customviews.RelativeLayout android:orientation="vertical" android:id="@id/dialog_full_container" android:layout_height="wrap_content" style="@style/dialog_view_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/dialog_scrollview" android:scrollbars="vertical" android:layout_height="fill_parent" android:layout_centerHorizontal="true" style="@style/dialog_view_style">
+        <LinearLayout android:orientation="vertical" android:id="@id/dialog_scroll_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/buffer" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:id="@id/pull_tab" android:background="#ddffffff" android:clickable="false" android:layout_width="fill_parent" android:layout_height="25.0dip" android:src="@drawable/pull_tab" android:layout_below="@id/dialog_scrollview" />
+    <Button android:id="@id/hwr_button" android:background="@drawable/pen_mode_off" android:layout_width="43.0dip" android:layout_height="31.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/handwriting" style="@style/dialog_view_hwr_button" />
+    <Button android:id="@id/h_hwr_button" android:background="@drawable/h_pen_mode_off" android:layout_width="31.0dip" android:layout_height="43.0dip" android:layout_marginTop="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/handwriting" />
+    <ImageView android:id="@id/hwr_line" android:background="@drawable/pen_area" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_alignTop="@id/hwr_button" />
+    <ImageView android:id="@id/h_hwr_line" android:background="@drawable/h_pen_area" android:layout_width="6.0dip" android:layout_height="fill_parent" android:layout_alignLeft="@id/h_hwr_button" />
+    <ProgressBar android:id="@id/progressbar_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleLarge" />
+</com.vlingo.midas.gui.customviews.RelativeLayout>

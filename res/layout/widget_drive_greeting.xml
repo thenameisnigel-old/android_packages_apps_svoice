@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.DrivingGreetingWidget android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="40.0dip" android:textColor="#fff3f3f3" android:gravity="center" android:id="@id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="65.0dip" android:layout_alignParentTop="true" style="@style/widget_gretting_style_textview_1" />
+    <ImageView android:id="@id/imageView2" android:layout_width="360.0dip" android:layout_height="303.0dip" android:layout_marginBottom="30.0dip" android:src="@drawable/main_bg_01" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/imageView2_h" android:visibility="gone" android:layout_width="500.0dip" android:layout_height="180.0dip" android:src="@drawable/h_main_bg_02" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="50.0dip" android:textColor="#fff3f3f3" android:gravity="center" android:id="@id/textView1_h" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_alignParentTop="true" style="@style/widget_gretting_style_textview_1" />
+</com.vlingo.midas.gui.widgets.DrivingGreetingWidget>

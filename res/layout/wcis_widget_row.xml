@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/wcis_row_middle_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wcis_widget_row_container">
+        <ImageView android:id="@id/help_choice_image" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/wcis_widget_row_icon" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/help_choice_image" style="@style/wcis_widget_row_text_container">
+            <TextView android:id="@id/help_choice_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help_wcis_dial" android:includeFontPadding="false" style="@style/wcis_widget_row_text1" />
+            <TextView android:id="@id/help_choice_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help_wcis_dial_sub1" android:includeFontPadding="false" style="@style/wcis_widget_row_text2" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/wcis_widget_row_divider1" android:layout_width="fill_parent" style="@style/wcis_widget_row_divider" />
+    <LinearLayout android:orientation="vertical" android:id="@id/header1_examples" android:background="@drawable/voice_talk_detail_expander_bg_02" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wcis_widget_row_expand_view_container">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/examples" android:includeFontPadding="false" style="@style/wcis_widget_row_expand_view_text1" />
+        <TextView android:id="@id/text1_examples" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="!put examples here" android:includeFontPadding="false" style="@style/wcis_widget_row_expand_view_text2" />
+    </LinearLayout>
+    <View android:id="@id/wcis_widget_row_divider2" android:visibility="gone" android:layout_width="fill_parent" style="@style/wcis_widget_row_divider2" />
+</LinearLayout>

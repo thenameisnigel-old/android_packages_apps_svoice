@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.CMAWeatherSevenDayWidget android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/widget_citi_LinearLayout" android:background="@drawable/voice_talk_screen_custom_popup" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/widget_margin_left" android:layout_marginRight="@dimen/widget_margin_right">
+        <RelativeLayout android:id="@id/widget_citi" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="510.0dip" android:layout_margin="1.0dip">
+            <FrameLayout android:orientation="horizontal" android:id="@id/citi_details_china_weekly" android:layout_width="fill_parent" android:layout_height="250.0dip">
+                <LinearLayout android:layout_gravity="left" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                    <ImageView android:id="@id/imageView_singledayweather_china_weekly" android:layout_width="120.0dip" android:layout_height="100.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="58.0dip" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                        <TextView android:textSize="44.0sp" android:textColor="#ffffffff" android:id="@id/present_temp_china_weekly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                        <TextView android:textSize="36.0sp" android:textColor="#ffffffff" android:id="@id/unit_meter_F_china_weekly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°F" />
+                        <TextView android:textSize="36.0sp" android:textColor="#ffffffff" android:id="@id/unit_meter_C_china_weekly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°C" />
+                        <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:id="@id/max_temp_china_weekly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                        <TextView android:textSize="23.0dip" android:textColor="#66ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="/" />
+                        <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:id="@id/min_temp_china_weekly" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/climate_name_china_weekly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxLines="1" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="right" android:layout_gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip">
+                    <TextView android:textSize="26.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="right" android:id="@id/citi_name_china_weekly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+                    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="right" android:id="@id/citi_name2_china_weekly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+                    <TextView android:textSize="21.0sp" android:textColor="#fffff000" android:id="@id/date_view_china_weekly" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:gravity="top" android:orientation="vertical" android:id="@id/main_layout" android:background="#ffe6e6e6" android:layout_width="334.0dip" android:layout_height="255.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_below="@id/citi_details_china_weekly">
+                <LinearLayout android:orientation="horizontal" android:id="@id/date_day_layout" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <LinearLayout android:orientation="vertical" android:id="@id/child_layout1" android:background="@drawable/btn_weather_button" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff585f64" android:gravity="center" android:id="@id/child_weekday1_china_weekly" android:layout_width="55.0dip" android:layout_height="18.0dip" android:layout_marginTop="10.0dip" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff677680" android:gravity="center" android:id="@id/child_date1_china_weekly" android:layout_width="56.0dip" android:layout_height="18.0dip" android:layout_marginTop="3.0dip" />
+                    </LinearLayout>
+                    <ImageView android:gravity="center" android:background="@drawable/weather_temper_line" android:layout_width="1.0dip" android:layout_height="60.0dip" android:layout_marginTop="10.0dip" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/child_layout2" android:background="@drawable/btn_weather_button" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff585f64" android:gravity="center" android:id="@id/child_weekday2_china_weekly" android:layout_width="55.0dip" android:layout_height="18.0dip" android:layout_marginTop="10.0dip" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff677680" android:gravity="center" android:id="@id/child_date2_china_weekly" android:layout_width="56.0dip" android:layout_height="18.0dip" android:layout_marginTop="3.0dip" />
+                    </LinearLayout>
+                    <ImageView android:gravity="center" android:background="@drawable/weather_temper_line" android:layout_width="1.0dip" android:layout_height="60.0dip" android:layout_marginTop="10.0dip" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/child_layout3" android:background="@drawable/btn_weather_button" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff585f64" android:gravity="center" android:id="@id/child_weekday3_china_weekly" android:layout_width="55.0dip" android:layout_height="18.0dip" android:layout_marginTop="10.0dip" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff677680" android:gravity="center" android:id="@id/child_date3_china_weekly" android:layout_width="56.0dip" android:layout_height="18.0dip" android:layout_marginTop="3.0dip" />
+                    </LinearLayout>
+                    <ImageView android:gravity="center" android:background="@drawable/weather_temper_line" android:layout_width="1.0dip" android:layout_height="60.0dip" android:layout_marginTop="10.0dip" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/child_layout4" android:background="@drawable/btn_weather_button" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff585f64" android:gravity="center" android:id="@id/child_weekday4_china_weekly" android:layout_width="55.0dip" android:layout_height="18.0dip" android:layout_marginTop="10.0dip" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff677680" android:gravity="center" android:id="@id/child_date4_china_weekly" android:layout_width="56.0dip" android:layout_height="18.0dip" android:layout_marginTop="3.0dip" />
+                    </LinearLayout>
+                    <ImageView android:gravity="center" android:background="@drawable/weather_temper_line" android:layout_width="1.0dip" android:layout_height="60.0dip" android:layout_marginTop="10.0dip" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/child_layout5" android:background="@drawable/btn_weather_button" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff585f64" android:gravity="center" android:id="@id/child_weekday5_china_weekly" android:layout_width="55.0dip" android:layout_height="18.0dip" android:layout_marginTop="10.0dip" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff677680" android:gravity="center" android:id="@id/child_date5_china_weekly" android:layout_width="56.0dip" android:layout_height="18.0dip" android:layout_marginTop="3.0dip" />
+                    </LinearLayout>
+                    <ImageView android:gravity="center" android:background="@drawable/weather_temper_line" android:layout_width="1.0dip" android:layout_height="60.0dip" android:layout_marginTop="10.0dip" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/child_layout6" android:background="@drawable/btn_weather_button" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff585f64" android:gravity="center" android:id="@id/child_weekday6_china_weekly" android:layout_width="55.0dip" android:layout_height="18.0dip" android:layout_marginTop="10.0dip" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff677680" android:gravity="center" android:id="@id/child_date6_china_weekly" android:layout_width="56.0dip" android:layout_height="18.0dip" android:layout_marginTop="3.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:background="@drawable/weather_temper_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+                <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/main_layout1" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="157.0dip">
+                    <LinearLayout android:orientation="vertical" android:id="@id/child_layout11" android:background="@drawable/btn_weather_button" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:gravity="center" android:id="@id/child_image1_china_weekly" android:layout_width="55.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffe85f29" android:gravity="center" android:id="@id/child_max_temp1_china_weekly" android:paddingTop="4.0dip" android:paddingBottom="9.0dip" android:layout_width="55.0dip" android:layout_height="wrap_content" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff1b80ce" android:gravity="center" android:id="@id/child_min_temp1_china_weekly" android:paddingTop="9.0dip" android:paddingBottom="5.0dip" android:layout_width="55.0dip" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <ImageView android:gravity="center" android:background="@drawable/weather_temper_line" android:layout_width="1.0dip" android:layout_height="120.0dip" android:layout_marginTop="20.0dip" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/child_layout22" android:background="@drawable/btn_weather_button" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:gravity="center" android:id="@id/child_image2_china_weekly" android:layout_width="55.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffe85f29" android:gravity="center" android:id="@id/child_max_temp2_china_weekly" android:paddingTop="4.0dip" android:paddingBottom="9.0dip" android:layout_width="55.0dip" android:layout_height="wrap_content" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff1b80ce" android:gravity="center" android:id="@id/child_min_temp2_china_weekly" android:paddingTop="9.0dip" android:paddingBottom="5.0dip" android:layout_width="55.0dip" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <ImageView android:gravity="center" android:background="@drawable/weather_temper_line" android:layout_width="1.0dip" android:layout_height="120.0dip" android:layout_marginTop="20.0dip" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/child_layout33" android:background="@drawable/btn_weather_button" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:gravity="center" android:id="@id/child_image3_china_weekly" android:layout_width="55.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" />
+                        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ffe85f29" android:gravity="center" android:id="@id/child_max_temp3_china_weekly" android:paddingTop="4.0dip" android:paddingBottom="9.0dip" android:layout_width="55.0dip" android:layout_height="wrap_content" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff1b80ce" android:gravity="center" android:id="@id/child_min_temp3_china_weekly" android:paddingTop="9.0dip" android:paddingBottom="5.0dip" android:layout_width="55.0dip" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <ImageView android:gravity="center" android:background="@drawable/weather_temper_line" android:layout_width="1.0dip" android:layout_height="120.0dip" android:layout_marginTop="20.0dip" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/child_layout44" android:background="@drawable/btn_weather_button" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:gravity="center" android:id="@id/child_image4_china_weekly" android:layout_width="55.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffe85f29" android:gravity="center" android:id="@id/child_max_temp4_china_weekly" android:paddingTop="4.0dip" android:paddingBottom="9.0dip" android:layout_width="55.0dip" android:layout_height="wrap_content" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff1b80ce" android:gravity="center" android:id="@id/child_min_temp4_china_weekly" android:paddingTop="9.0dip" android:paddingBottom="5.0dip" android:layout_width="55.0dip" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <ImageView android:gravity="center" android:background="@drawable/weather_temper_line" android:layout_width="1.0dip" android:layout_height="120.0dip" android:layout_marginTop="20.0dip" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/child_layout55" android:background="@drawable/btn_weather_button" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:gravity="center" android:id="@id/child_image5_china_weekly" android:layout_width="55.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffe85f29" android:gravity="center" android:id="@id/child_max_temp5_china_weekly" android:paddingTop="4.0dip" android:paddingBottom="9.0dip" android:layout_width="55.0dip" android:layout_height="wrap_content" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff1b80ce" android:gravity="center" android:id="@id/child_min_temp5_china_weekly" android:paddingTop="9.0dip" android:paddingBottom="5.0dip" android:layout_width="55.0dip" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <ImageView android:gravity="center" android:background="@drawable/weather_temper_line" android:layout_width="1.0dip" android:layout_height="120.0dip" android:layout_marginTop="20.0dip" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/child_layout66" android:background="@drawable/btn_weather_button" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:gravity="center" android:id="@id/child_image6_china_weekly" android:layout_width="55.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffe85f29" android:gravity="center" android:id="@id/child_max_temp6_china_weekly" android:paddingTop="4.0dip" android:paddingBottom="9.0dip" android:layout_width="55.0dip" android:layout_height="wrap_content" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff1b80ce" android:gravity="center" android:id="@id/child_min_temp6_china_weekly" android:paddingTop="9.0dip" android:paddingBottom="5.0dip" android:layout_width="55.0dip" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <RelativeLayout android:background="#ffe6e6e6" android:layout_width="334.0dip" android:layout_height="35.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip">
+                    <LinearLayout android:id="@id/accuweather_web_china_weekly" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="2.0dip">
+                        <ImageView android:gravity="left" android:id="@id/child_accuweather_china_weekly" android:layout_width="80.0dip" android:layout_height="38.0dip" android:src="@drawable/weather_cma_icon" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/last_update_china_weekly" android:layout_width="236.0dip" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginTop="2.0dip" android:layout_toRightOf="@id/accuweather_web_china_weekly">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff9fa2a5" android:id="@id/update_text" android:layout_width="fill_parent" android:layout_height="15.0dip" android:text="Last updated:" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff9fa2a5" android:id="@id/last_update_text_china_weekly" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginBottom="1.0dip" android:text="Wed Jan 30 16:03:43 GMT+05:30 2013" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_below="@id/widget_citi_LinearLayout" style="@style/widget_common_shadow_styles" />
+</com.vlingo.midas.gui.widgets.CMAWeatherSevenDayWidget>

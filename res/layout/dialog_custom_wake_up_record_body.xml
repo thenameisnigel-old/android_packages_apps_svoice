@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.wakeupsetting.CustomWakeUpRecord android:id="@id/custom_wake_up_record" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/dialog_custom_wake_up_record_body_relative">
+        <ImageView android:id="@id/wake_up_setting" android:background="@drawable/voice_talk_setting_icon" android:layout_centerHorizontal="true" style="@style/dialog_custom_wake_up_record_body_setting" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/wake_up_setting" style="@style/dialog_custom_wake_up_record_body_linear">
+            <ImageView android:id="@id/wake_up_setting_1" android:background="@drawable/voice_talk_setting_off" style="@style/dialog_custom_wake_up_record_body_setting_1" />
+            <ImageView android:id="@id/wake_up_setting_2" android:background="@drawable/voice_talk_setting_off" android:layout_marginLeft="6.0dip" style="@style/dialog_custom_wake_up_record_body_setting_1" />
+            <ImageView android:id="@id/wake_up_setting_3" android:background="@drawable/voice_talk_setting_off" android:layout_marginLeft="6.0dip" style="@style/dialog_custom_wake_up_record_body_setting_1" />
+            <ImageView android:id="@id/wake_up_setting_4" android:background="@drawable/voice_talk_setting_off" android:layout_marginLeft="6.0dip" style="@style/dialog_custom_wake_up_record_body_setting_1" />
+            <ImageView android:id="@id/wake_up_setting_5" android:background="@drawable/voice_talk_setting_off" android:layout_marginLeft="6.0dip" style="@style/dialog_custom_wake_up_record_body_setting_1" />
+            <ImageView android:id="@id/wake_up_setting_6" android:background="@drawable/voice_talk_setting_off" android:layout_marginLeft="6.0dip" style="@style/dialog_custom_wake_up_record_body_setting_1" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.samsung.wakeupsetting.CustomWakeUpRecord>

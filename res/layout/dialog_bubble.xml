@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.DialogBubble android:orientation="vertical" android:id="@id/full_container_dialogbubble" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/vlingo_body" android:visibility="gone" layout="@layout/dialog_bubble_vlingo" />
+    <include android:id="@id/user_body" android:visibility="gone" layout="@layout/dialog_bubble_user" />
+    <include android:id="@id/wakeup_body" android:visibility="gone" layout="@layout/dialog_bubble_wakeup" />
+    <include android:id="@id/hwr_body" android:visibility="gone" layout="@layout/dialog_bubble_hwr" />
+</com.vlingo.midas.gui.DialogBubble>

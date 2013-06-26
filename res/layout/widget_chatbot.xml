@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.ChatbotWidget android:gravity="center" android:id="@id/widget_chatbot" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/chatbot_xml" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.vlingo.midas.gui.widgets.ChatbotWidget>

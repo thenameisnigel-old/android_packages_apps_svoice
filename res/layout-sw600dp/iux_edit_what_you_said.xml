@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/styleIuxEditWhatYouSaidMainControl"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="22.0dip" android:textColor="#ff9cafb8" android:id="@id/description_wcis_edit_what_you_said" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="18.0dip" android:text="@string/wcis_edit_what_you_said" />
+            <ImageView android:id="@id/title_underline" android:background="@drawable/popup_list_line" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginBottom="10.0dip" />
+            <TextView android:textSize="22.0dip" android:textColor="#ff9cafb8" android:id="@id/description_edit_what_you_said_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/iux_edit_what_you_said_1" />
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="83.0dip" android:layout_marginRight="16.0dip">
+                <ImageView android:gravity="center" android:id="@id/img_edit_what_you_said_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voice_talk_setting_help_6" android:scaleType="center" />
+                <ImageView android:gravity="center" android:id="@id/img_edit_what_you_said_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voice_talk_setting_help_7" android:scaleType="center" />
+            </RelativeLayout>
+            <TextView android:textSize="22.0dip" android:textColor="#ff9cafb8" android:id="@id/description_edit_what_you_said_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" android:text="@string/iux_edit_what_you_said_2" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/btn_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/previous" android:text="@string/previous" android:layout_weight="1.0" style="@style/IUXPrevBTN" />
+        <Button android:id="@id/skip" android:text="@string/skip" android:layout_weight="1.0" style="@style/IUXDefaultBTN" />
+        <Button android:id="@id/next" android:text="@string/next" android:layout_weight="1.0" style="@style/IUXNextBTN" />
+    </LinearLayout>
+</LinearLayout>

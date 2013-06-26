@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/styleIuxEditWhatYouSaidMainControl"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textColor="#fff5f5f5" android:id="@id/description_edit_what_you_said_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="12.0dip" android:text="@string/iux_edit_what_you_said_1" />
+            <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                <ImageView android:id="@id/img_edit_what_you_said_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voice_talk_setting_help_6" />
+            </RelativeLayout>
+            <TextView android:textSize="17.0sp" android:textColor="#fff5f5f5" android:id="@id/description_edit_what_you_said_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="12.0dip" android:text="@string/iux_edit_what_you_said_2" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/btn_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/previous" android:text="@string/previous" android:layout_weight="1.0" style="@style/IUXPrevBTN" />
+        <Button android:id="@id/skip" android:text="@string/skip" android:layout_weight="1.0" style="@style/IUXDefaultBTN" />
+        <Button android:id="@id/next" android:text="@string/next" android:layout_weight="1.0" style="@style/IUXNextBTN" />
+    </LinearLayout>
+</LinearLayout>

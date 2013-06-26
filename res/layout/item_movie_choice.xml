@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ItemMovieChoiceContainer" android:layout_width="fill_parent" style="@style/styleItemMovieChoice_LinearLayout_1">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout style="@style/styleItemMovieChoice_FrameLayout_1">
+                <ImageView android:id="@id/image_Movie_Poster" android:layout_height="fill_parent" style="@style/styleItemMovieChoice_ImageView_1" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/text_Movie_Poster_Cover" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="10.0dip" android:minHeight="10.0dip" style="?android:attr/progressBarStyle" />
+                <ImageView android:id="@id/image_Moive_Rank" android:src="@drawable/movie_num_bg" style="@style/styleItemMovieChoice_ImageView_2" />
+                <TextView android:textStyle="bold" android:gravity="center" android:id="@id/text_Movie_Rank" android:text="1" style="@style/styleItemMovieChoice_TextView_1" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/styleItemMovieChoice_LinearLayout_2">
+                <LinearLayout android:layout_width="fill_parent" style="@style/styleItemMovieChoice_LinearLayout_3">
+                    <ImageView android:id="@id/image_Movie_Grade" android:src="@drawable/movie_age_all" style="@style/styleItemMovieChoice_ImageView_3" />
+                    <TextView android:ellipsize="end" android:gravity="left|center" android:id="@id/text_Movie_Title" android:layout_width="fill_parent" android:text="MovieTitle" android:singleLine="true" android:includeFontPadding="false" style="@style/styleItemMovieChoice_TextView_2" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" style="@style/styleItemMovieChoice_LinearLayout_4">
+                    <TextView android:gravity="left|center" android:layout_width="wrap_content" android:text="@string/movie_directors" style="@style/styleItemMovieChoice_TextView_3" />
+                    <TextView android:gravity="left|center" android:id="@id/text_Movie_Director" android:layout_width="fill_parent" android:text="Directors" style="@style/styleItemMovieChoice_TextView_4" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="17.0dip" android:layout_marginTop="6.0dip">
+                    <TextView android:gravity="left|center" android:layout_width="wrap_content" android:text="@string/movie_actors" style="@style/styleItemMovieChoice_TextView_3" />
+                    <TextView android:gravity="left|center" android:id="@id/text_Movie_Actors" android:layout_width="fill_parent" android:text="Actors" style="@style/styleItemMovieChoice_TextView_4" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/styleItemMovieChoice_LinearLayout_5">
+                    <LinearLayout android:gravity="top|left|center" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="16.0dip">
+                        <RatingBar android:id="@id/ratings" android:layout_width="wrap_content" style="@style/styleItemMovieChoice_RatingBar_1" />
+                        <TextView android:id="@id/text_Movie_Rating" android:layout_width="wrap_content" android:text="0.9" android:includeFontPadding="false" style="@style/styleItemMovieChoice_TextView_5" />
+                        <View android:gravity="center" android:layout_height="fill_parent" style="@style/styleItemMovieChoice_View_1" />
+                        <TextView android:id="@id/text_Movie_OpenDate" android:layout_width="fill_parent" android:text="-" android:includeFontPadding="false" style="@style/styleItemMovieChoice_TextView_6" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/movie_divider" style="@style/styleItemMovieChoice_View_2" />
+</LinearLayout>

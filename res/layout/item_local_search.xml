@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/local_search_info" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/item_local_search_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/local_list_textContainer" android:layout_height="wrap_content" style="@style/item_local_search_linearlayout_1">
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/ls_item_name" android:layout_width="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/item_local_search_textview_1" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ls_item_ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/item_local_search_linearlayout_2">
+            <RatingBar android:gravity="center" android:layout_gravity="top" android:id="@id/ls_item_rate_img" android:layout_width="wrap_content" style="@style/item_local_search_ratingbar_1" />
+            <TextView android:gravity="center" android:layout_gravity="top" android:id="@id/ls_item_review_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/item_local_search_textview_2" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" style="@style/item_naver_local_search_dummyView" />
+        <TextView android:ellipsize="end" android:gravity="left" android:id="@id/ls_item_address" android:layout_width="fill_parent" android:singleLine="true" android:includeFontPadding="false" style="@style/item_local_search_textview_3" />
+    </LinearLayout>
+    <ImageButton android:id="@id/ls_item_call" android:background="@drawable/mainmenu_icon_phone" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/item_local_search_imagebutton_1" />
+    <View android:id="@id/local_list_divider" android:layout_width="fill_parent" android:layout_below="@id/local_list_textContainer" style="@style/item_local_search_view_1" />
+</RelativeLayout>

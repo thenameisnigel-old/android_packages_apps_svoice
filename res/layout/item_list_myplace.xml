@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:id="@id/titleText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?android:listPreferredItemPaddingLeft" android:singleLine="true" android:marqueeRepeatLimit="1" style="@style/myplace_title_style" />
+    <TextView android:ellipsize="marquee" android:id="@id/titleDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/titleText" android:layout_alignLeft="@id/titleText" android:marqueeRepeatLimit="1" style="@style/myplace_desc_style" />
+    <CheckBox android:id="@id/myPlacecheckBox" android:layout_alignRight="@id/titleDesc" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/myplace_checkbox_style" />
+</RelativeLayout>

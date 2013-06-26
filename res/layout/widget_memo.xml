@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.MemoWidget android:id="@id/widget_answer_question" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" style="@style/widget_memo_widget_answer_question"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/widget_memo_style_linearlayout_1">
+        <LinearLayout android:orientation="vertical" android:id="@id/memo_container" android:background="@drawable/voice_talk_screen_custom_popup" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/widget_memo_style_linearlayout_2">
+            <LinearLayout android:orientation="vertical" android:id="@id/memo_container1" android:background="@drawable/memo_tile_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip">
+                <TextView android:id="@id/msg_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/widget_memo_style_textview_1" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="fill_parent" style="@style/widget_common_choice_shadow_styles" />
+    </LinearLayout>
+</com.vlingo.midas.gui.widgets.MemoWidget>

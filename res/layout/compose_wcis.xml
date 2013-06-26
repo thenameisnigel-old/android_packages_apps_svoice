@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/compose_wcis_RelativeLayout01">
+            <ImageView android:id="@id/wycs_detail_image" android:src="@drawable/non_touch_task_icon_call" android:layout_alignParentTop="true" style="@style/compose_wcis_detail_image" />
+            <TextView android:textSize="@dimen/wcis_heading_size" android:textColor="#fff5f5f5" android:id="@id/wycs_detail_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="!subtitle for wcis screen" android:includeFontPadding="false" android:layout_toRightOf="@id/wycs_detail_image" style="@style/compose_wcis_title_text" />
+        </RelativeLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/compose_wcis_text_container">
+                <TextView android:textSize="@dimen/wcis_subheading_size" android:textStyle="bold" android:textColor="#fff5f5f5" android:id="@id/header_examples" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/examples" android:includeFontPadding="false" />
+                <TextView android:textSize="@dimen/wcis_subheading_size" android:textColor="#ff8d9ca3" android:id="@id/text_examples" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="!put examples here" android:includeFontPadding="false" />
+                <TextView android:textSize="@dimen/wcis_subheading_size" android:textStyle="bold" android:textColor="#fff5f5f5" android:id="@id/header_did_you_know" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/did_you_know" android:includeFontPadding="false" style="@style/compose_wcis_header_did_you_know" />
+                <TextView android:textSize="@dimen/wcis_subheading_size" android:textColor="#ff8d9ca3" android:id="@id/text_did_you_know" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="!put did you know text here" android:includeFontPadding="false" />
+                <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:textStyle="normal" android:textColor="@drawable/iux_btn_color" android:id="@id/button_set_home_address" android:background="@drawable/btn_iux_default_enabled" android:text="@string/settings_help_set_home_address" style="@style/compose_wcis_button" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

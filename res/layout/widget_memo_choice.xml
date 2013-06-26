@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.MemoChoiceWidget android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/widget_margin_left" android:layout_marginRight="@dimen/widget_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/widget_margin_left" android:layout_marginRight="@dimen/widget_margin_right">
+            <ListView android:id="@id/memo_listview" android:background="@drawable/voice_talk_screen_custom_popup" android:paddingLeft="1.0dip" android:paddingTop="1.0dip" android:paddingRight="1.0dip" android:paddingBottom="1.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include layout="@layout/widget_more" />
+            <View android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/widget_common_choice_shadow_styles" />
+        </LinearLayout>
+    </LinearLayout>
+</com.vlingo.midas.gui.widgets.MemoChoiceWidget>

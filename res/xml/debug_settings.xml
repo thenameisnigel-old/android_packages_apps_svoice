@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.vlingo.midas.settings.debug.ServerPreference android:persistent="true" android:entries="@array/asrServers" android:title="ASR/VVS Server" android:key="SERVER_NAME" android:dialogTitle="ASR/VVS Server" android:positiveButtonText="OK" android:negativeButtonText="Cancel" android:entryValues="@array/asrServers" />
+    <com.vlingo.midas.settings.debug.ServerPreference android:persistent="true" android:entries="@array/servicesServers" android:title="Content Services Server" android:key="SERVICES_HOST_NAME" android:dialogTitle="Content Services Server" android:positiveButtonText="OK" android:negativeButtonText="Cancel" android:entryValues="@array/servicesServers" />
+    <PreferenceScreen android:title="Secondary servers">
+        <com.vlingo.midas.settings.debug.ServerPreference android:persistent="true" android:entries="@array/logServers" android:title="Event Log Server" android:key="EVENTLOG_HOST_NAME" android:dialogTitle="Event Log Server" android:positiveButtonText="OK" android:negativeButtonText="Cancel" android:entryValues="@array/logServers" />
+        <com.vlingo.midas.settings.debug.ServerPreference android:persistent="true" android:entries="@array/helloServers" android:title="Hello Server" android:key="HELLO_HOST_NAME" android:dialogTitle="Hello Server" android:positiveButtonText="OK" android:negativeButtonText="Cancel" android:entryValues="@array/helloServers" />
+        <com.vlingo.midas.settings.debug.ServerPreference android:persistent="true" android:entries="@array/lmttServers" android:title="LMTT Server" android:key="LMTT_HOST_NAME" android:dialogTitle="LMTT Server" android:positiveButtonText="OK" android:negativeButtonText="Cancel" android:entryValues="@array/lmttServers" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Weather testing">
+        <CheckBoxPreference android:title="use Test weather code" android:key="use_test_weather_code" android:summary="check on to use Test Weather Code Integer value" android:defaultValue="false" />
+        <CheckBoxPreference android:title="increment Test weather code" android:key="increment_test_weather_code" android:summary="check on to increment Test Weather Code Integer value with each use" android:defaultValue="false" />
+        <EditTextPreference android:persistent="true" android:numeric="integer" android:title="Test Weather Code Integer" android:key="test_weather_code" android:defaultValue="1" android:dialogTitle="1..44; 9,10,27,28 disallowed" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="NoiseCancellation Audio Sources">
+        <CheckBoxPreference android:title="Echo Cancel" android:key="use_echo_cancel_for_spotter" android:summary="use echo cancel audio source for spotter when media is playing" android:defaultValue="true" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="LMTT" android:summary="LMTT Debug Menu">
+        <PreferenceCategory android:title="Enable/Disable LMTT">
+            <CheckBoxPreference android:title="Contact LMTT" android:key="lmtt.enable.pim" android:summary="Enables Contact LMTT functionality" android:defaultValue="true" />
+            <CheckBoxPreference android:title="Media LMTT" android:key="lmtt.enable.music" android:summary="Enables Media LMTT functionality" android:defaultValue="true" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="Contacts LMTT">
+            <Preference android:title="Clear Server DB" android:key="LMTT_CONTACTS_CLEAR_SERVERDB" android:summary="Sends an empty sync to server" />
+            <Preference android:title="Clear Client DB" android:key="LMTT_CONTACTS_CLEAR_CLIENTDB" android:summary="Clears client's sync DB" />
+            <Preference android:title="Send LMTT" android:key="LMTT_CONTACTS_SENDLMTT" android:summary="Initiates a sync" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="Music LMTT">
+            <Preference android:title="Clear Server DB" android:key="LMTT_MUSIC_CLEAR_SERVERDB" android:summary="Sends an empty sync to server" />
+            <Preference android:title="Clear Client DB" android:key="LMTT_MUSIC_CLEAR_CLIENTDB" android:summary="Clears client's sync DB" />
+            <Preference android:title="Send LMTT" android:key="LMTT_MUSIC_SENDLMTT" android:summary="Initiates a sync" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="Other LMTT Settings">
+            <EditTextPreference android:maxLength="8" android:numeric="integer" android:title="LMTT General Version" android:key="debug.lmtt.update.version" android:summary="Changing this value forces full LMTT update" />
+            <EditTextPreference android:maxLength="8" android:numeric="integer" android:title="LMTT Contact Version" android:key="debug.lmtt.update.version.pim" android:summary="Changing this value forces contact LMTT update" />
+            <EditTextPreference android:maxLength="8" android:numeric="integer" android:title="LMTT Music Version" android:key="debug.lmtt.update.version.music" android:summary="Changing this value forces music LMTT update" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Sending data">
+        <CheckBoxPreference android:title="Send accepted text" android:key="acceptedtext.enable" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Send recording stats" android:key="stats.enable" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Send hello data" android:key="hello.enable" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Send activity log data" android:key="activitylog.enable" android:defaultValue="true" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Multi item widget settings">
+        <CheckBoxPreference android:persistent="true" android:title="Widget Capping" android:key="multi.widget.client.capped" android:defaultValue="true" android:summaryOn="Currently on, turn off to stop client cap of widget displays" android:summaryOff="Currently off, turn on to have client cap widget displays" />
+        <CheckBoxPreference android:persistent="true" android:title="Widget Showing Counts" android:key="multi.widget.client.showcounts" android:defaultValue="false" android:summaryOn="Currently on, turn off to stop showing message counts when capped" android:summaryOff="Currently off, turn on to show message counts when capped" />
+        <CheckBoxPreference android:persistent="true" android:title="Widget Showing More Button" android:key="multi.widget.client.showmorebutton" android:defaultValue="false" android:summaryOn="Currently on, turn off to stop showing more button when capped" android:summaryOff="Currently off, turn on to show more button when capped" />
+        <CheckBoxPreference android:persistent="true" android:title="Widget Collapsing by Sender" android:key="multi.widget.client.collapse" android:defaultValue="false" android:summaryOn="Currently on, turn off to collapsing messages from one sender" android:summaryOff="Currently off, turn on to collapse messages from one sender" />
+        <EditTextPreference android:persistent="true" android:title="Initial Max" android:key="multi.widget.item.initial.max" android:dialogTitle="Initial Max for Widget Cap" android:positiveButtonText="OK" android:negativeButtonText="Cancel" android:inputType="number" />
+        <EditTextPreference android:persistent="true" android:title="Ultimate Max" android:key="multi.widget.item.ultimate.max" android:dialogTitle="Ultimate Max for Widget Cap" android:positiveButtonText="OK" android:negativeButtonText="Cancel" android:inputType="number" />
+    </PreferenceScreen>
+    <CheckBoxPreference android:persistent="true" android:title="Auto Keyboard" android:key="AUTO_KEYBOARD" android:defaultValue="false" android:summaryOn="Auto Launch Keyboard" android:summaryOff="Touch on the Textbox to launch keyboard" />
+    <PreferenceScreen android:title="TTS debug settings">
+        <CheckBoxPreference android:persistent="true" android:title="TTS engine" android:key="KEY_ENABLE_SVOX_NEW" android:defaultValue="true" android:summaryOn="Enabled, remove check to disable SVOX engine" android:summaryOff="Disabled, check on to enable SVOX engine" />
+        <EditTextPreference android:persistent="true" android:title="Trial TTS String" android:key="trial_tts_string" android:dialogTitle="Trial TTS String" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+        <CheckBoxPreference android:persistent="true" android:title="Run tts test from files" android:key="run_tts_test_from_file" android:defaultValue="false" android:summaryOn="use /storage/sdcard0/TTSTest/*" android:summaryOff="use /storage/sdcard0/TTSTest/*" />
+        <CheckBoxPreference android:persistent="true" android:title="OEM required local TTS engine" android:key="tts_local_required_engine" android:defaultValue="false" android:summaryOn="Required engine defined" android:summaryOff="No required engine defined" />
+        <CheckBoxPreference android:persistent="true" android:title="DEFAULT_CAPS for SVox" android:key="svox_default_cap_context" android:defaultValue="true" android:summaryOn="using DEFAULT_CAPS context for SVox" android:summaryOff="not using DEFAULT_CAPS context for SVox" />
+    </PreferenceScreen>
+    <CheckBoxPreference android:persistent="true" android:title="Main Dictionary" android:key="MAIN_DICT" android:defaultValue="true" android:summaryOn="Enable Suggestion Words" android:summaryOff="Disable Suggestion Words" />
+    <CheckBoxPreference android:persistent="true" android:title="Use Refactored ASR Manager" android:key="asr.manager" android:defaultValue="true" android:summaryOn="refactored network code in use" android:summaryOff="prior network code in use" />
+    <CheckBoxPreference android:persistent="true" android:title="Use KeepAlive for ASR requests" android:key="asr.http.keep_alive" android:defaultValue="true" />
+    <CheckBoxPreference android:persistent="true" android:title="use non j audio sources" android:key="use_non_j_audio_sources" android:defaultValue="false" android:summaryOn="using safe, non-jproject audio sources" android:summaryOff="using jproject audio sources" />
+    <CheckBoxPreference android:persistent="true" android:title="show user turns in driving mode" android:key="show_user_turn_in_driving_mode" android:defaultValue="false" android:summaryOn="show user turn bubbles in driving mode" android:summaryOff="no user turn bubbles in driving mode" />
+    <EditTextPreference android:persistent="true" android:title="Last ASR Result string" android:key="last_asr_result" android:dialogTitle="Last ASR result string" />
+    <CheckBoxPreference android:persistent="true" android:title="Show all languages" android:key="show_all_languages" android:defaultValue="false" android:summaryOn="show languages even if not supported by phone" android:summaryOff="only show languages supported by app AND phone" />
+    <CheckBoxPreference android:persistent="true" android:title="Enable Russian" android:key="ru-RU_enable" android:defaultValue="true" android:summaryOn="Russian language enabled" android:summaryOff="Russian language disabled" />
+    <CheckBoxPreference android:persistent="true" android:title="Enable Brazil" android:key="pt-BR_enable" android:defaultValue="false" android:summaryOn="Brazil language enabled" android:summaryOff="Brazil language disabled" />
+    <CheckBoxPreference android:persistent="true" android:title="Enable Japanese" android:key="ja-JP_enable" android:defaultValue="false" android:summaryOn="Japanese language enabled" android:summaryOff="Japanese language disabled" />
+    <CheckBoxPreference android:persistent="true" android:title="Disable Dynamic Config" android:key="dynamic_config_disabled" android:defaultValue="false" android:summaryOn="Dynamic configs disabled" android:summaryOff="Dynamic configs enabled" />
+    <CheckBoxPreference android:persistent="true" android:title="ASR Event Logging" android:key="asr_event_logging" android:defaultValue="false" android:summaryOn="ASR Event Logging disabled" android:summaryOff="ASR Event Logging enabled" />
+    <CheckBoxPreference android:persistent="true" android:title="NLU Event Logging" android:key="nlu_event_logging" android:defaultValue="false" android:summaryOn="NLU Event Logging disabled" android:summaryOff="NLU Event Logging enabled" />
+    <PreferenceScreen android:title="WolframAlpha settings">
+        <EditTextPreference android:persistent="true" android:title="Screen Width" android:key="screen.width" android:dialogTitle="Screen Width" android:positiveButtonText="OK" android:negativeButtonText="Cancel" android:inputType="number" />
+        <EditTextPreference android:persistent="true" android:title="Screen Magnification" android:key="screen.mag" android:dialogTitle="Screen Magnification" android:positiveButtonText="OK" android:negativeButtonText="Cancel" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:title="Plot Width" android:key="plot.width" android:dialogTitle="Plot Width" android:positiveButtonText="Ok" android:negativeButtonText="Cancel" android:inputType="number" />
+        <EditTextPreference android:persistent="true" android:title="Max Width" android:key="max.width" android:dialogTitle="Max Width" android:positiveButtonText="Ok" android:negativeButtonText="Cancel" android:inputType="number" />
+        <CheckBoxPreference android:persistent="true" android:title="Preload WolframAlpha images" android:key="wa.image.preloads" android:defaultValue="false" android:summaryOn="response will not appear until all images are downloaded" android:summaryOff="response will be immediate, and images will appear as they download" />
+        <CheckBoxPreference android:persistent="true" android:title="Use overlays for loading" android:key="wa.image.overlays" android:defaultValue="true" android:summaryOn="loading indicators will overlay images" android:summaryOff="loading indicators will replace images" />
+        <EditTextPreference android:persistent="true" android:title="Download timeout" android:key="wa.download.timeout" android:dialogTitle="Download timeout" android:positiveButtonText="OK" android:negativeButtonText="Cancel" android:inputType="number" />
+        <EditTextPreference android:persistent="true" android:title="Simulated latency" android:key="wa.download.delay" android:dialogTitle="Download delay" android:positiveButtonText="OK" android:negativeButtonText="Cancel" android:inputType="number" />
+    </PreferenceScreen>
+    <EditTextPreference android:persistent="true" android:title="Field ID" android:key="FIELD_ID" android:dialogTitle="Field ID" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/settings_EnableTimingLog" android:key="timinglog_enabled" android:defaultValue="true" android:summaryOn="enable timing log" android:summaryOff="Do not enable timing log" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/settings_EnableServerLog" android:key="serverlog_enabled" android:defaultValue="false" android:summaryOn="enable server log" android:summaryOff="Do not enable server log" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/settings_EnableAudioFileLog" android:key="audiofilelog_enabled" android:defaultValue="false" android:summaryOn="enable audio file log" android:summaryOff="Do not enable audio file log" />
+    <CheckBoxPreference android:persistent="true" android:title="Spotter waveform logging" android:key="phrasespot_waveformlogging_enabled" android:defaultValue="false" android:summaryOn="Waveforms will be logged to SDCard" android:summaryOff="Waveforms will not be logged to SDCard" />
+    <EditTextPreference android:persistent="true" android:title="Simulate TTS" android:key="TTS_Simulation" android:dialogTitle="TTS Simulation Count" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+    <EditTextPreference android:persistent="true" android:title="Simulate SMS" android:key="SMS_Simulation" android:dialogTitle="SMS Simulation Count" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+    <EditTextPreference android:persistent="true" android:title="Simulate EMail" android:key="EMail_Simulation" android:dialogTitle="EMail Simulation Count" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+    <CheckBoxPreference android:persistent="true" android:title="TTS Log" android:key="TTS_TIMEING_LOG" android:defaultValue="false" android:summaryOn="Enable TTS Log" android:summaryOff="Disable TTS Log" />
+    <EditTextPreference android:persistent="true" android:title="TTS Network Timeout" android:key="tts_network_timeout" android:defaultValue="750" android:dialogTitle="TTS Network Timeout ms" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+    <EditTextPreference android:persistent="true" android:title="VCS Network Timeout" android:key="vcs.timeout.ms.str" android:summary="This value is used to specify timeouts for the local search service. In case if this timeout is over - the usual search workflow should occur. SAQ-4075" android:defaultValue="10000" android:dialogTitle="VCS Network Timeout" android:positiveButtonText="OK" android:negativeButtonText="Cancel" android:inputType="number" />
+    <CheckBoxPreference android:persistent="true" android:title="Auto endpointing" android:key="auto_endpointing" android:defaultValue="true" android:summaryOn="Do auto-endpointing of speech" android:summaryOff="Don't do auto-endpointing of speech" />
+    <CheckBoxPreference android:persistent="true" android:title="Enable Barge-in" android:key="barge_in_enabled" android:defaultValue="true" android:summaryOn="Do barge-in during confirmation and readout" android:summaryOff="Don't do barge-in during confirmation and readout" />
+    <PreferenceCategory android:title="Dynamic Configuration" android:key="voicetalk">
+        <PreferenceScreen android:title="Dynamic Config Settings" android:key="dynamic_config" android:summary="Beta - these settings may be overwritten by the server at any time">
+            <CheckBoxPreference android:persistent="true" android:title="Use HTTPS for ASR/VVS" android:key="https.asr_enabled" />
+            <CheckBoxPreference android:persistent="true" android:title="Use HTTPS for TTS" android:key="https.tts_enabled" />
+            <CheckBoxPreference android:persistent="true" android:title="Use HTTPS for VCS" android:key="https.vcs_enabled" />
+            <com.vlingo.midas.settings.debug.HttpsRolloutPreference android:persistent="true" android:title="HTTPS Rollout Percentage" android:key="https.rollout_percentage" android:defaultValue="0" />
+            <CheckBoxPreference android:persistent="true" android:title="Auto-punctuation ALL" android:key="client_config_auto_punctuation" />
+            <CheckBoxPreference android:persistent="true" android:title="Auto-punctuation en-GB" android:key="client_config_auto_punctuation_en-GB" />
+            <CheckBoxPreference android:persistent="true" android:title="Auto-punctuation en-US" android:key="client_config_auto_punctuation_en-US" />
+            <CheckBoxPreference android:persistent="true" android:title="Navigation" android:key="client_config_navigation" />
+            <CheckBoxPreference android:persistent="true" android:title="Social" android:key="client_config_social" />
+            <CheckBoxPreference android:persistent="true" android:title="Facebook" android:key="client_config_facebook" />
+            <CheckBoxPreference android:persistent="true" android:title="Twitter" android:key="client_config_twitter" />
+            <CheckBoxPreference android:persistent="true" android:title="Foursquare" android:key="client_config_foursquare" />
+            <CheckBoxPreference android:persistent="true" android:title="Local Search" android:key="client_config_localsearch" />
+            <CheckBoxPreference android:persistent="true" android:title="Superdialer" android:key="client_config_superdialer" />
+            <CheckBoxPreference android:persistent="true" android:title="Travel" android:key="client_config_travel" />
+            <CheckBoxPreference android:persistent="true" android:title="Restaurants" android:key="client_config_restaurants" />
+            <CheckBoxPreference android:persistent="true" android:title="Movies" android:key="client_config_movies" />
+            <CheckBoxPreference android:persistent="true" android:title="Answers" android:key="client_config_answers" />
+            <CheckBoxPreference android:persistent="true" android:title="TTS" android:key="client_config_tts" />
+            <CheckBoxPreference android:persistent="true" android:title="Action Bar" android:key="client_config_action_bar" />
+            <CheckBoxPreference android:persistent="true" android:title="InCar" android:key="client_config_in_car" />
+            <CheckBoxPreference android:persistent="true" android:title="SafeReader" android:key="client_config_safereader" />
+            <EditTextPreference android:persistent="true" android:title="Navigation Intent Action" android:key="client_config_nav_intent_action" android:dialogTitle="Navigation Intent Action" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+            <EditTextPreference android:persistent="true" android:title="Navigation Intent Data" android:key="client_config_nav_intent_data" android:dialogTitle="Navigation Intent Data" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+            <EditTextPreference android:persistent="true" android:title="Navigation Intent Package" android:key="client_config_nav_intent_package" android:dialogTitle="Navigation Intent Package" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+            <EditTextPreference android:persistent="true" android:title="Navigation Intent Activity" android:key="client_config_nav_intent_activity" android:dialogTitle="Navigation Intent Activity" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+            <EditTextPreference android:persistent="true" android:title="Navigation Intent Extra Name" android:key="client_config_nav_intent_extra_name" android:dialogTitle="Navigation Intent Extra Name" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+            <EditTextPreference android:persistent="true" android:title="Navigation Intent Extra Value" android:key="client_config_nav_intent_extra_value" android:dialogTitle="Navigation Intent Extra Value" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <CheckBoxPreference android:title="Force non-DM" android:key="FORCE_NON_DM" />
+    <CheckBoxPreference android:title="Fake Location" android:key="FAKE_LAT_LONG" />
+    <EditTextPreference android:title="Latitude " android:key="FAKE_LAT" android:defaultValue="39.6837" />
+    <EditTextPreference android:title="Longitude " android:key="FAKE_LONG" android:defaultValue="-75.7497" />
+    <EditTextPreference android:persistent="true" android:title="Carrier Country Override" android:key="CARRIER_COUNTRY" android:dialogTitle="Carrier Country" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+    <EditTextPreference android:persistent="true" android:title="Carrier Override" android:key="CARRIER" android:dialogTitle="Carrier" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+    <CheckBoxPreference android:title="Fake Device Model" android:key="FAKE_DEVICE_MODEL" />
+    <EditTextPreference android:title="Device Model" android:key="DEVICE_MODEL" />
+    <CheckBoxPreference android:persistent="true" android:title="Warmup All Connections" android:key="always_warmup_connections" android:defaultValue="false" android:summaryOn="Always warmup network connections early" android:summaryOff="Connections warmed up early normally" />
+    <ListPreference android:title="Raw Server Response Handling" android:key="SERVER_RESONSE_LOGGGING" />
+    <EditTextPreference android:title="Server Response Log File" android:key="SERVER_RESONSE_FILE" />
+    <EditTextPreference android:title="Playback Input File" android:key="playback_input_file" />
+    <EditTextPreference android:title="Record Output File" android:key="record_output_file" />
+    <ListPreference android:entries="@array/debug_mimic_mode" android:title="Mimic Mode" android:key="mimic_mode" android:defaultValue="-1" android:entryValues="@array/debug_mimic_mode_values" />
+    <CheckBoxPreference android:persistent="true" android:title="Use media sync approach" android:key="use_mediasync_tone_approach" android:defaultValue="true" />
+    <CheckBoxPreference android:title="Seamless Wake-up" android:key="seamless_wakeup" android:defaultValue="false" />
+    <CheckBoxPreference android:title="Show uuid in about screen" android:key="show_uuid_in_about_screen" android:defaultValue="false" />
+</PreferenceScreen>

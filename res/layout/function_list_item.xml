@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:gravity="center_vertical" android:paddingLeft="?android:listPreferredItemPaddingLeft" android:paddingTop="17.0dip" android:paddingBottom="17.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?android:listPreferredItemPaddingLeft" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="Test" android:singleLine="true" style="@style/wakeup_twoline_list_item_text1"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/iux_wake_up_linear"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textColor="#fff5f5f5" android:id="@id/description_wake_up_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:text="@string/iux_wake_up_1" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iux_wake_up_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voice_talk_setting_help_3" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iux_wake_up_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voice_talk_setting_help_4" />
+            <TextView android:textSize="17.0sp" android:textColor="#fff5f5f5" android:id="@id/description_wake_up_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="12.0dip" android:text="@string/iux_wake_up_2" />
+            <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/help_change_now_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip">
+                <Button android:id="@id/help_change_now" android:background="@drawable/btn_overlay_black_button" android:padding="0.0dip" android:text="@string/change_now" style="@style/iux_wake_up_help_change_now" />
+            </RelativeLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="17.0sp" android:textColor="#fff5f5f5" android:id="@id/description_wake_up_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/iux_wake_up_3" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iux_wake_up_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voice_talk_setting_help_5" android:scaleType="fitCenter" />
+            <TextView android:textSize="17.0sp" android:textColor="#fff5f5f5" android:id="@id/description_wake_up_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/iux_wake_up_4" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/btn_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/previous" android:text="@string/previous" android:layout_weight="1.0" style="@style/iux_wake_up_previous" />
+        <Button android:id="@id/skip" android:text="@string/skip" android:layout_weight="1.0" style="@style/iux_wake_up_skip" />
+        <Button android:id="@id/next" android:text="@string/next" android:layout_weight="1.0" style="@style/iux_wake_up_next" />
+    </LinearLayout>
+</LinearLayout>

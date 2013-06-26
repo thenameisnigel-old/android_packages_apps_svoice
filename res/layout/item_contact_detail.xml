@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/item_contact_detail_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" style="@style/item_contact_detail_linearlayout_1">
+        <com.vlingo.midas.gui.customviews.TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/text_detail_first" android:layout_width="fill_parent" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" style="@style/item_contact_detail_textview_1" />
+        <com.vlingo.midas.gui.customviews.TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/text_detail_second" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" style="@style/item_contact_detail_textview_2" />
+    </LinearLayout>
+    <View android:id="@id/list_divider" android:layout_width="fill_parent" style="@style/item_contact_detail_view_1" />
+</LinearLayout>

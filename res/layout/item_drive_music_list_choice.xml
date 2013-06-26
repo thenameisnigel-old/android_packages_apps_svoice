@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/item_choice_container" android:layout_width="fill_parent" style="@style/drive_item_choice_item_choice_container">
+        <TextView android:textColor="#ff2f2f2f" android:gravity="center" android:id="@id/list_number" android:background="@drawable/list_btn" android:layout_marginLeft="10.0dip" android:includeFontPadding="false" style="@style/drive_item_choice_num_contact" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" style="@style/drive_item_choice_relativelayout_1">
+            <com.vlingo.midas.gui.customviews.TextView android:ellipsize="end" android:id="@id/text_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="@style/DriveListStyle1" />
+            <com.vlingo.midas.gui.customviews.TextView android:ellipsize="end" android:id="@id/text_artist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_below="@id/text_title" style="@style/DriveListStyle4" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/divider" android:background="#ff8d8d8d" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

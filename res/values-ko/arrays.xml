@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="monthMatchers">
+        <item>일월</item>
+        <item>이월</item>
+        <item>삼월</item>
+        <item>사월</item>
+        <item>오월</item>
+        <item>유월</item>
+        <item>칠월</item>
+        <item>팔월</item>
+        <item>구월</item>
+        <item>시월</item>
+        <item>십일월</item>
+        <item>십이월</item>
+    </string-array>
+    <string-array name="dayMatchers">
+        <item>일요일|주일날</item>
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+        <item>토요일</item>
+    </string-array>
+    <reference-array name="wcis_search_examples_naver_add">
+        <item>@string/wcis_search_ex_naver</item>
+    </reference-array>
+    <reference-array name="wcis_local_listings_examples_naver">
+        <item>@string/wcis_local_listings_ex_naver</item>
+    </reference-array>
+    <reference-array name="wcis_movies_examples_naver">
+        <item>@string/wcis_movies_ex_naver</item>
+    </reference-array>
+    <string-array name="weather_sunny">
+        <item>$[day] 날씨는 화창하겠습니다.</item>
+        <item>$[day]은 날씨가 맑겠습니다. 선글라스를 준비해보면 어떨까요?</item>
+        <item>$[day]은 날씨가 맑고 햇빛이 강하겠습니다. 낮 최고 기온은 $[temp]°로 예상됩니다.</item>
+    </string-array>
+    <string-array name="weather_sunny_today">
+        <item>$[day]은 화창한 날씨입니다.</item>
+        <item>$[day]은 날씨가 아주 화창합니다. 선글라스나 양산을 준비하시면 좋을 것 같아요.</item>
+        <item>$[day]은 하루 종일 날씨가 맑겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+    </string-array>
+    <string-array name="weather_partly_sunny">
+        <item>$[day]은 구름 사이로 해가 간간이 비치겠습니다. 예상 최고 기온은 $[temp]°입니다.</item>
+        <item>$[day]은 때때로 흐리겠습니다.</item>
+        <item>$[day]은 맑고, 가끔 구름이 끼겠습니다.</item>
+        <item>$[day]은 구름이 조금 끼는 맑은 날씨에 기온은 $[temp]°까지 오를 것으로 예상됩니다.</item>
+        <item>$[day]은 가끔 해가 비치고, 최고 기온은 $[temp]°에 이르겠습니다.</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_today">
+        <item>$[day]은 때때로 맑은 날씨를 보이겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 가끔 흐리겠습니다.</item>
+        <item>$[day]은 맑고, 이따금 구름이 끼겠습니다.</item>
+        <item>$[day]은 구름이 조금 끼는 맑은 날씨에 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 구름 사이로 해가 간간이 비치겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy">
+        <item>$[day] 날씨는 흐리고 최고 기온은 $[temp]°에 이르겠습니다.</item>
+        <item>$[day]에는 하루 종일 구름 낀 날씨가 이어지겠습니다. 예상 최고 기온은 $[temp]°입니다.</item>
+        <item>$[day]은 하루 종일 흐리겠습니다. 예상 최고 기온은 $[temp]°입니다.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_today">
+        <item>현재 날씨는 흐리고 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 하루 종일 구름이 끼겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 날씨가 흐리겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+    </string-array>
+    <string-array name="weather_foggy">
+        <item>$[day]에는 안개가 끼겠습니다.</item>
+        <item>$[day]에는 안개가 끼겠습니다. 예상 최고 기온은 $[temp]°입니다.</item>
+        <item>$[day]에는 짙은 안개가 낄 것으로 예상됩니다. 운전할 때는 반드시 전조등을 켜고 안전 운전하시기 바랍니다.</item>
+    </string-array>
+    <string-array name="weather_foggy_today">
+        <item>$[day]은 안개 낀 날씨가 계속됩니다. 호흡기 질환에 걸리지 않도록 유의하세요.</item>
+        <item>오늘은 안개가 낀 날씨에 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 안개 자욱한 날이 되겠네요. 운전할 때는 반드시 전조등을 켜고 안전 운전하세요.</item>
+    </string-array>
+    <string-array name="weather_showers">
+        <item>$[day]에는 소나기가 올 예정입니다. 나가실 때 우산 잊지 마세요.</item>
+        <item>$[day]은 잔뜩 흐리고, 가끔 소나기가 오겠습니다. 예상 최고 기온은 $[temp]°입니다.</item>
+        <item>$[day]에는 소나기가 내리겠습니다. 외출하실 때 잊지 말고 우산을 챙기세요.</item>
+        <item>$[day]은 흐리고 소나기가 오겠습니다. 예상 최고 기온 $[temp]°입니다.</item>
+        <item>$[day]에는 소나기 소식이 있습니다. 장화나 우비를 준비해 두는 것도 좋을 것 같아요.</item>
+    </string-array>
+    <string-array name="weather_showers_today">
+        <item>$[day]은 소나기가 오겠습니다. 빨래나 세차는 다른 날로 미루는 것이 좋겠네요.</item>
+        <item>하늘이 잔뜩 찌푸린 $[day]은 가끔 소나기도 내리겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 소나기가 오겠습니다. 외출하실 때 우산을 챙기세요.</item>
+        <item>$[day]은 흐리고 소나기가 오겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 소나기 소식이 있습니다. 장화나 우비를 준비해 두는 것도 좋을 것 같아요.</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_with_showers">
+        <item>$[day]에는 맑았다가 비가 오는 변덕스러운 날씨가 예상됩니다.</item>
+        <item>$[day]은 맑은 하늘에서 빗방울이 떨어지는 여우비가 내린다고 하네요.</item>
+        <item>$[day]은 맑았다가 비가 오겠습니다. 우산 잊지 마세요.</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_with_showers_today">
+        <item>$[day]은 맑았다가 비가 내리는 변덕스러운 날씨입니다.</item>
+        <item>$[day]은 맑은 하늘에서 빗방울이 떨어지는 여우비가 내리겠습니다.</item>
+        <item>$[day]은 맑았다가 비가 오겠습니다. 우산 잊지 마세요.</item>
+    </string-array>
+    <string-array name="weather_thunderstorms">
+        <item>$[day]에는 천둥, 번개를 동반한 폭우가 예상되며, 낮 최고 기온은 $[temp]°입니다.</item>
+        <item>$[day]에는 천둥, 번개와 함께 폭우가 쏟아지겠습니다. 비 피해를 입지 않도록 미리 대비하세요.</item>
+        <item>$[day]은 흐리고, 천둥과 함께 비가 오겠습니다.</item>
+        <item>$[day]에는 흐리다가 천둥과 번개를 동반한 폭우가 쏟아지겠습니다. 최고 기온은 $[temp]°에 머물 것으로 예상됩니다.</item>
+        <item>$[day]에는 천둥, 번개를 동반한 폭우가 예상됩니다. 가급적 외출을 삼가시고 낙뢰에 유의하시기 바랍니다.</item>
+    </string-array>
+    <string-array name="weather_thunderstorms_today">
+        <item>$[day]은 천둥과 번개를 동반한 폭우가 예상됩니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 천둥, 번개와 함께 폭우가 쏟아지겠습니다. 비 피해를 입지 않도록 미리 대비하세요.</item>
+        <item>$[day]은 흐리고, 천둥과 함께 비가 오겠습니다.</item>
+        <item>$[day]은 흐리다가 천둥과 번개를 동반한 폭우가 쏟아지겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 천둥, 번개를 동반한 폭우가 예보되어 있습니다. 가급적 외출을 삼가시고 낙뢰에 유의하시기 바랍니다.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_thunder_showers">
+        <item>$[day]에는 천둥, 번개와 함께 소나기가 오겠습니다.</item>
+        <item>$[day]에는 천둥, 번개를 동반한 소나기가 내리고 기온은 $[temp]°까지 오르겠습니다.</item>
+        <item>$[day]에는 소나기가 내리고 천둥도 친다고 합니다. 갑작스런 비에 젖지 않도록 창문 단속 잊지 마세요.</item>
+        <item>$[day]에는 천둥, 번개를 동반한 소나기가 내리겠습니다. 예상 최고 기온은 $[temp]°입니다.</item>
+        <item>$[day]에는 천둥, 번개를 동반한 소나기가 예상됩니다.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_thunder_showers_today">
+        <item>$[day]은 천둥, 번개와 함께 소나기가 오겠습니다.</item>
+        <item>천둥, 번개를 동반한 소나기가 내리겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 천둥을 동반한 소나기가 예상됩니다.</item>
+        <item>현재 기온은 $[cur_temp]°이고, 천둥, 번개를 동반한 소나기가 내리고 있습니다.</item>
+        <item>$[day]은 천둥과 번개를 동반한 소나기 예보가 있습니다.</item>
+    </string-array>
+    <string-array name="weather_rainy">
+        <item>$[day]에는 비가 오겠습니다. 외출할 때 잊지 말고 우산을 챙기세요.</item>
+        <item>$[day]에는 비가 오겠습니다. 외출할 때 장화를 신는 것은 어떨까요?</item>
+    </string-array>
+    <string-array name="weather_rainy_today">
+        <item>$[day]은 비가 오겠습니다. 외출할 때 잊지 말고 우산을 챙기세요.</item>
+        <item>$[day]은 비가 오겠습니다. 외출할 때 장화 차림으로 나가보는 건 어떨까요?</item>
+    </string-array>
+    <string-array name="weather_flurries">
+        <item>$[day]은 흐리고 눈발이 약간 날리겠습니다. 최고 기온은 $[temp]°로 예상됩니다.</item>
+        <item>$[day]에는 간간이 날리는 눈발을 볼 수 있겠네요. 예상 최고 기온은 $[temp]°입니다.</item>
+        <item>$[day]에는 가벼운 눈 소식이 있겠습니다.</item>
+        <item>$[day]은 최고 기온이 $[temp]°에 머물겠고, 눈발이 살짝 흩날리겠습니다.</item>
+        <item>$[day]에는 간간이 흩뿌리는 눈을 볼 수 있겠습니다.</item>
+    </string-array>
+    <string-array name="weather_flurries_today">
+        <item>$[day]은 흐리고 눈발이 약간 날리겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 눈이 살짝 내리겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 가벼운 눈 소식이 있습니다.</item>
+        <item>눈발이 날리고 있는 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 눈이 간간이 내리겠습니다.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_flurries">
+        <item>$[day]은 흐리고 눈발이 약간 날리겠습니다. 최고 기온은 $[temp]°로 예상됩니다.</item>
+        <item>$[day]에는 간간이 날리는 눈발을 볼 수 있겠네요. 예상 최고 기온은 $[temp]°입니다.</item>
+        <item>$[day]에는 가벼운 눈 소식이 있겠습니다.</item>
+        <item>$[day]은 최고 기온이 $[temp]°에 머물겠고, 눈발이 살짝 흩날리겠습니다.</item>
+        <item>$[day]에는 간간이 흩뿌리는 눈을 볼 수 있겠습니다.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_flurries_today">
+        <item>$[day]은 흐리고 눈발이 약간 날리겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 눈이 살짝 내리겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 가벼운 눈 소식이 있습니다.</item>
+        <item>눈발이 날리고 있는 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 눈이 간간이 내리겠습니다.</item>
+    </string-array>
+    <string-array name="weather_snow">
+        <item>$[day]에는 눈이 오겠습니다. 예상 최고 기온은 $[temp]°입니다.</item>
+        <item>$[day]에는 눈이 올 것으로 예상됩니다.</item>
+        <item>$[day]에는 눈 소식이 있겠습니다. 장갑과 우산을 챙겨 보세요.</item>
+        <item>$[day]에는 눈이 내릴 전망입니다. 이 날은 부츠를 신고 외출하시는 게 어떨까요?</item>
+    </string-array>
+    <string-array name="weather_snow_today">
+        <item>$[day]은 눈이 오겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 눈이 오겠습니다.</item>
+        <item>지금 눈이 오고 있네요. 외출하실 계획이라면 잊지 말고 우산과 장갑을 챙기세요.</item>
+        <item>$[day]은 눈이 예고되어 있습니다. 외출하실 계획이라면 부츠 신는 것이 좋겠습니다.</item>
+    </string-array>
+    <string-array name="weather_ice">
+        <item>$[day]에는 한파가 예상되며, 낮 최고 기온은 $[temp]°에 머물겠습니다.</item>
+        <item>$[day]에는 낮 최고 기온이 $[temp]°에 머무는 추운 날씨가 이어지겠습니다.</item>
+        <item>$[day]은 살을 에일 듯 추운 날씨가 예상됩니다. 외출할 때는 든든한 옷차림으로 문 밖을 나서시기 바랍니다.</item>
+        <item>$[day]에는 최고 기온이 $[temp]°를 밑도는 한파가 예상됩니다. 한파 피해를 입지 않도록 미리 대비하시기 바립니다.</item>
+        <item>$[day]은 최고 기온이 $[temp]°에 머무르면서 매우 춥겠습니다. 외출할 때 추위를 막아줄 장갑과 목도리 등을 착용해보세요.</item>
+    </string-array>
+    <string-array name="weather_ice_today">
+        <item>$[day]은 한파가 몰아치겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>현재 기온은 $[cur_temp]°로, 한파가 맹위를 떨치고 있습니다.</item>
+        <item>$[day]은 살을 에는 듯 춥겠습니다. 외출할 때는 든든하게 챙겨 입으세요.</item>
+        <item>현재 기온은 $[cur_temp]°로, 맹추위가 기승을 부리고 있습니다. 오늘 같은 날은 불필요한 외출을 자제하시는 것이 어떨까요?</item>
+        <item>현재 기온이 $[cur_temp]°에 머물러 매우 춥습니다. 외출할 때 추위를 막아줄 장갑과 목도리 등을 착용해보세요.</item>
+    </string-array>
+    <string-array name="weather_mixed_rain_and_snow">
+        <item>$[day]에는 진눈깨비가 내리겠습니다.</item>
+        <item>$[day]에는 날씨가 맑겠습니다. 최고 기온은 $[temp]°로, 눈이 녹아 노면이 질척거리겠습니다.</item>
+        <item>$[day]에는 진눈깨비 소식이 있습니다. 방수가 되는 외투나 우산을 준비해 두시면 좋을 것 같아요.</item>
+        <item>$[day]에는 진눈깨비가 내리고 최고 기온이 $[temp]°까지 오르겠습니다.</item>
+    </string-array>
+    <string-array name="weather_mixed_rain_and_snow_today">
+        <item>$[day]은 진눈깨비가 내리겠습니다.</item>
+        <item>현재 기온은 $[cur_temp]°이고, 눈이 녹아 노면이 질척거리겠습니다.</item>
+        <item>$[day]은 진눈깨비 소식이 있습니다. 방수가 되는 외투나 우산을 준비하시는 것이 좋을 것 같아요.</item>
+        <item>현재 기온은 $[cur_temp]°이고, 진눈깨비가 내리고 있습니다.</item>
+    </string-array>
+    <string-array name="weather_hot">
+        <item>$[day]에는 무더위가 기승을 부리겠습니다.</item>
+        <item>$[day]은 최고 기온이 $[temp]°까지 치솟는 무더위가 예상됩니다.</item>
+        <item>$[day]에는 폭염이 예고되어 있습니다. 장시간 외출을 삼가세요.</item>
+        <item>$[day]은 최고 기온이 $[temp]°로, 상당히 덥겠습니다.</item>
+    </string-array>
+    <string-array name="weather_hot_today">
+        <item>$[day]은 무더위가 기승을 부리겠습니다.</item>
+        <item>$[day] 날씨는 매우 덥겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 수은주가 수직 상승할 정도로 기록적인 폭염이 기승을 부리겠습니다. 장시간의 외출은 삼가세요.</item>
+        <item>현재 기온은 $[cur_temp]°로 $[day]은 상당히 덥겠습니다.</item>
+    </string-array>
+    <string-array name="weather_cold">
+        <item>$[day]은 매우 춥겠습니다. 감기 조심하세요.</item>
+        <item>$[day]은 최고 기온이 $[temp]°로 매우 춥겠습니다. 외출하실 때는 잊지 말고 장갑이나 머플러를 챙기시기 바랍니다.</item>
+        <item>$[day]은 춥고 기온도 $[temp]°를 밑돌겠습니다. 감기 들지 않도록 보온에 신경 쓰세요.</item>
+        <item>$[day]은 최고 기온이 $[temp]°로 춥겠습니다. 외출할 때 따뜻한 코트 차림으로 나서는 게 좋겠네요.</item>
+        <item>$[day]은 최고 기온이 $[temp]°에 머물러 춥겠습니다.</item>
+    </string-array>
+    <string-array name="weather_cold_today">
+        <item>$[day]은 매우 춥겠습니다. 감기 조심하세요.</item>
+        <item>현재 기온이 $[cur_temp]°로 매우 춥습니다. 외출하실 때는 잊지 말고 장갑이나 머플러를 챙기시기 바랍니다.</item>
+        <item>$[day]은 기온이 $[cur_temp]°를 밑돌겠습니다. 따뜻하게 입으세요.</item>
+        <item>현재 기온이 $[cur_temp]°로 춥겠습니다. $[day]은 외출할 때 따뜻한 코트 차림으로 나서는 게 좋겠네요.</item>
+        <item>$[day]은 기온이 $[cur_temp]°에 머물러 춥겠습니다.</item>
+    </string-array>
+    <string-array name="weather_windy">
+        <item>$[day]은 바람이 많이 불겠습니다. 강풍에 모자나 소지품이 날아가지 않도록 유의하세요.</item>
+        <item>$[day]에는 바람이 강할 것으로 예상됩니다.</item>
+        <item>$[day]에는 바람이 많이 불겠고, 최고 기온은 $[temp]°가 되겠습니다.</item>
+        <item>$[day]에는 바람이 많이 불겠습니다. 연날리기 좋은 날씨가 되겠네요.</item>
+        <item>$[day]은 바람이 많이 부는 맑은 날씨가 되겠습니다.</item>
+    </string-array>
+    <string-array name="weather_windy_today">
+        <item>$[day]은 바람이 많이 불겠습니다. 강풍에 모자나 소지품이 날아가지 않도록 유의하세요.</item>
+        <item>$[day]은 바람이 강하게 불겠습니다.</item>
+        <item>현재 바람이 많이 불고 있으며 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 바람이 많이 불겠습니다. 연날리기 좋은 날씨가 되겠네요.</item>
+        <item>$[day]은 바람이 많이 불겠습니다.</item>
+    </string-array>
+    <string-array name="weather_clear">
+        <item>$[day]은 매우 맑겠습니다.</item>
+        <item>$[day]은 매우 맑고 최고 기온은 $[temp]°가 되겠습니다.</item>
+        <item>$[day]은 구름 한 점 없는 맑은 날씨가 되겠습니다.</item>
+        <item>$[day]은 날씨가 화창하겠습니다. 예상 최고 기온은 $[temp]°입니다.</item>
+        <item>$[day]은 맑겠고 최고 기온은 $[temp]°로 예상됩니다.</item>
+    </string-array>
+    <string-array name="weather_clear_today">
+        <item>$[day]은 날씨가 화창하겠습니다.</item>
+        <item>$[day]은 매우 맑은 날씨가 지속되겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 구름 한 점 없는 맑은 날씨가 지속되겠습니다.</item>
+        <item>현재 기온은 $[cur_temp]°이고, 날씨도 매우 화창합니다.</item>
+        <item>$[day]은 매우 화창하겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+    </string-array>
+    <string-array name="weather_moslty_clear">
+        <item>$[day]은 대체로 맑겠습니다. 예상 최고 기온은 $[temp]°입니다.</item>
+        <item>$[day]은 대체로 맑고 최고 기온은 $[temp]°가 되겠습니다.</item>
+        <item>$[day]은 구름이 적은 맑은 날씨가 예상됩니다.</item>
+        <item>$[day]은 구름이 적고 대체로 맑은 날씨가 되겠습니다.</item>
+        <item>$[day]은 대체로 맑겠고 최고 기온은 $[temp]°로 예상됩니다.</item>
+    </string-array>
+    <string-array name="weather_moslty_clear_today">
+        <item>$[day]은 대체로 맑겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+        <item>현재 날씨는 대체로 맑고 기온은 $[cur_temp]°입니다.</item>
+        <item>$[day]은 구름이 적고 맑겠습니다.</item>
+        <item>$[day] 날씨는 대체로 맑고 구름도 적겠습니다.</item>
+        <item>$[day]은 대체로 맑은 날씨가 지속되겠습니다. 현재 기온은 $[cur_temp]°입니다.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_night">
+        <item>$[day] 날씨는 흐리고 최고 기온은 $[temp]°에 이르겠습니다.</item>
+        <item>$[day]에는 하루 종일 구름 낀 날씨가 이어지겠습니다. 예상 최고 기온은 $[temp]°입니다.</item>
+        <item>$[day]은 하루 종일 흐리겠습니다. 예상 최고 기온은 $[temp]°입니다.</item>
+    </string-array>
+</resources>

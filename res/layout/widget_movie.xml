@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.NaverMovieWidget android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/styleWigetMovie_LinearLayout_1" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/styleWigetMovie_LinearLayout_1">
+        <LinearLayout style="@style/styleWigetMovie_LinearLayout_2">
+            <TextView android:id="@id/text_Movie_Title" style="@style/styleWigetMovie_TextView_1" />
+            <TextView android:id="@id/image_Movie_Playing" style="@style/styleWigetMovie_TextView_2" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/linearLayout1" style="@style/styleWigetMovie_LinearLayout_3">
+            <View style="@style/styleWigetMovie_View_1" />
+            <LinearLayout style="@style/styleWigetMovie_LinearLayout_4">
+                <FrameLayout style="@style/styleWigetMovie_FrameLayout_1">
+                    <ImageView android:id="@id/image_Movie_Poster" style="@style/styleWigetMovie_ImageView_1" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/text_Movie_Poster_Cover" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle" />
+                </FrameLayout>
+                <LinearLayout style="@style/styleWigetMovie_LinearLayout_5">
+                    <LinearLayout android:orientation="horizontal" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <RatingBar android:id="@id/ratings" style="@style/styleWigetMovie_RatingBar_1" />
+                        <TextView android:id="@id/text_Movie_Rating" style="@style/styleWigetMovie_TextView_3" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/styleWigetMovie_LinearLayout_6">
+                        <TextView android:id="@id/text_Movie_Genre" style="@style/styleWigetMovie_TextView_4" />
+                        <View android:id="@id/view_Movie_div1" style="@style/styleWigetMovie_View_2" />
+                        <TextView android:id="@id/text_Movie_RunningTime" style="@style/styleWigetMovie_TextView_5" />
+                        <View android:id="@id/view_Movie_div2" style="@style/styleWigetMovie_View_2" />
+                        <TextView android:id="@id/text_Movie_OpenDate" style="@style/styleWigetMovie_TextView_6" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/container_Director" style="@style/styleWigetMovie_LinearLayout_7">
+                        <TextView style="@style/styleWigetMovie_TextView_7" />
+                        <TextView android:id="@id/text_Movie_Director" style="@style/styleWigetMovie_TextView_8" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/container_Actors" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView style="@style/styleWigetMovie_TextView_9" />
+                        <TextView android:id="@id/text_Movie_Actors" style="@style/styleWigetMovie_TextView_10" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/container_Grade" style="@style/styleWigetMovie_LinearLayout_8">
+                        <TextView style="@style/styleWigetMovie_TextView_11" />
+                        <TextView android:id="@id/text_Movie_Grade" style="@style/styleWigetMovie_TextView_12" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View style="@style/styleWigetMovie_View_1" />
+        </LinearLayout>
+        <LinearLayout style="@style/styleWigetMovie_LinearLayout_9">
+            <LinearLayout style="@style/styleWigetMovie_LinearLayout_10">
+                <Button android:id="@id/btn_Movie_Detaillink" android:text="@string/movie_more_info" style="@style/styleWigetMovie_Button_1" />
+                <Button android:id="@id/btn_Movie_Bookinglink" android:text="@string/movie_booking" style="@style/styleWigetMovie_Button_1" />
+                <Button android:id="@id/btn_Movie_Samenameslink" android:text="@string/movie_same_name" style="@style/styleWigetMovie_Button_1" />
+            </LinearLayout>
+            <ImageView style="@style/styleWigetMovie_ImageView_2" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_below="@id/styleWigetMovie_LinearLayout_1" style="@style/widget_common_shadow_styles" />
+</com.vlingo.midas.gui.widgets.NaverMovieWidget>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/subHeader" android:layout_width="fill_parent" android:layout_height="28.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/tw_list_section_divider_holo_dark" android:layout_width="fill_parent" android:layout_height="28.0dip" />
+    <TextView android:textColor="#ffd2d2d2" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/wcis_info_row_more_info" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/wcis_subheading_row_text1" />
+</RelativeLayout>

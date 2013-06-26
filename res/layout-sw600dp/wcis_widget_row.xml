@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/help_choice" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:paddingLeft="30.0dip" android:paddingTop="24.0dip" android:paddingRight="30.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="142.0dip">
+            <ImageView android:id="@id/help_choice_image" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/help_choice_image">
+                <TextView android:textSize="30.0dip" android:textColor="#ffdcdcdc" android:id="@id/help_choice_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="34.0dip" android:text="@string/help_wcis_dial" />
+                <TextView android:textSize="26.0dip" android:textColor="#ff888888" android:id="@id/help_choice_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="60.0dip" android:text="@string/help_wcis_dial_sub1" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    <View android:id="@id/divider" android:background="#ffbbbbbb" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/header1_examples" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="24.0dip">
+        <TextView android:textSize="28.0dip" android:textStyle="bold" android:textColor="#ffdcdcdc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/examples" />
+        <TextView android:textSize="28.0dip" android:textColor="#ffc8c8c8" android:id="@id/text1_examples" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="!put examples here" />
+    </LinearLayout>
+    <View android:id="@id/divider2" android:background="#ffbbbbbb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" />
+</LinearLayout>

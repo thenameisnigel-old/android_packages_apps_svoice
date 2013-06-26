@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/voice_talk_screen_custom_popup" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/widget_schedule_body_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/schedule_row_date" android:background="@drawable/voice_talk_custom_title_bg" android:layout_width="fill_parent" style="@style/widget_schedule_body_linearlayout_1">
+        <TextView android:id="@id/schedule_day" android:layout_width="wrap_content" android:includeFontPadding="false" style="@style/widget_schedule_body_textview_1" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/widget_schedule_body_linearlayout_2">
+            <TextView android:id="@id/schedule_month" android:layout_width="fill_parent" android:includeFontPadding="false" style="@style/widget_schedule_body_textview_2" />
+            <TextView android:id="@id/schedule_week" android:layout_width="fill_parent" android:includeFontPadding="false" style="@style/widget_schedule_body_textview_3" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/schedule_row_title_line" android:layout_width="wrap_content" style="@style/widget_schedule_body_view_1" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/schedule_row_title" android:layout_width="fill_parent" style="@style/widget_schedule_body_linearlayout_3">
+        <TextView android:id="@id/schedule_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/widget_schedule_body_textview_4" />
+        <TextView android:id="@id/schedule_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/widget_schedule_body_textview_5" />
+    </LinearLayout>
+    <View android:id="@id/schedule_row_location_line" android:layout_width="wrap_content" style="@style/widget_schedule_body_view_2" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/schedule_row_location" android:layout_width="fill_parent" style="@style/widget_schedule_body_linearlayout_4">
+        <TextView android:id="@id/schedule_location_title" android:layout_width="fill_parent" android:text="@string/location" android:singleLine="true" android:includeFontPadding="false" style="@style/widget_schedule_body_textview_6" />
+        <TextView android:id="@id/schedule_location" android:layout_width="fill_parent" android:includeFontPadding="false" style="@style/widget_schedule_body_textview_7" />
+    </LinearLayout>
+    <View android:id="@id/schedule_row_participants_line" android:layout_width="wrap_content" style="@style/widget_schedule_body_view_3" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/schedule_row_participants" android:layout_width="fill_parent" style="@style/widget_schedule_body_linearlayout_5">
+        <TextView android:id="@id/schedule_participants_title" android:layout_width="fill_parent" android:text="@string/participants" android:singleLine="true" android:includeFontPadding="false" style="@style/widget_schedule_body_textview_8" />
+        <TextView android:id="@id/schedule_attendee" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/widget_schedule_body_textview_9" />
+    </LinearLayout>
+    <View android:id="@id/schedule_row_button_line" android:layout_width="wrap_content" style="@style/widget_schedule_body_view_4" />
+    <LinearLayout android:id="@id/schedule_button" android:background="@drawable/voice_talk_screen_custom_popup_03" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/widget_schedule_body_linearlayout_6">
+        <com.vlingo.midas.gui.customviews.Button android:id="@id/btn_cancel_schedule" android:background="@drawable/btn_overlay_button" android:layout_width="fill_parent" android:text="@string/cancel_btn" style="@style/widget_schedule_body_button_1" />
+        <com.vlingo.midas.gui.customviews.Button android:id="@id/schedule_confirm" android:background="@drawable/btn_overlay_button" android:layout_width="fill_parent" android:text="@string/save_btn" style="@style/widget_schedule_body_button2" />
+    </LinearLayout>
+</LinearLayout>

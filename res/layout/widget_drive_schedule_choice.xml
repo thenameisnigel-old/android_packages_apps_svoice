@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.DrivingScheduleChoiceWidget android:id="@id/drive_schedule_choice_body_container" android:background="@drawable/driving_bg_02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/drive_schedule_choice_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <RelativeLayout android:orientation="vertical" android:id="@id/drive_schedule_row_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" style="@style/widget_schedule_body_linearlayout_1">
+            <TextView android:textSize="35.0dip" android:textColor="#ff000000" android:id="@id/drive_schedule_title_1" android:paddingLeft="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="10.0dip" android:text="Schedule" android:singleLine="true" android:includeFontPadding="false" />
+        </RelativeLayout>
+        <ListView android:id="@id/listview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/widget_more" />
+    </LinearLayout>
+</com.vlingo.midas.gui.widgets.DrivingScheduleChoiceWidget>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" style="@style/item_application_chioce_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_application_choice_thumnail" android:scaleType="center" android:layout_centerVertical="true" style="@style/item_application_choice_relativeLayout" />
+    <TextView android:id="@id/label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/item_application_choice_thumnail" android:layout_centerVertical="true" style="@style/item_application_choice_label" />
+</RelativeLayout>

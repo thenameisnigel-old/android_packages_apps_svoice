@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/s_voice_mini_window_title_bg" android:padding="0.0dip" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.5" style="@style/styleLinearLayout1">
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/myTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" style="@style/styleMyTitle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:layout_gravity="right|center" android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.5">
+        <ImageView android:background="@drawable/s_voice_mini_window_title_div" android:layout_height="fill_parent" style="@style/styleS_voice_mini_window_title" />
+        <ImageButton android:id="@id/settingsButton" android:background="@drawable/title_btn_setting_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_btn_setting" android:contentDescription="@string/menu_setting" />
+        <ImageView android:background="@drawable/s_voice_mini_window_title_div" android:layout_height="fill_parent" style="@style/styleS_voice_mini_window_title" />
+        <ImageButton android:id="@id/closeButton" android:background="@drawable/title_btn_close_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_btn_close" android:contentDescription="@string/close_button" />
+    </LinearLayout>
+</LinearLayout>

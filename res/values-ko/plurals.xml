@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="checkEventNameTimeDetail">
+        <item quantity="other">, 시간 %2$s , %1$s</item>
+    </plurals>
+    <plurals name="checkEventTimeDetail">
+        <item quantity="other">시간 %1$s</item>
+    </plurals>
+    <plurals name="numberOfUnreadSMS">
+        <item quantity="other">새 메시지가 %1$d 개</item>
+        <item quantity="one">새 메시지가 %1$d 개</item>
+    </plurals>
+    <plurals name="numberOfMissedCalls">
+        <item quantity="other">부재중 전화가 %1$d 통</item>
+        <item quantity="one">부재중 전화가 %1$d 통</item>
+    </plurals>
+    <plurals name="numberOfFiredEvents">
+        <item quantity="other">지난 이벤트가 %1$d 개</item>
+        <item quantity="one">지난 이벤트가 %1$d 개</item>
+    </plurals>
+    <plurals name="plurals_hours">
+        <item quantity="other">%1$d 시간</item>
+    </plurals>
+    <plurals name="plurals_minutes">
+        <item quantity="other">%1$d 분</item>
+    </plurals>
+    <plurals name="plurals_seconds">
+        <item quantity="other">%1$d 초</item>
+    </plurals>
+</resources>

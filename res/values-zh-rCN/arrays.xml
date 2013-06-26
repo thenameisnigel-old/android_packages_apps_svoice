@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="monthMatchers">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="dayMatchers">
+        <item>星期日|星期天|礼拜日|礼拜天|周日</item>
+        <item>星期一|周一|礼拜一</item>
+        <item>星期二|周二|礼拜二</item>
+        <item>星期三|周三|礼拜三</item>
+        <item>星期四|周四|礼拜四</item>
+        <item>星期五|周五|礼拜五</item>
+        <item>星期六|周六|礼拜六</item>
+    </string-array>
+    <string-array name="weather_sunny">
+        <item>$[day]会是阳光灿烂的一天！</item>
+        <item>$[day]太阳很大，别忘了戴太阳镜。</item>
+        <item>$[day]最高气温$[temp]，会是个阳光充足的大晴天！</item>
+    </string-array>
+    <string-array name="weather_sunny_today">
+        <item>$[day]是阳光灿烂的一天！</item>
+        <item>$[day]太阳很大，别忘了戴太阳镜。</item>
+        <item>$[day]气温$[cur_temp]，是个阳光充足的大晴天！</item>
+    </string-array>
+    <string-array name="weather_partly_sunny">
+        <item>$[day]会是多云天气，偶尔晴天，气温$[temp]。</item>
+        <item>$[day]太阳时隐时现，天空有少量云朵。</item>
+        <item>$[day]阳光灿烂，但天上会有一些云朵。</item>
+        <item>$[day]的天空云量较少，气温$[temp]。</item>
+        <item>$[day]时而晴天，时而有云，气温$[temp]。</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_today">
+        <item>$[day]是多云天气，偶尔晴天，气温$[cur_temp]。</item>
+        <item>$[day]太阳时隐时现，天空有少量云朵。</item>
+        <item>$[day]阳光灿烂，但天上会有一些云朵。</item>
+        <item>$[day]的天空云量较少，气温$[cur_temp]。</item>
+        <item>$[day]时而晴天，时而有云，气温$[cur_temp]。</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy">
+        <item>$[day]多云，气温$[temp]。</item>
+        <item>$[day]全天多云，气温$[temp]。</item>
+        <item>看来$[day]将是多云天气，气温$[temp]。</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_today">
+        <item>$[day]多云，气温$[cur_temp]。</item>
+        <item>$[day]全天多云，气温$[cur_temp]。</item>
+        <item>看来$[day]是多云天气，气温$[cur_temp]。</item>
+    </string-array>
+    <string-array name="weather_foggy">
+        <item>看来$[day]会有雾，请注意出行安全。</item>
+        <item>天气多雾，气温$[temp]。</item>
+        <item>$[day]会是多雾的一天，记得开雾灯。</item>
+    </string-array>
+    <string-array name="weather_foggy_today">
+        <item>看来$[day]有雾，请注意出行安全。</item>
+        <item>天气多雾，气温$[cur_temp]。</item>
+        <item>$[day]是多雾的一天，记得开雾灯。</item>
+    </string-array>
+    <string-array name="weather_showers">
+        <item>$[day]会有阵雨，雨天路滑，请注意安全。</item>
+        <item>$[day]气温$[temp]，偶有阵雨。</item>
+        <item>$[day]会下雨，带把伞再出门。</item>
+        <item>$[day]气温$[temp]，阴有小阵雨。</item>
+        <item>$[day]有雨，穿上雨鞋吧。</item>
+    </string-array>
+    <string-array name="weather_showers_today">
+        <item>$[day]有阵雨，雨天路滑，请注意安全。</item>
+        <item>$[day]气温$[cur_temp]，偶有阵雨。</item>
+        <item>$[day]下雨，带把伞再出门。</item>
+        <item>$[day]气温$[cur_temp]，阴有小阵雨。</item>
+        <item>$[day]有雨，穿上雨鞋吧。</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_with_showers">
+        <item>$[day]会时晴时雨，天气变化较大。</item>
+        <item>$[day]会有时晴天，有时下雨。</item>
+        <item>$[day]会时晴时雨，记得将雨伞和太阳镜都带上。</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_with_showers_today">
+        <item>$[day]时晴时雨，天气变化较大。</item>
+        <item>$[day]有时晴天，有时下雨。</item>
+        <item>$[day]时晴时雨，记得将雨伞和太阳镜都带上。</item>
+    </string-array>
+    <string-array name="weather_thunderstorms">
+        <item>看来$[day]会有大雷雨，气温$[temp]。</item>
+        <item>$[day]会有大雷雨，请做好出行安排。</item>
+        <item>预计$[day]为阴转大雷雨天气。</item>
+        <item>预计$[day]气温$[temp]，会有大雷雨</item>
+        <item>$[day]将有大雷雨，请注意防雷防雨。</item>
+    </string-array>
+    <string-array name="weather_thunderstorms_today">
+        <item>$[day]有大雷雨，气温$[cur_temp]。</item>
+        <item>$[day]有大雷雨，请做好出行安排。</item>
+        <item>$[day]为阴转大雷雨天气。</item>
+        <item>$[day]气温$[cur_temp]，有大雷雨。</item>
+        <item>$[day]有大雷雨，请注意防雷防雨。</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_thunder_showers">
+        <item>$[day]将有雷阵雨。</item>
+        <item>$[day]看来会有雷阵雨，气温$[temp]。</item>
+        <item>$[day]你会听到雷声阵阵，请注意防雷防雨。</item>
+        <item>$[day]气温$[temp]，有短暂雷阵雨。</item>
+        <item>预计$[day]会有雷阵雨。</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_thunder_showers_today">
+        <item>$[day]有雷阵雨。</item>
+        <item>$[day]看来有雷阵雨，气温$[cur_temp]。</item>
+        <item>$[day]你会听到雷声阵阵，请注意防雷防雨。</item>
+        <item>$[day]气温$[cur_temp]，有短暂雷阵雨。</item>
+        <item>预计$[day]有雷阵雨。</item>
+    </string-array>
+    <string-array name="weather_rainy">
+        <item>$[day]会下雨，记得带把伞。</item>
+        <item>$[day]有雨，别忘了穿上雨鞋。</item>
+    </string-array>
+    <string-array name="weather_rainy_today">
+        <item>$[day]会下雨，记得带把伞。</item>
+        <item>$[day]有雨，别忘了穿上雨鞋。</item>
+    </string-array>
+    <string-array name="weather_flurries">
+        <item>$[day]阴间小雪，气温$[temp]。</item>
+        <item>$[day]会下小雪，气温只有$[temp]。</item>
+        <item>$[day]别忘了穿上雪靴，雪天路滑，请注意安全。</item>
+        <item>$[day]气温$[temp]，有小雪。</item>
+        <item>$[day]会下小雪，请注意出行安全。</item>
+    </string-array>
+    <string-array name="weather_flurries_today">
+        <item>$[day]阴间小雪，气温$[cur_temp]。</item>
+        <item>$[day]会下小雪，气温只有$[cur_temp]。</item>
+        <item>$[day]别忘了穿上雪靴，雪天路滑，请注意安全。</item>
+        <item>$[day]气温$[cur_temp]，有小雪。</item>
+        <item>$[day]会下小雪，请注意出行安全。</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_flurries">
+        <item>$[day]阴间小雪，气温$[temp]。</item>
+        <item>$[day]会下小雪，气温只有$[temp]。</item>
+        <item>$[day]别忘了穿上雪靴，雪天路滑，请注意安全。</item>
+        <item>$[day]气温$[temp]，有小雪。</item>
+        <item>$[day]会下小雪，请注意出行安全。</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_flurries_today">
+        <item>$[day]阴间小雪，气温$[cur_temp]。</item>
+        <item>$[day]会下小雪，气温只有$[cur_temp]。</item>
+        <item>$[day]别忘了穿上雪靴，雪天路滑，请注意安全。</item>
+        <item>$[day]气温$[cur_temp]，有小雪。</item>
+        <item>$[day]会下小雪，请注意出行安全。</item>
+    </string-array>
+    <string-array name="weather_snow">
+        <item>$[day]会下雪，气温$[temp]。</item>
+        <item>$[day]有雪，请注意防滑保暖。</item>
+        <item>$[day]会下雪，别忘了戴手套。</item>
+        <item>$[day]别忘了穿上雪靴，雪天路滑，请注意安全。</item>
+    </string-array>
+    <string-array name="weather_snow_today">
+        <item>$[day]会下雪，气温$[cur_temp]。</item>
+        <item>$[day]有雪，请注意防滑保暖。</item>
+        <item>$[day]会下雪，别忘了戴手套。</item>
+        <item>$[day]别忘了穿上雪靴，雪天路滑，请注意安全。</item>
+    </string-array>
+    <string-array name="weather_ice">
+        <item>$[day]有冻雨，气温$[temp]。</item>
+        <item>$[day]会下冻雨，气温$[temp]。</item>
+        <item>$[day]会非常冷，要做好保暖工作！</item>
+        <item>$[day]气温$[temp]，请注意严寒！</item>
+        <item>$[day]记得戴手套，因为天气很冷，气温只有$[temp]。</item>
+    </string-array>
+    <string-array name="weather_ice_today">
+        <item>$[day]有冻雨，气温$[cur_temp]。</item>
+        <item>$[day]会下冻雨，气温$[cur_temp]。</item>
+        <item>$[day]非常冷，要做好保暖工作！</item>
+        <item>$[day]气温$[cur_temp]，请注意严寒！</item>
+        <item>$[day]记得戴手套，因为天气很冷，气温只有$[temp]。</item>
+    </string-array>
+    <string-array name="weather_mixed_rain_and_snow">
+        <item>$[day]会是雨夹雪天气，要注意保暖。</item>
+        <item>$[day]雨雪交加，气温$[temp]。</item>
+        <item>$[day]会下雨夹雪，天气湿冷。</item>
+        <item>$[day]会有雨夹雪，气温$[temp]。</item>
+    </string-array>
+    <string-array name="weather_mixed_rain_and_snow_today">
+        <item>$[day]是雨夹雪天气，要注意保暖。</item>
+        <item>$[day]雨雪交加，气温$[cur_temp]。</item>
+        <item>$[day]下雨夹雪，天气湿冷。</item>
+        <item>$[day]有雨夹雪，气温$[cur_temp]。</item>
+    </string-array>
+    <string-array name="weather_hot">
+        <item>$[day]会是个大热天，要多补充水分！</item>
+        <item>$[day]气温$[temp]，天气炎热！</item>
+        <item>$[day]的气温极高，要注意防暑降温！</item>
+        <item>$[day]天气炎热，温度达$[temp]。</item>
+    </string-array>
+    <string-array name="weather_hot_today">
+        <item>$[day]是个大热天，要多补充水分！</item>
+        <item>$[day]气温$[cur_temp]，天气炎热！</item>
+        <item>$[day]的气温极高，要注意防暑降温！</item>
+        <item>$[day]天气炎热，温度达$[cur_temp]。</item>
+    </string-array>
+    <string-array name="weather_cold">
+        <item>$[day]会比较寒冷，注意保暖！</item>
+        <item>$[day]气温$[temp]，会比较寒冷，记得戴手套。</item>
+        <item>$[day]只有$[temp]，注意保暖！</item>
+        <item>$[day]气温$[temp]，记得穿大衣。</item>
+        <item>$[day]温度$[temp]，看来会很冷。</item>
+    </string-array>
+    <string-array name="weather_cold_today">
+        <item>$[day]比较寒冷，注意保暖！</item>
+        <item>$[day]气温$[cur_temp]，比较寒冷，记得戴手套。</item>
+        <item>$[day]只有$[cur_temp]，注意保暖！</item>
+        <item>$[day]气温$[cur_temp]，记得穿大衣。</item>
+        <item>$[day]温度$[cur_temp]，看来很冷。</item>
+    </string-array>
+    <string-array name="weather_windy">
+        <item>$[day]会有风，记得戴好帽子！</item>
+        <item>看来$[day]会有风，外出要注意防风。</item>
+        <item>$[day]会刮风，气温$[temp]。</item>
+        <item>$[day]的天气会适合放风筝，因为风很大。</item>
+        <item>$[day]会有风，请注意防风。</item>
+    </string-array>
+    <string-array name="weather_windy_today">
+        <item>$[day]有风，记得戴好帽子！</item>
+        <item>看来$[day]有风，外出要注意防风。</item>
+        <item>$[day]会刮风，气温$[cur_temp]。</item>
+        <item>$[day]的天气适合放风筝，因为风很大。</item>
+        <item>$[day]有风，请注意防风。</item>
+    </string-array>
+    <string-array name="weather_clear">
+        <item>$[day]会是晴朗的一天。</item>
+        <item>$[day]天气晴好，气温$[temp]。</item>
+        <item>$[day]会是晴朗无云的一天。</item>
+        <item>$[day]的天空会是一片蔚蓝，气温$[temp]。</item>
+        <item>看来$[day]会是一个晴天，气温$[temp]。</item>
+    </string-array>
+    <string-array name="weather_clear_today">
+        <item>$[day]是晴朗的一天。</item>
+        <item>$[day]天气晴好，气温$[cur_temp]。</item>
+        <item>$[day]是晴朗无云的一天。</item>
+        <item>$[day]的天空一片蔚蓝，气温$[cur_temp]。</item>
+        <item>看来$[day]是一个晴天，气温$[cur_temp]。</item>
+    </string-array>
+    <string-array name="weather_moslty_clear">
+        <item>$[day]会大致晴朗，气温$[temp]。</item>
+        <item>$[day]大致晴朗，最高$[temp]。</item>
+        <item>$[day]天空少云，阳光明媚。</item>
+        <item>$[day]天空云量较少，阳光充足。</item>
+        <item>$[day]气温$[temp]，大致晴朗。</item>
+    </string-array>
+    <string-array name="weather_moslty_clear_today">
+        <item>$[day]大致晴朗，气温$[cur_temp]。</item>
+        <item>$[day]大致晴朗，$[cur_temp]。</item>
+        <item>$[day]天空少云，阳光明媚。</item>
+        <item>$[day]天空云量较少，阳光充足。</item>
+        <item>$[day]气温$[cur_temp]，大致晴朗。</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_night">
+        <item>$[day]多云，气温$[temp]。</item>
+        <item>$[day]全天多云，气温$[temp]。</item>
+        <item>看来$[day]将是多云天气，气温$[temp]。</item>
+    </string-array>
+    <string-array name="weather_phenomenon">
+        <item>晴</item>
+        <item>多云</item>
+        <item>阴</item>
+        <item>阵雨</item>
+        <item>雷阵雨</item>
+        <item>雷阵雨伴有冰雹</item>
+        <item>雨夹雪</item>
+        <item>小雨</item>
+        <item>中雨</item>
+        <item>大雨</item>
+        <item>暴雨</item>
+        <item>大暴雨</item>
+        <item>特大暴雨</item>
+        <item>阵雪</item>
+        <item>小雪</item>
+        <item>中雪</item>
+        <item>大雪</item>
+        <item>暴雪</item>
+        <item>雾</item>
+        <item>冻雨</item>
+        <item>沙尘暴</item>
+        <item>小到中雨</item>
+        <item>中到大雨</item>
+        <item>大到暴雨</item>
+        <item>暴雨到大暴雨</item>
+        <item>大暴雨到特大暴雨</item>
+        <item>小到中雪</item>
+        <item>中到大雪</item>
+        <item>大到暴雪</item>
+        <item>浮尘</item>
+        <item>扬沙</item>
+        <item>强沙尘暴</item>
+    </string-array>
+    <string-array name="weather_wind_direction">
+        <item>无持续风向</item>
+        <item>东北风</item>
+        <item>东风</item>
+        <item>东南风</item>
+        <item>南风</item>
+        <item>西南风</item>
+        <item>西风</item>
+        <item>西北风</item>
+        <item>北风</item>
+        <item>旋转风</item>
+    </string-array>
+    <string-array name="weather_wind_force">
+        <item>微风</item>
+        <item>3-4级</item>
+        <item>4-5级</item>
+        <item>5-6级</item>
+        <item>6-7级</item>
+        <item>7-8级</item>
+        <item>8-9级</item>
+        <item>9-10级</item>
+        <item>10-11级</item>
+        <item>11-12级</item>
+    </string-array>
+</resources>

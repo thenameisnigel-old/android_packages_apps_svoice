@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TwoLineListItem android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:mode="twoLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:id="@*android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?android:listPreferredItemPaddingLeft" android:layout_marginTop="8.0dip" android:layout_marginRight="40.0dip" android:singleLine="true" android:marqueeRepeatLimit="1" style="@style/wakeup_twoline_list_item_text1" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="marquee" android:id="@*android:id/text2" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:layout_marginBottom="8.0dip" android:singleLine="true" android:layout_below="@*android:id/text1" android:layout_alignLeft="@*android:id/text1" android:marqueeRepeatLimit="1" style="@style/wakeup_twoline_list_item_text2" />
+    <ImageView android:id="@id/image" android:background="@drawable/ic_btn_round_more" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="11.0dip" android:layout_marginRight="12.0dip" android:layout_alignRight="@id/text2" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</TwoLineListItem>

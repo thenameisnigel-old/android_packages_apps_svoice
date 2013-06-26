@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.AlarmWidget android:gravity="center" android:id="@id/widget_alarm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/voice_talk_screen_custom_popup" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/stylesWidgetAlarmMainControlLL">
+        <LinearLayout android:orientation="vertical" android:id="@id/alarm_container" android:background="@drawable/voice_talk_alarm_bg" android:padding="0.0dip" android:clickable="true" style="@style/stylesWidgetAlarmAlarm_container">
+            <LinearLayout android:gravity="top|left|center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:gravity="top|left|center" android:id="@id/alarm_ampm" style="@style/stylesWidgetAlarmAlarmampm" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/stylesWidgetAlarmHourMinuteLL">
+                <ImageView android:id="@id/alarm_hour_prefix" style="@style/stylesWidgetAlarmAlarmHourPrefix" />
+                <ImageView android:id="@id/alarm_hour_postfix" style="@style/stylesWidgetAlarmAlarmHourPostfix" />
+                <View android:layout_height="wrap_content" style="@style/stylesWidgetAlarmView" />
+                <ImageView android:id="@id/alarm_minute_prefix" style="@style/stylesWidgetAlarmAlarmMinutePrefix" />
+                <ImageView android:id="@id/alarm_minute_postfix" style="@style/stylesWidgetAlarmAlarmMinutePostfix" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/alaram_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/stylesWidgetAlarmAlaramButtons">
+            <com.vlingo.midas.gui.customviews.Button android:textColor="@color/widget_button_color" android:id="@id/btn_cancel_alarm" android:background="@drawable/btn_overlay_button" android:layout_width="fill_parent" android:text="@string/cancel_btn" android:layout_weight="1.0" style="@style/stylesWidgetAlarmBtnCancelAlarm" />
+            <com.vlingo.midas.gui.customviews.Button android:textColor="@color/widget_button_color" android:id="@id/btn_save_alarm" android:background="@drawable/btn_overlay_button" android:layout_width="fill_parent" android:text="@string/save_btn" android:layout_weight="1.0" style="@style/stylesWidgetAlarmBtnSaveAlarm" />
+        </LinearLayout>
+    </LinearLayout>
+</com.vlingo.midas.gui.widgets.AlarmWidget>

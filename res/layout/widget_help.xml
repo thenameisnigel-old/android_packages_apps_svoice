@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.HelpWidget android:id="@id/widget_help_choice" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/stylesWidgetHelpStartControlLL"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/voice_talk_screen_custom_popup" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/stylesWidgetHelpMainControlLL">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/stylesWidgetHelpRelativeLayout01">
+                <ImageView android:id="@id/wycs_detail_image" android:src="@drawable/non_touch_task_icon_call" style="@style/stylesWidgetHelpWycs_detail_image" />
+                <TextView android:textColor="#ffdcdcdc" android:id="@id/wycs_title" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="!title for wcis widget" android:layout_toRightOf="@id/wycs_detail_image" android:layout_centerVertical="true" style="@style/stylesWidgetHelpWycs_title" />
+            </RelativeLayout>
+            <View android:id="@id/wcis_divider" android:background="?android:listDivider" android:layout_width="fill_parent" style="@style/stylesWidgetHelpWcis_divider" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" style="@style/stylesWidgetHelpLinear">
+                <TextView android:textStyle="bold" android:textColor="#fff0f0f0" android:id="@id/header_examples" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/examples" style="@style/stylesWidgetHelpHeader_examples" />
+                <TextView android:id="@id/text_examples" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="!put examples here" style="@style/stylesWidgetHelpText_examples" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.vlingo.midas.gui.widgets.HelpWidget>

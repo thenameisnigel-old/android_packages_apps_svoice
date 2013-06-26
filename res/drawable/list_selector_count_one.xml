@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:exitFadeDuration="@*android:integer/config_mediumAnimTime"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/voice_talk_screen_custom_popup_press_04" />
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/voice_talk_screen_custom_popup_press_04" />
+    <item android:state_focused="true" android:drawable="@drawable/voice_talk_screen_custom_popup_press_04" />
+</selector>

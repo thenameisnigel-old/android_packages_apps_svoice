@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="dial" format="reference" />
+    <attr name="hand_hour" format="reference" />
+    <attr name="hand_minute" format="reference" />
+</resources>

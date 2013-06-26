@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/control_full_container_land" android:focusableInTouchMode="true" android:nextFocusDown="@id/btn_idle" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mainControlLL_land" android:focusableInTouchMode="true" android:nextFocusDown="@id/btn_idle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true" style="@style/mainControlLL_horz">
+        <LinearLayout android:id="@id/write_btn_layout_land" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/btn_write_land" android:background="@drawable/btn_overlay_menu" android:contentDescription="@string/help" style="@style/control_view_image_button" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/mic_btn_layout_land" style="@style/mic_btn_layout_horz">
+            <com.sec.android.svoice.equalizer.MicEqualizerView android:id="@id/btn_listening_land" android:background="@drawable/h_normal_gray_dots" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:contentDescription=" " />
+            <ImageButton android:id="@id/btn_thinking_land" android:background="@drawable/btn_overlay_thinking_land" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/h_ic_mic" android:scaleType="fitCenter" android:contentDescription="@string/talkback_mic_button_recognizing" />
+            <ImageButton android:id="@id/btn_idle_land" android:background="@drawable/btn_overlay_ready_land" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:contentDescription="@string/talkback_mic_button_idle" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/prompt_btn_layout_land" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/prompt_btn_layout">
+            <ImageButton android:id="@id/btn_prompton_land" android:background="@drawable/btn_overlay_prompt_on" android:visibility="visible" android:contentDescription="@string/talkback_voice_prompt_on" style="@style/control_view_image_button" />
+            <ImageButton android:id="@id/btn_promptoff_land" android:background="@drawable/btn_overlay_prompt_off" android:visibility="gone" android:contentDescription="@string/talkback_voice_prompt_off" style="@style/control_view_image_button" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

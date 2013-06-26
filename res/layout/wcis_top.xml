@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/parent_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/done_btn_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/previous" android:text="@string/previous" style="@style/wcis_top_previous" />
+        <Button android:id="@id/skip" android:visibility="invisible" android:text="@string/skip" style="@style/wcis_top_skip" />
+        <Button android:id="@id/finish" android:layout_marginRight="8.0dip" android:text="@string/finish" style="@style/wcis_top_finish" />
+    </LinearLayout>
+    <ListView android:id="@id/wycs_top_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="#ff464646" android:dividerHeight="1.0px" android:layout_above="@id/done_btn_container" android:layout_alignParentTop="true" />
+</RelativeLayout>

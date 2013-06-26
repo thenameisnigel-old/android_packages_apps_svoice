@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/local_search_info" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ItemLocalChoiceContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/styleWidgetNaverLocalSearch_LinearLayout_1"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" style="@style/styleWidgetNaverLocalSearch_LinearLayout_2">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" style="@style/styleWidgetNaverLocalSearch_LinearLayout_3">
+                    <TextView android:ellipsize="end" android:id="@id/ls_item_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="name of item" android:singleLine="true" android:includeFontPadding="false" style="@style/styleWidgetNaverLocalSearch_TextView_1" />
+                    <TextView android:textStyle="normal" android:ellipsize="end" android:gravity="center" android:id="@id/ls_item_distance" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="0.0km" android:singleLine="true" android:includeFontPadding="false" style="@style/styleWidgetNaverLocalSearch_TextView_2" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/ls_item_ratingbar" android:layout_width="wrap_content" style="@style/styleWidgetNaverLocalSearch_LinearLayout_4">
+                    <RatingBar android:gravity="center" android:layout_gravity="top" android:id="@id/ls_item_rate_img" style="@style/styleWidgetNaverLocalSearch_RatingBar_1" />
+                    <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/ls_item_review_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="(0)" android:includeFontPadding="false" style="@style/styleWidgetNaverLocalSearch_TextView_3" />
+                    <View android:layout_gravity="center_vertical" style="@style/styleWidgetNaverLocalSearch_View_1" />
+                    <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/ls_item_category" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="" android:singleLine="true" android:includeFontPadding="false" style="@style/styleWidgetNaverLocalSearch_TextView_4" />
+                </LinearLayout>
+                <View android:layout_width="fill_parent" style="@style/item_naver_local_search_dummyView" />
+                <TextView android:ellipsize="end" android:id="@id/ls_item_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="address of item" android:singleLine="true" android:includeFontPadding="false" style="@style/styleWidgetNaverLocalSearch_TextView_5" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/styleWidgetNaverLocalSearch_LinearLayout_5">
+                <ImageButton android:id="@id/ls_item_call" android:background="@drawable/mainmenu_icon_phone" style="@style/styleWidgetNaverLocalSearch_ImageButton_1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/movie_divider" style="@style/styleWidgetNaverLocalSearch_View_2" />
+</LinearLayout>

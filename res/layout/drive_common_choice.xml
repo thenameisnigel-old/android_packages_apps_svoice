@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/top_container" android:background="@drawable/driving_message_title_bg" android:layout_width="fill_parent" android:layout_height="96.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="13.0dip">
+            <TextView android:textSize="24.0dip" android:textStyle="bold|italic" android:textColor="#ffffffff" android:id="@id/drive_common_choice_textview_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Message to :" android:includeFontPadding="false" />
+            <TextView android:textSize="35.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/drive_common_choice_textview_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="James" android:includeFontPadding="false" />
+        </LinearLayout>
+        <ImageView android:id="@id/drive_common_choice_imageview_1" android:layout_width="43.0dip" android:layout_height="43.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="9.0dip" android:src="@drawable/driving_icon_message" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/drive_listview" android:background="@drawable/greeting_main_message_bg_03" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_container" />
+</RelativeLayout>

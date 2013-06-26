@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/item_contact_choice_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/item_choice_container" android:layout_width="fill_parent" style="@style/item_contact_choice_linearlayout_1">
+        <FrameLayout style="@style/item_contact_choice_framelayout_1">
+            <ImageView android:id="@id/image_contact" android:scaleType="fitXY" style="@style/item_contact_choice_imageview_1" />
+            <ImageView android:id="@id/star_img" android:src="@drawable/voicetalk_icon_star_on" style="@style/item_contact_choice_imageview_2" />
+        </FrameLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/item_contact_choice_relativelayout_1">
+            <com.vlingo.midas.gui.customviews.TextView android:ellipsize="end" android:gravity="bottom" android:id="@id/text_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="@style/item_contact_choice_textview_1" />
+            <com.vlingo.midas.gui.customviews.TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/text_number" android:layout_width="fill_parent" android:maxLines="1" android:singleLine="true" android:layout_below="@id/text_title" style="@style/item_contact_choice_textview_2" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" android:layout_width="fill_parent" style="@style/item_contact_choice_view_1" />
+</LinearLayout>

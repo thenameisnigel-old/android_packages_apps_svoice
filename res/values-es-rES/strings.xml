@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_tos_url">http://www.vlingo.com/wap/samsungterms/es</string>
+    <string name="tos_dialog_view_terms_new">Al presionar el botón “Estoy de acuerdo”, aceptará las condiciones y &lt;a href=\"http://www.vlingo.com/wap/samsungterms/es\">términos del Servicio&lt;/a> S Voice y aceptará que S Voice pueda almacenar y usar información, incluyendo (sin limitación) ubicaciónes, búsquedas, y otra información, tal y como se describe en la &lt;a href=\"http://www.vlingo.com/wap/samsungprivacy/es\">Política de Privacidad&lt;/a> de S Voice</string>
+    <string name="tos_dialog_view_terms_old">Al presionar el botón “Estoy de acuerdo”, aceptará las condiciones y &lt;a href=\"http://www.vlingo.com/wap/samsungterms/es\">Términos del servicio&lt;/a> S Voice y aceptará que S Voice pueda almacenar y usar información, incluyendo (sin limitación) localizaciones, búsquedas, y otra información, tal y como se describe en la &lt;a href=\"http://www.vlingo.com/wap/samsungprivacy/es\">Política de privacidad&lt;/a> de S Voice</string>
+    <string name="voice_input_control_title">Control de voz</string>
+    <string name="voice_input_control_summry">Utilizar los comandos de voz para controlar el dispositivo</string>
+    <string name="voice_input_control_incomming_calls">Llamadas entrantes</string>
+    <string name="voice_input_control_incomming_calls_summary">Puede responder o rechazar llamadas con los comandos de voz Responder y Rechazar. El altavoz se activará cuando responda una llamada usando un comando de voz</string>
+    <string name="voice_input_control_alarm">Alarma</string>
+    <string name="voice_input_control_alarm_summary">Puede detener o repetir alarmas mediante los comandos de voz Parar y Repetir</string>
+    <string name="voice_input_control_camera">Cámara</string>
+    <string name="voice_input_control_camera_summary">Puede hacer fotos con los comandos de voz Sonrisa, Patata, Capturar y Disparar</string>
+    <string name="voice_input_control_music">Música</string>
+    <string name="voice_input_control_music_summary">Puede controlar el Reproductor de música con los comandos de voz Siguiente, Anterior, Pausa, Reproducir, Subir Volumen y Bajar Volumen</string>
+    <string name="voice_input_control_radio">Radio</string>
+    <string name="voice_input_control_radio_summary">Puede controlar la radio FM con los comandos de voz Siguiente, Anterior, Detener, Reproducir, Subir Volumen y Bajar Volumen</string>
+    <string name="voice_input_control_warrning">No mostrar de nuevo</string>
+    <string name="voice_input_control_message">Si ha definido el tipo de alerta para llamadas y alarmas a vibración, el comando de voz no estará disponible</string>
+    <string name="voice_input_control_message_no_call">Si ha definido el tipo de alerta para alarmas a vibración, el comando de voz no estará disponible</string>
+    <string name="voice_input_control_ok">Aceptar</string>
+    <string name="voice_input_control_cancel">Cancelar</string>
+    <string name="custom_wakeup_disabled">Hola Galaxy</string>
+    <string name="voice_feedback">Respuesta de voz</string>
+    <string name="handwriting">Escritura manual</string>
+    <string name="cradle_year">año</string>
+    <string name="cradle_month">mes</string>
+    <string name="naver_connection_failure">connection failure to Naver server</string>
+    <string name="talkback_mic_button_idle">Botón de micrófono. Pulse para decir un comando</string>
+    <string name="talkback_change_now">Pulse para cambiar la palabra o frase que desee decir para despertar S Voice</string>
+    <string name="timer_widget_time_info">Temporizador definido para %1$s</string>
+    <string name="settings_detailed_tts_feedback_title">Información detallada TTS</string>
+    <string name="settings_detailed_tts_feedback_summary">Escuche respuestas más detalladas de S Voice</string>
+    <string name="voice_input_control_chatonv">ChatON</string>
+    <string name="voice_input_control_chatonv_summary">Puede responder o rechazar llamadas con los comandos de voz Responder y Rechazar. El altavoz se activará cuando responda una llamada usando un comando de voz</string>
+    <string name="driving_mode_settings_title">Ajustes del modo de conducción</string>
+    <string name="driving_mode_title">Modo conducción</string>
+    <string name="driving_mode_description">Puede utilizar S Voice con el modo de conducción. Los comandos disponibles se muestran debajo de ¿Qué puedo decir? Las notificaciones también pueden leerse en voz alta automáticamente</string>
+    <string name="incoming_call">Llamada entrante</string>
+    <string name="incoming_call_notification_summary">Leer la información de los llamantes al recibir llamadas entrantes</string>
+    <string name="message">Mensaje</string>
+    <string name="message_notification_summary">Leer la información de los remitentes al recibir mensajes nuevos</string>
+    <string name="new_email">Correos electrónicos nuevos</string>
+    <string name="new_email_notification_summary">Leer el número de correos electrónicos nuevos recibidos</string>
+    <string name="new_voicemail">Nuevo correo de voz</string>
+    <string name="new_voicemail_notification_summary">Notificar cuando entre un nuevo mensaje de voz</string>
+    <string name="alarm">Alarma</string>
+    <string name="alarm_notification_summary">Leer información de alarmas al sonar las alarmas</string>
+    <string name="schedule">Planificación</string>
+    <string name="schedule_notification_summary">Leer información de alarmas programadas al sonar las alarmas</string>
+    <string name="unlock_screen">Desbloquear pantalla</string>
+    <string name="unlock_screen_contents_summary">Leer información de mensajes no leídos, llamadas perdidas y hora en pantalla de desbloqueo al encender la pantalla</string>
+    <string name="unlock_screen_contents_summary_wifi">Lea en alto la hora en la pantalla de desbloqueo cuando se encienda la pantalla</string>
+    <string name="my_place_for_driving_mode">Mi lugar para modo de conducción</string>
+    <string name="myplace_title">Definir mi lugar</string>
+    <string name="my_place_summary_for_driving_mode">En mi lugar, puede configurar su coche y otros lugares para que su dispositivo los reconozca, de modo que abra S Voice con modo Conducción activado automáticamente</string>
+    <string name="driving_mode_notification_bar_summary">Puede utilizar S Voice con el modo de conducción</string>
+</resources>

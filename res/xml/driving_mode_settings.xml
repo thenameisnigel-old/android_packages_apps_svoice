@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/driving_mode_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <Preference android:enabled="true" android:selectable="false" android:key="drive_mode_description" android:summary="@string/driving_mode_description" />
+    <PreferenceCategory android:title="@string/my_place_for_driving_mode" android:key="my_place_category" />
+    <com.vlingo.midas.settings.TwoLinePreference android:title="@string/my_place_for_driving_mode" android:key="my_place" android:summary="@string/my_place_summary_for_driving_mode" />
+    <PreferenceCategory android:title="@string/title_notification" android:key="notification_category" />
+    <com.vlingo.midas.settings.TwoLineCheckBoxPreference android:persistent="true" android:title="@string/incoming_call" android:key="incoming_call_notification" android:summary="@string/incoming_call_notification_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/voice_input_control_chatonv" android:key="chaton_call_notification" android:summary="@string/incoming_call_notification_summary" />
+    <com.vlingo.midas.settings.TwoLineCheckBoxPreference android:persistent="true" android:title="@string/message" android:key="message_notification" android:summary="@string/message_notification_summary" android:defaultValue="false" />
+    <com.vlingo.midas.settings.TwoLineCheckBoxPreference android:persistent="true" android:title="@string/new_voicemail" android:key="voice_mail_notification" android:summary="@string/new_voicemail_notification_summary" android:defaultValue="false" />
+    <com.vlingo.midas.settings.TwoLineCheckBoxPreference android:persistent="true" android:title="@string/alarm" android:key="alarm_notification" android:summary="@string/alarm_notification_summary" android:defaultValue="false" />
+    <com.vlingo.midas.settings.TwoLineCheckBoxPreference android:persistent="true" android:title="@string/schedule" android:key="schedule_notification" android:summary="@string/schedule_notification_summary" android:defaultValue="false" />
+</PreferenceScreen>

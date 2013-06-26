@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="checkEventNameTimeDetail">
+        <item quantity="other">from %1$s at %2$s</item>
+    </plurals>
+    <plurals name="checkEventTimeDetail">
+        <item quantity="other">at %1$s</item>
+    </plurals>
+    <plurals name="numberOfUnreadSMS">
+        <item quantity="other">%1$d 条新短信</item>
+        <item quantity="one">%1$d 条新短信</item>
+    </plurals>
+    <plurals name="numberOfMissedCalls">
+        <item quantity="other">%1$d 个未接电话</item>
+        <item quantity="one">%1$d 个未接电话</item>
+    </plurals>
+    <plurals name="numberOfFiredEvents">
+        <item quantity="other">%1$d 个错过的事件</item>
+        <item quantity="one">%1$d 个错过的事件</item>
+    </plurals>
+    <plurals name="plurals_hours">
+        <item quantity="other">%1$d 小时</item>
+    </plurals>
+    <plurals name="plurals_minutes">
+        <item quantity="other">%1$d 分钟</item>
+    </plurals>
+    <plurals name="plurals_seconds">
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+    <plurals name="samsung_schedule_multiple_events">
+        <item quantity="other">%1$d 个事件。</item>
+        <item quantity="one">%1$d 个事件。</item>
+    </plurals>
+</resources>

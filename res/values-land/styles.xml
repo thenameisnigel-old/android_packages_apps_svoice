@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="dialog_custom_wake_up_initial_body_rl">
+        <item name="android:layout_width">510.0dip</item>
+    </style>
+    <style name="dialog_custom_wake_up_initial_body_rl_custom_wake_up_info_body">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_marginLeft">111.0dip</item>
+        <item name="android:layout_marginRight">55.0dip</item>
+    </style>
+    <style name="dialog_help_screen_parent_container">
+        <item name="android:layout_marginLeft">76.0dip</item>
+        <item name="android:layout_marginRight">100.0dip</item>
+    </style>
+</resources>

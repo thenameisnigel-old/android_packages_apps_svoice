@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/top_banner" android:background="@drawable/tw_ab_transparent_dark_holo" android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <ImageView android:gravity="left" android:id="@id/help_screen_top_icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/voicetalk_title_icon_mic" />
+        <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:id="@id/help_screen_top_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="10.0dip" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textColor="#ff9cafb8" android:id="@id/description_wake_up_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="12.0dip" android:text="@string/iux_wake_up_1" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iux_wake_up_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voice_talk_setting_help_3" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iux_wake_up_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voice_talk_setting_help_4" />
+            <TextView android:textSize="17.0sp" android:textColor="#ff9cafb8" android:id="@id/description_wake_up_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="12.0dip" android:text="@string/iux_wake_up_2" />
+            <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/help_change_now_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip">
+                <Button android:textSize="20.0sp" android:textStyle="normal" android:textColor="#ffd7d7d7" android:id="@id/help_change_now" android:background="@drawable/btn_iux_default_enabled" android:layout_width="296.0dip" android:layout_height="40.0dip" />
+                <TextView android:textSize="20.0dip" android:textColor="@drawable/iux_btn_color" android:id="@id/help_change_now_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/change_now" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="17.0sp" android:textColor="#ff9cafb8" android:id="@id/description_wake_up_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/iux_wake_up_3" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iux_wake_up_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voice_talk_setting_help_5" android:scaleType="fitCenter" />
+            <TextView android:textSize="17.0sp" android:textColor="#ff9cafb8" android:id="@id/description_wake_up_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/iux_wake_up_4" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

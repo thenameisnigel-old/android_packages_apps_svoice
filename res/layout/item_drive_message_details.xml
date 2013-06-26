@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="105.0dip" style="@style/item_drive_message_details_style_linearlayout_1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/item_drive_message_details_style_linearlayout_2">
+        <RelativeLayout android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="55.0dip" style="@style/item_drive_message_details_style_relativelayout">
+            <TextView android:ellipsize="end" android:id="@id/from" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Mary Jean" android:singleLine="true" android:includeFontPadding="false" android:layout_toLeftOf="@id/count" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/item_drive_message_details_style_textview_1" />
+            <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/count" android:background="@drawable/voicetalk_message_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10" android:singleLine="true" android:layout_alignParentRight="true" style="@style/item_drive_message_details_style_textview_2" />
+        </RelativeLayout>
+        <TextView android:ellipsize="end" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Hello my name is Mary nice to meet you" android:singleLine="true" android:includeFontPadding="false" style="@style/item_drive_message_details_style_textview_3" />
+        <View android:layout_gravity="bottom" android:id="@id/message_item_choice_line" android:background="#ffafb1b3" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="3.0dip" />
+    </LinearLayout>
+</LinearLayout>

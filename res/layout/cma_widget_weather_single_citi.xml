@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.CMAWeatherOneDayWidget android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/widget_citi_LinearLayout_china" android:background="@drawable/voice_talk_screen_custom_popup" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="290.0dip" android:layout_marginLeft="@dimen/widget_margin_left" android:layout_marginRight="@dimen/widget_margin_right">
+        <RelativeLayout android:id="@id/citi_details" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_margin="1.0dip" android:layout_alignParentTop="true">
+            <FrameLayout android:orientation="horizontal" android:id="@id/widget_citi_china" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:layout_gravity="left" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                    <ImageView android:id="@id/imageView_singledayweather_china" android:layout_width="120.0dip" android:layout_height="100.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="58.0dip" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/temprature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                        <TextView android:textSize="44.0sp" android:textColor="#ffffffff" android:id="@id/present_temp_china" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                        <TextView android:textSize="36.0sp" android:textColor="#ffffffff" android:id="@id/unit_meter_F_china" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°F" />
+                        <TextView android:textSize="36.0sp" android:textColor="#ffffffff" android:id="@id/unit_meter_C_china" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°C" />
+                        <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:id="@id/max_temp_china" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                        <TextView android:textSize="23.0dip" android:textColor="#66ffffff" android:id="@id/divider_small_china" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="/" />
+                        <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:id="@id/min_temp_china" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/climate_name_china" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxLines="1" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="right" android:layout_gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip">
+                    <TextView android:textSize="26.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="right" android:id="@id/citi_name_china" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+                    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="right" android:id="@id/citi_name2_china" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+                    <TextView android:textSize="21.0sp" android:textColor="#fffff000" android:id="@id/date_view_china" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </FrameLayout>
+        </RelativeLayout>
+        <RelativeLayout android:background="#ffe6e6e6" android:layout_width="334.0dip" android:layout_height="35.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_below="@id/citi_details">
+            <LinearLayout android:id="@id/accuweather_web" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="2.0dip">
+                <ImageView android:gravity="left" android:id="@id/child_accuweather" android:layout_width="80.0dip" android:layout_height="38.0dip" android:src="@drawable/weather_cma_icon" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/last_update_china" android:layout_width="236.0dip" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginTop="2.0dip" android:layout_toRightOf="@id/accuweather_web">
+                <TextView android:textSize="11.0sp" android:textColor="#ff9fa2a5" android:id="@id/update_text" android:layout_width="fill_parent" android:layout_height="15.0dip" android:text="Last updated:" />
+                <TextView android:textSize="11.0sp" android:textColor="#ff9fa2a5" android:id="@id/last_update_text" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginBottom="1.0dip" android:text="Wed Jan 30 16:03:43 GMT+05:30 2013" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_below="@id/widget_citi_LinearLayout_china" style="@style/widget_common_shadow_styles" />
+</com.vlingo.midas.gui.widgets.CMAWeatherOneDayWidget>

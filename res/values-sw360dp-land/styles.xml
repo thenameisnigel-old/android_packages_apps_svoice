@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="compose_wcis_RelativeLayout01">
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginTop">18.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+        <item name="android:layout_marginBottom">17.0dip</item>
+    </style>
+    <style name="compose_wcis_detail_image">
+        <item name="android:layout_width">34.0dip</item>
+        <item name="android:layout_height">34.0dip</item>
+    </style>
+    <style name="compose_wcis_title_text">
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginTop">7.0dip</item>
+    </style>
+    <style name="compose_wcis_text_container">
+        <item name="android:layout_marginLeft">15.0dip</item>
+        <item name="android:layout_marginRight">15.0dip</item>
+    </style>
+    <style name="compose_wcis_header_did_you_know">
+        <item name="android:layout_marginTop">24.0dip</item>
+    </style>
+    <style name="compose_wcis_button">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_width">296.0dip</item>
+        <item name="android:layout_height">44.0dip</item>
+        <item name="android:layout_marginTop">30.0dip</item>
+    </style>
+    <style name="custom_command_recording_custom_wakeup_command">
+        <item name="android:background">@drawable/backrepeat</item>
+    </style>
+    <style name="custom_command_recording_rl_ll">
+        <item name="android:layout_marginLeft">86.0dip</item>
+        <item name="android:layout_marginRight">194.0dip</item>
+        <item name="android:layout_marginBottom">108.0dip</item>
+    </style>
+    <style name="custom_command_recording_rl_recordScrollView">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="custom_command_recording_rl_ll_ll" />
+    <style name="custom_command_recording_rl_ll_titleCustomCommand">
+        <item name="android:textSize">21.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">34.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">34.0dip</item>
+        <item name="android:paddingBottom">21.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+    <style name="custom_command_recording_rl_ll_customCommandHintLayout" parent="@style/CustomDialogStyle">
+        <item name="android:background">@drawable/voice_talk_screen_custom_popup</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+    </style>
+    <style name="custom_command_recording_rl_ll_initBody">
+        <item name="android:layout_height">252.0dip</item>
+    </style>
+    <style name="custom_command_recording_rl_ll_customCommandHint">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="custom_command_recording_rl_controlbody">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_width">108.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="help_about_container">
+        <item name="android:layout_marginLeft">13.0dip</item>
+        <item name="android:layout_marginTop">23.0dip</item>
+        <item name="android:layout_marginRight">13.0dip</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+    <style name="help_about_title">
+        <item name="android:textSize">40.0dip</item>
+        <item name="android:layout_width">240.0dip</item>
+        <item name="android:layout_height">42.0dip</item>
+    </style>
+    <style name="image_logo_samsung">
+        <item name="android:layout_width">240.0dip</item>
+        <item name="android:layout_height">50.0dip</item>
+    </style>
+    <style name="image_logo">
+        <item name="android:layout_width">240.0dip</item>
+        <item name="android:layout_height">50.0dip</item>
+    </style>
+    <style name="TextView02">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:layout_height">16.0dip</item>
+        <item name="android:layout_marginTop">12.0dip</item>
+    </style>
+    <style name="text_version">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:layout_height">16.0dip</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+    </style>
+    <style name="uuid_text">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:layout_height">16.0dip</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+    </style>
+    <style name="help_about_text_powered_by">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">16.0dip</item>
+        <item name="android:layout_marginLeft">143.0dip</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+    </style>
+    <style name="ImageView01">
+        <item name="android:layout_width">160.0dip</item>
+        <item name="android:layout_height">58.0dip</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+    </style>
+    <style name="help_about_btn_tos">
+        <item name="android:layout_width">302.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+    </style>
+    <style name="help_about_btn_privacy">
+        <item name="android:layout_width">302.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+    </style>
+    <style name="help_about_bottom_container">
+        <item name="android:layout_marginTop">3.0dip</item>
+    </style>
+</resources>

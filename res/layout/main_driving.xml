@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/driving_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:layout_gravity="center" android:id="@id/driving_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/driving_control_view" android:layout_alignParentTop="true" class="com.vlingo.midas.gui.DrivingFragment" />
+    <fragment android:id="@id/driving_control_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" class="com.vlingo.midas.gui.DrivingControlFragment" />
+</RelativeLayout>

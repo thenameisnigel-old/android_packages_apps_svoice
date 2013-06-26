@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.MultipleSenderMessageReadoutWidget android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/widget_margin_left" android:layout_marginRight="@dimen/widget_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/widget_common_choice" />
+</com.vlingo.midas.gui.widgets.MultipleSenderMessageReadoutWidget>

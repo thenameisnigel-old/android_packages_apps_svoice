@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.ClockWidget android:orientation="horizontal" android:id="@id/widget_clock" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/mainclockwidget"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/clockContainer" android:background="@drawable/voice_talk_screen_custom_popup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/widget_margin_left" android:layout_marginRight="@dimen/widget_margin_right" style="@style/clockwidget_clockContainer">
+        <LinearLayout android:orientation="horizontal" android:id="@id/timeContainer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/clock_hour_prefix" android:background="@drawable/voice_talk_clock_num_0" style="@style/clockwidget_hour_prefix_style" />
+            <ImageView android:id="@id/clock_hour_postfix" android:background="@drawable/voice_talk_clock_num_0" style="@style/clockwidget_time_style" />
+            <ImageView android:id="@id/clock_colon" android:background="@drawable/voice_talk_clock_dot" style="@style/clockwidget_colon_style" />
+            <ImageView android:id="@id/clock_min_prefix" android:background="@drawable/voice_talk_clock_num_0" style="@style/clockwidget_time_style" />
+            <ImageView android:id="@id/clock_min_postfix" android:background="@drawable/voice_talk_clock_num_0" style="@style/clockwidget_time_style" />
+        </LinearLayout>
+        <ImageView android:id="@id/clock_horizontal_divider" android:background="@drawable/voice_talk_clock_divide_line" style="@style/clockwidget_horizontal_divider_style" />
+        <LinearLayout android:orientation="vertical" android:id="@id/dayContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/clockwidget_dayContainer">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/clock_time_ampm_text" android:text="AM" android:singleLine="true" android:textAllCaps="true" style="@style/clockwidget_ampm_text" />
+                <TextView android:id="@id/clock_time_day_text" android:text="MON 05/11" android:singleLine="true" android:textAllCaps="true" style="@style/clockwidget_day_text" />
+            </LinearLayout>
+            <ImageView android:id="@id/clock_vertical_divider" android:background="@drawable/voice_talk_clock_line" style="@style/clockwidget_vertical_divider" />
+            <TextView android:id="@id/clock_month_years_text" android:text="NOMEMVER 2012" android:singleLine="true" android:textAllCaps="true" style="@style/clockwidget_month_years_text" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/widget_clock_shadow" android:layout_width="fill_parent" android:layout_below="@id/clockContainer" style="@style/widget_common_shadow_styles" />
+</com.vlingo.midas.gui.widgets.ClockWidget>

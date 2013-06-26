@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/custom_mic_port" android:background="@drawable/gray_background" android:layout_width="wrap_content" android:layout_height="62.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.sec.android.svoice.equalizer.ListeningView android:id="@id/listeningView" android:background="@drawable/blue_dots" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/custom_mic_blue_back" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/blue_square_2px" android:scaleType="fitXY" />
+        <ImageView android:id="@id/custom_mic_gray_dots" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/gray_dots" android:scaleType="fitXY" />
+        <ImageView android:id="@id/custom_mic_green_back" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/green_dots" android:scaleType="fitXY" />
+        <ImageView android:id="@id/custom_mic_green_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/green_bar" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/custom_mic_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mic" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/custom_mic_land" android:background="@drawable/h_gray_background" android:visibility="gone" android:layout_width="62.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <com.sec.android.svoice.equalizer.ListeningView android:id="@id/listeningView_h" android:background="@drawable/h_blue_dots" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/custom_mic_blue_back_h" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/blue_square_2px" android:scaleType="fitXY" />
+        <ImageView android:id="@id/custom_mic_gray_dots_h" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/h_gray_dots" />
+        <ImageView android:id="@id/custom_mic_green_back_h" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/h_green_dots" android:scaleType="fitXY" />
+        <ImageView android:id="@id/custom_mic_green_bar_h" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/h_green_bar" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/custom_mic_image_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/h_mic" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

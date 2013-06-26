@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="asrServers">
+        <item></item>
+        <item>samsungvuiasr.vlingo.com</item>
+        <item>samsungq2asr.vlingo.com</item>
+        <item>samsungdemoasr.vlingo.com</item>
+        <item>samsungtest.vlingo.com</item>
+        <item>demo.vlingo.com</item>
+        <item>perfvvs.vlingo.com</item>
+        <item>qatest3.vlingo.com</item>
+        <item>app9-perf.qa.vlingo.com:8080</item>
+        <item>app08-perf.qa.vlingo.com:8080</item>
+        <item>qatestvvs.vlingo.com</item>
+        <item>qadmz91.dmz.vlingo.com:8080</item>
+        <item>app6-test.qa.vlingo.com:8080</item>
+        <item>dev101.eng.vlingo.com:8080</item>
+        <item>puma.vlingo.com</item>
+        <item>speech18.vlingo.com:8080</item>
+        <item>pcdemo.vlingo.mobi</item>
+        <item>samsungdmzasr.vlingo.com</item>
+        <item>samsungjuiasr.vlingo.com</item>
+    </string-array>
+    <string-array name="ttsServers">
+        <item></item>
+        <item>tts.vlingo.com</item>
+        <item>samsungdemoasr.vlingo.com</item>
+        <item>qa14.vlingo.com</item>
+        <item>qatestvvs.vlingo.com</item>
+        <item>samsungvuitts.vlingo.com</item>
+        <item>samsungq2tts.vlingo.com</item>
+        <item>demo.vlingo.com</item>
+        <item>app6-test.qa.vlingo.com</item>
+    </string-array>
+    <string-array name="servicesServers">
+        <item></item>
+        <item>qasearch.vlingo.com</item>
+        <item>samsungdemolocalsearch.vlingo.com</item>
+        <item>qatestvvs.vlingo.com</item>
+        <item>qadmz94.dmz.vlingo.com:8080</item>
+        <item>samsungvuilocalsearch.vlingo.com</item>
+        <item>samsungq2localsearch.vlingo.com</item>
+        <item>app9-perf.qa.vlingo.com:8080</item>
+        <item>app6-test.qa.vlingo.com</item>
+        <item>samsungdmzlocalsearch.vlingo.com</item>
+        <item>samsungjuiasr.vlingo.com</item>
+    </string-array>
+    <string-array name="logServers">
+        <item></item>
+        <item>samsungvuiasr.vlingo.com</item>
+        <item>samsungq2asr.vlingo.com</item>
+        <item>samsungdemoasr.vlingo.com</item>
+        <item>samsungtest.vlingo.com</item>
+        <item>demo.vlingo.com</item>
+        <item>perfvvs.vlingo.com</item>
+        <item>qatest3.vlingo.com</item>
+        <item>app9-perf.qa.vlingo.com:8080</item>
+        <item>app08-perf.qa.vlingo.com:8080</item>
+        <item>qatestvvs.vlingo.com</item>
+        <item>qadmz91.dmz.vlingo.com:8080</item>
+        <item>app6-test.qa.vlingo.com:8080</item>
+        <item>dev101.eng.vlingo.com:8080</item>
+        <item>puma.vlingo.com</item>
+        <item>speech18.vlingo.com:8080</item>
+        <item>pcdemo.vlingo.mobi</item>
+        <item>samsungdmzasr.vlingo.com</item>
+    </string-array>
+    <string-array name="helloServers">
+        <item></item>
+        <item>samsungvuiasr.vlingo.com</item>
+        <item>samsungq2asr.vlingo.com</item>
+        <item>samsungdemoasr.vlingo.com</item>
+        <item>samsungtest.vlingo.com</item>
+        <item>demo.vlingo.com</item>
+        <item>perfvvs.vlingo.com</item>
+        <item>qatest3.vlingo.com</item>
+        <item>app9-perf.qa.vlingo.com:8080</item>
+        <item>app08-perf.qa.vlingo.com:8080</item>
+        <item>qatestvvs.vlingo.com</item>
+        <item>qadmz91.dmz.vlingo.com:8080</item>
+        <item>app6-test.qa.vlingo.com:8080</item>
+        <item>dev101.eng.vlingo.com:8080</item>
+        <item>puma.vlingo.com</item>
+        <item>speech18.vlingo.com:8080</item>
+        <item>pcdemo.vlingo.mobi</item>
+        <item>samsungdmzasr.vlingo.com</item>
+        <item>samsungjuiasr.vlingo.com</item>
+    </string-array>
+    <string-array name="lmttServers">
+        <item></item>
+        <item>samsungvuiasr.vlingo.com</item>
+        <item>samsungq2asr.vlingo.com</item>
+        <item>samsungdemoasr.vlingo.com</item>
+        <item>samsungtest.vlingo.com</item>
+        <item>demo.vlingo.com</item>
+        <item>perfvvs.vlingo.com</item>
+        <item>qatest3.vlingo.com</item>
+        <item>app9-perf.qa.vlingo.com:8080</item>
+        <item>app08-perf.qa.vlingo.com:8080</item>
+        <item>qatestvvs.vlingo.com</item>
+        <item>qadmz91.dmz.vlingo.com:8080</item>
+        <item>app6-test.qa.vlingo.com:8080</item>
+        <item>dev101.eng.vlingo.com:8080</item>
+        <item>puma.vlingo.com</item>
+        <item>speech18.vlingo.com:8080</item>
+        <item>pcdemo.vlingo.mobi</item>
+        <item>samsungdmzasr.vlingo.com</item>
+        <item>samsungjuiasr.vlingo.com</item>
+    </string-array>
+    <string-array name="web_search_engine_preference_values">
+        <item>Google</item>
+        <item>Bing</item>
+        <item>Yahoo</item>
+    </string-array>
+    <string-array name="languages_names">
+        <item>@string/arrays_lang_de_de</item>
+        <item>@string/arrays_lang_en_uk</item>
+        <item>@string/arrays_lang_en_us</item>
+        <item>@string/arrays_lang_es_es</item>
+        <item>@string/arrays_lang_v_es_la</item>
+        <item>@string/arrays_lang_fr_fr</item>
+        <item>@string/arrays_lang_it_it</item>
+        <item>@string/arrays_lang_ko_kr</item>
+        <item>@string/arrays_lang_ru_ru</item>
+        <item>@string/arrays_lang_pr_br</item>
+        <item>@string/arrays_lang_ja_jp</item>
+    </string-array>
+    <string-array name="languages_names_cn">
+        <item>@string/arrays_lang_zh_cn</item>
+        <item>@string/arrays_lang_en_us</item>
+        <item>@string/arrays_lang_ko_kr</item>
+    </string-array>
+    <string-array name="languages_iso">
+        <item>de-DE</item>
+        <item>en-GB</item>
+        <item>en-US</item>
+        <item>es-ES</item>
+        <item>v-es-LA</item>
+        <item>fr-FR</item>
+        <item>it-IT</item>
+        <item>ko-KR</item>
+        <item>ru-RU</item>
+        <item>pt-BR</item>
+        <item>ja-JP</item>
+    </string-array>
+    <string-array name="languages_iso_cn">
+        <item>zh-CN</item>
+        <item>en-US</item>
+        <item>ko-KR</item>
+    </string-array>
+    <string-array name="auto_dial_preference">
+        <item>@string/arrays_autodial_always</item>
+        <item>@string/arrays_autodial_confident</item>
+        <item>@string/arrays_autodial_never</item>
+    </string-array>
+    <string-array name="auto_dial_preference_values">
+        <item>always</item>
+        <item>confident</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="debug_mimic_mode">
+        <item>Random</item>
+        <item>Normal</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Helium</item>
+        <item>Robot</item>
+        <item>Cave</item>
+    </string-array>
+    <string-array name="debug_mimic_mode_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <reference-array name="wcis_voice_dial_car_examples">
+        <item>@string/wcis_voice_dial_contact_ex</item>
+    </reference-array>
+    <reference-array name="wcis_voice_dial_car_examples_us">
+        <item>@string/wcis_voice_dial_contact_ex_us</item>
+    </reference-array>
+    <reference-array name="wcis_sms_examples">
+        <item>@string/wcis_sms_ex</item>
+    </reference-array>
+    <reference-array name="wcis_search_examples">
+        <item>@string/wcis_search_ex</item>
+    </reference-array>
+    <reference-array name="wcis_search_examples_cn">
+        <item>@string/wcis_search_ex_cn</item>
+    </reference-array>
+    <reference-array name="wcis_open_app_examples">
+        <item>@string/wcis_open_app_ex</item>
+    </reference-array>
+    <reference-array name="wcis_music_examples">
+        <item>@string/wcis_music_ex</item>
+    </reference-array>
+    <reference-array name="wcis_music_examples_no_radio">
+        <item>@string/wcis_music_ex2</item>
+    </reference-array>
+    <reference-array name="wcis_task_examples">
+        <item>@string/wcis_task_ex</item>
+    </reference-array>
+    <reference-array name="wcis_social_update_examples">
+        <item>@string/wcis_social_update_ex</item>
+    </reference-array>
+    <reference-array name="wcis_social_update_examples_cn">
+        <item>@string/wcis_social_update_ex_cn</item>
+    </reference-array>
+    <reference-array name="wcis_driving_mode_examples">
+        <item>@string/wcis_driving_mode_ex</item>
+    </reference-array>
+    <reference-array name="wcis_news_examples">
+        <item>@string/wcis_news_ex</item>
+    </reference-array>
+    <reference-array name="wcis_recordvoice_examples">
+        <item>@string/wcis_recordvoice_ex</item>
+    </reference-array>
+    <reference-array name="wcis_nav_examples">
+        <item>@string/wcis_nav_ex</item>
+    </reference-array>
+    <reference-array name="wcis_schedule_examples">
+        <item>@string/wcis_schedule_ex</item>
+    </reference-array>
+    <reference-array name="wcis_schedule_in_car_examples">
+        <item>@string/wcis_schedule_in_car_ex</item>
+    </reference-array>
+    <reference-array name="wcis_alarm_examples">
+        <item>@string/wcis_alarm_ex</item>
+    </reference-array>
+    <reference-array name="wcis_timer_examples">
+        <item>@string/wcis_timer_ex</item>
+    </reference-array>
+    <reference-array name="wcis_memo_examples">
+        <item>@string/wcis_memo_ex</item>
+    </reference-array>
+    <reference-array name="wcis_memo_in_car_examples">
+        <item>@string/wcis_memo_in_car_ex</item>
+    </reference-array>
+    <reference-array name="wcis_findcontact_examples">
+        <item>@string/wcis_findcontact_ex</item>
+    </reference-array>
+    <reference-array name="wcis_check_weather_examples">
+        <item>@string/wcis_check_weather_ex</item>
+    </reference-array>
+    <reference-array name="wcis_get_an_answers_examples">
+        <item>@string/wcis_get_an_answers_ex</item>
+    </reference-array>
+    <reference-array name="wcis_simple_setting_controls_examples">
+        <item>@string/wcis_simple_setting_controls_ex</item>
+    </reference-array>
+    <reference-array name="wcis_local_listings_examples">
+        <item>@string/wcis_local_listings_ex</item>
+    </reference-array>
+    <string-array name="monthMatchers">
+        <item>january|jan</item>
+        <item>february|feb</item>
+        <item>march|mar</item>
+        <item>april|apr</item>
+        <item>may</item>
+        <item>june|jun</item>
+        <item>july|jul</item>
+        <item>august|aug</item>
+        <item>september|sept|sep</item>
+        <item>october|oct</item>
+        <item>november|nov</item>
+        <item>december|dec</item>
+    </string-array>
+    <string-array name="dayMatchers">
+        <item>sunday|sun</item>
+        <item>monday|mon</item>
+        <item>tuesday|tues|tue</item>
+        <item>wednesday|wed</item>
+        <item>thursday|thurs|thur|thu</item>
+        <item>friday|fri</item>
+        <item>saturday|sat</item>
+    </string-array>
+    <reference-array name="wcis_search_examples_naver_add">
+        <item>@string/wcis_search_ex_naver</item>
+    </reference-array>
+    <reference-array name="wcis_local_listings_examples_naver">
+        <item>@string/wcis_local_listings_ex_naver</item>
+    </reference-array>
+    <reference-array name="wcis_movies_examples_naver">
+        <item>@string/wcis_movies_ex_naver</item>
+    </reference-array>
+    <string-array name="weather_sunny">
+        <item>The sun will be shining on $[day].</item>
+        <item>Make sure you bring your sunglasses on $[day].</item>
+        <item>"There'll be a high of $[temp]° with lots of sunshine on $[day]."</item>
+    </string-array>
+    <string-array name="weather_sunny_today">
+        <item>The sun is shining $[day].</item>
+        <item>"Make sure you've got your sunglasses $[day]."</item>
+        <item>"It's $[cur_temp]° with lots of sunshine $[day]."</item>
+    </string-array>
+    <string-array name="weather_partly_sunny">
+        <item>"There'll be a high of $[temp]° with intermittent sunshine on $[day]."</item>
+        <item>The sun will be in and out on $[day].</item>
+        <item>"On $[day] we'll have some sunshine with a few clouds."</item>
+        <item>"On $[day] there'll be a high of $[temp]° with just a few clouds in the sky."</item>
+        <item>"It'll be a high of $[temp]° and partly sunny on $[day]."</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_today">
+        <item>"It's $[cur_temp]° with intermittent sunshine $[day]."</item>
+        <item>"The sun's in and out $[day]."</item>
+        <item>$[day] we have sunshine with a few clouds.</item>
+        <item>"$[day] it's $[cur_temp]° with just a few clouds in the sky."</item>
+        <item>"It's $[cur_temp]° and partly sunny $[day]."</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy">
+        <item>$[day] will be cloudy with a high of $[temp]°.</item>
+        <item>"It'll be a high of $[temp]° with clouds throughout the day on $[day]."</item>
+        <item>"Looks like it'll be cloudy on $[day] with a high of $[temp]°."</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_today">
+        <item>$[day] is cloudy and $[cur_temp]°.</item>
+        <item>"It's $[cur_temp]° with clouds throughout the day $[day]."</item>
+        <item>"Looks like it's cloudy with a temperature of $[cur_temp]° $[day]."</item>
+    </string-array>
+    <string-array name="weather_foggy">
+        <item>"Looks like there'll be fog on $[day]."</item>
+        <item>"It'll be foggy with a high of $[temp]° out there."</item>
+        <item>"It'll be foggy on $[day], so turn on those headlights if you're driving."</item>
+    </string-array>
+    <string-array name="weather_foggy_today">
+        <item>"Looks like it's foggy $[day]."</item>
+        <item>"It's foggy and $[cur_temp]° out there."</item>
+        <item>"It's foggy $[day], so turn on those headlights if you're driving."</item>
+    </string-array>
+    <string-array name="weather_showers">
+        <item>"Looks like we'll have some showers on $[day]."</item>
+        <item>"On $[day] it'll be overcast with a few showers and a high of $[temp]°."</item>
+        <item>You might want to keep your umbrella handy on $[day].</item>
+        <item>$[day] will have a high of $[temp]° with clouds and showers likely.</item>
+        <item>"Don't forget your rain boots on $[day]."</item>
+    </string-array>
+    <string-array name="weather_showers_today">
+        <item>Looks like a few showers $[day].</item>
+        <item>$[day] is $[cur_temp]° and overcast with a few showers.</item>
+        <item>You might want to keep your umbrella handy $[day].</item>
+        <item>"It's $[cur_temp]° $[day] with clouds and showers likely."</item>
+        <item>"Don't forget your rain boots $[day]."</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_with_showers">
+        <item>"We'll have both sun and rain on $[day]."</item>
+        <item>"Looks like we'll have both sun and rain on $[day]."</item>
+        <item>"You'll need your umbrella and your sunglasses on $[day]."</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_with_showers_today">
+        <item>"We've got both sun and rain $[day]."</item>
+        <item>"Looks like we've got both sun and rain $[day]."</item>
+        <item>You need your umbrella and your sunglasses $[day].</item>
+    </string-array>
+    <string-array name="weather_thunderstorms">
+        <item>"Looks like there'll be thunderstorms with a high of $[temp]° on $[day]."</item>
+        <item>"There'll be thunderstorms on $[day]."</item>
+        <item>Clouds, thunder, and rain are all forecast for $[day].</item>
+        <item>"It'll be cloudy on $[day] with a high of $[temp]° and thunderstorms likely."</item>
+        <item>Be prepared for thunderstorms on $[day].</item>
+    </string-array>
+    <string-array name="weather_thunderstorms_today">
+        <item>"Looks like it's $[cur_temp]° with thunderstorms $[day]."</item>
+        <item>We have a few thunderstorms $[day].</item>
+        <item>Clouds, thunder and rain are all forecast for $[day].</item>
+        <item>"It's cloudy $[day] and $[cur_temp]° with thunderstorms likely."</item>
+        <item>Get ready for thunderstorms $[day].</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_thunder_showers">
+        <item>"There'll be thunder and rain on $[day]."</item>
+        <item>Looks like a high of $[temp]° with thunder and rain on $[day].</item>
+        <item>"You'll hear some thunder on $[day]."</item>
+        <item>$[day] will be a high of $[temp]° with scattered thunder and rain showers.</item>
+        <item>Expect some thunder and rain on $[day].</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_thunder_showers_today">
+        <item>We have thunder and rain $[day].</item>
+        <item>"It's $[cur_temp]° with thunder and rain $[day]."</item>
+        <item>"You'll hear some thunder $[day]."</item>
+        <item>$[day] is $[cur_temp]° with scattered thunder and rain showers.</item>
+        <item>Expect some thunder and rain $[day].</item>
+    </string-array>
+    <string-array name="weather_rainy">
+        <item>"Don't forget your umbrella on $[day]."</item>
+        <item>"Don't forget your rain boots on $[day]."</item>
+    </string-array>
+    <string-array name="weather_rainy_today">
+        <item>"Don't forget your umbrella $[day]."</item>
+        <item>"Don't forget your rain boots $[day]."</item>
+    </string-array>
+    <string-array name="weather_flurries">
+        <item>"It'll be cloudy with some snow flurries and a high of $[temp]° on $[day]."</item>
+        <item>Looks like snow flurries and a high of $[temp]° on $[day].</item>
+        <item>"Don't forget your snow boots on $[day]."</item>
+        <item>$[day] will be a high of $[temp]° with snow flurries.</item>
+        <item>"You'll see some snow flurries on $[day]."</item>
+    </string-array>
+    <string-array name="weather_flurries_today">
+        <item>"It's cloudy with some snow flurries and a temperature of $[cur_temp]° $[day]."</item>
+        <item>Looks like snow flurries and a high of $[cur_temp]° $[day].</item>
+        <item>"Don't forget your snow boots $[day]."</item>
+        <item>"$[day] it's $[cur_temp]° with snow flurries."</item>
+        <item>We have some snow flurries $[day].</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_flurries">
+        <item>"It'll be cloudy with some snow flurries and a high of $[temp]° on $[day]."</item>
+        <item>Looks like snow flurries and a high of $[temp]° on $[day].</item>
+        <item>"Don't forget your snow boots on $[day]."</item>
+        <item>$[day] will be a high of $[temp]° with snow flurries.</item>
+        <item>"You'll see some snow flurries on $[day]."</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_flurries_today">
+        <item>"It's cloudy with some snow flurries and a temperature of $[cur_temp]° $[day]."</item>
+        <item>Looks like snow flurries and a high of $[cur_temp]° $[day].</item>
+        <item>"Don't forget your snow boots $[day]."</item>
+        <item>"$[day] it's $[cur_temp]° with snow flurries."</item>
+        <item>We have some snow flurries $[day].</item>
+    </string-array>
+    <string-array name="weather_snow">
+        <item>Looks like snow and a high of $[temp]° on $[day].</item>
+        <item>"There's snow in your future on $[day]."</item>
+        <item>"There'll be snow on $[day], so wrap up warm."</item>
+        <item>"Don't forget your snow boots on $[day]."</item>
+    </string-array>
+    <string-array name="weather_snow_today">
+        <item>Looks like snow and a temperature of $[cur_temp]° $[day].</item>
+        <item>"There's snow on the horizon $[day]."</item>
+        <item>"It's snowing $[day] so wrap up warm."</item>
+        <item>"Don't forget your snow boots $[day]."</item>
+    </string-array>
+    <string-array name="weather_ice">
+        <item>Looks like ice and a high of $[temp]° on $[day].</item>
+        <item>"It'll be icy with a high of $[temp]° out there on $[day]."</item>
+        <item>"It'll be freezing out there on $[day]."</item>
+        <item>"Be careful out there on $[day], it'll be icy and only $[temp]°."</item>
+        <item>"Take your gloves on $[day], it'll be icy with a high of $[temp]° out there."</item>
+    </string-array>
+    <string-array name="weather_ice_today">
+        <item>Looks like ice and a temperature of $[cur_temp]° $[day].</item>
+        <item>"It's icy and only $[cur_temp]° out there $[day]."</item>
+        <item>"It's freezing out there $[day]."</item>
+        <item>"Careful out there $[day], it's icy and only $[cur_temp]°."</item>
+        <item>"Take your gloves $[day], it's icy and only $[cur_temp]°."</item>
+    </string-array>
+    <string-array name="weather_mixed_rain_and_snow">
+        <item>"We'll have some rain and sleet on $[day]."</item>
+        <item>"It'll be slushy with a high of $[temp]° out there on $[day]."</item>
+        <item>"We'll have sleet on $[day]."</item>
+        <item>"There'll be sleet and a high of $[temp]° on $[day]."</item>
+    </string-array>
+    <string-array name="weather_mixed_rain_and_snow_today">
+        <item>We have some rain and sleet $[day].</item>
+        <item>"It's slushy with a temperature of $[cur_temp]° out there $[day]."</item>
+        <item>We have sleet $[day].</item>
+        <item>"There's sleet $[day] with a temperature of $[cur_temp]°."</item>
+    </string-array>
+    <string-array name="weather_hot">
+        <item>"It's going to be hot on $[day]."</item>
+        <item>$[day] will be hot with a high of $[temp]°.</item>
+        <item>"$[day]'s temperatures will be sky high."</item>
+        <item>"Looks like it'll be hot on $[day] with a high of $[temp]°."</item>
+    </string-array>
+    <string-array name="weather_hot_today">
+        <item>"It's hot $[day]."</item>
+        <item>$[day] is hot with a temperature of $[cur_temp]°.</item>
+        <item>"$[day]'s temperatures are sky high."</item>
+        <item>"Looks like it's hot $[day] with a temperature of $[cur_temp]°."</item>
+    </string-array>
+    <string-array name="weather_cold">
+        <item>"It'll be cold out there on $[day]!"</item>
+        <item>"It'll be cold out there on $[day] with a high of $[temp]°. Don't forget your hat and scarf."</item>
+        <item>"It'll only reach a high of $[temp]° on $[day], so bundle up."</item>
+        <item>"Don't forget your coat on $[day], it's going to be cold with a high of $[temp]° out there."</item>
+        <item>"Looks like it'll be cold on $[day] with a high of $[temp]°."</item>
+    </string-array>
+    <string-array name="weather_cold_today">
+        <item>"It's cold out there $[day]!"</item>
+        <item>"It's only $[cur_temp]° out there $[day] so don't forget your hat and scarf."</item>
+        <item>"It's $[cur_temp]° $[day], so bundle up."</item>
+        <item>"Don't forget your coat $[day], it's only $[cur_temp]°."</item>
+        <item>"Looks like it's cold $[day] with a top temperature of $[cur_temp]°."</item>
+    </string-array>
+    <string-array name="weather_windy">
+        <item>"Hold on to your hat on $[day], it's going to be windy out there."</item>
+        <item>"Looks like it'll be windy out there on $[day]."</item>
+        <item>"It'll be windy with a high of $[temp]° on $[day]."</item>
+        <item>$[day] would be a good day to fly a kite.</item>
+        <item>"It'll be windy on $[day]."</item>
+    </string-array>
+    <string-array name="weather_windy_today">
+        <item>"Hold on to your hat $[day], it's windy out there."</item>
+        <item>Looks windy out there $[day].</item>
+        <item>"It's windy with a temperature of $[cur_temp]° $[day]."</item>
+        <item>$[day] is a good day to fly a kite.</item>
+        <item>"It's windy $[day]."</item>
+    </string-array>
+    <string-array name="weather_clear">
+        <item>Looks like clear skies for $[day].</item>
+        <item>"It'll be clear on $[day] with a high of $[temp]°."</item>
+        <item>"There won't be a cloud in the sky on $[day]."</item>
+        <item>Looks like clear skies on $[day] with a high of $[temp]°.</item>
+        <item>"Looks like it'll be clear on $[day] with a high of $[temp]°."</item>
+    </string-array>
+    <string-array name="weather_clear_today">
+        <item>Looks like clear skies $[day].</item>
+        <item>"It's clear $[day] with a temperature of $[cur_temp]°."</item>
+        <item>"There isn't a cloud in the sky $[day]."</item>
+        <item>Looks like clear skies $[day] and a temperature of $[cur_temp]°.</item>
+        <item>"Looks like it's clear $[day] with a temperature of $[cur_temp]°."</item>
+    </string-array>
+    <string-array name="weather_moslty_clear">
+        <item>"Looks like it'll be mostly clear on $[day] with a high of $[temp]°."</item>
+        <item>$[day] will be mostly clear with a high of $[temp]°.</item>
+        <item>"There won't be many clouds in the sky on $[day]."</item>
+        <item>"We won't see many clouds on $[day]."</item>
+        <item>$[day] looks mostly clear with a high of $[temp]°.</item>
+    </string-array>
+    <string-array name="weather_moslty_clear_today">
+        <item>"Looks like it's mostly clear $[day] with a temperature of $[cur_temp]°."</item>
+        <item>$[day] is mostly clear with a temperature of $[cur_temp]°.</item>
+        <item>"There aren't many clouds in the sky $[day]."</item>
+        <item>"There aren't many clouds $[day]."</item>
+        <item>$[day] looks mostly clear with a temperature of $[cur_temp]°.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_night">
+        <item>$[day] will be cloudy with a high of $[temp]°.</item>
+        <item>"It'll be a high of $[temp]° with clouds throughout the day on $[day]."</item>
+        <item>"Looks like it'll be cloudy on $[day] with a high of $[temp]°."</item>
+    </string-array>
+    <string-array name="weather_phenomenon">
+        <item>Sunny</item>
+        <item>Cloudy</item>
+        <item>Overcast</item>
+        <item>Shower</item>
+        <item>Thundershower</item>
+        <item>Thundershower with hail</item>
+        <item>Sleet</item>
+        <item>Light rain</item>
+        <item>Moderate rain</item>
+        <item>Heavy rain</item>
+        <item>Storm</item>
+        <item>Heavy storm</item>
+        <item>Severe storm</item>
+        <item>Snow flurry</item>
+        <item>Light snow</item>
+        <item>Moderate snow</item>
+        <item>Heavy snow</item>
+        <item>Snowstorm</item>
+        <item>Foggy</item>
+        <item>Ice rain</item>
+        <item>Duststorm</item>
+        <item>Light to moderate rain</item>
+        <item>Moderate to heavy rain</item>
+        <item>Heavy rain to storm</item>
+        <item>Storm to heavy storm</item>
+        <item>Heavy to severe storm</item>
+        <item>Light to moderate snow</item>
+        <item>Moderate to heavy snow</item>
+        <item>Heavy snow to snowstorm</item>
+        <item>Dust</item>
+        <item>Sand</item>
+        <item>Sandstorm</item>
+    </string-array>
+    <string-array name="weather_wind_direction">
+        <item>No wind</item>
+        <item>Northeast</item>
+        <item>East</item>
+        <item>Southeast</item>
+        <item>South</item>
+        <item>Southwest</item>
+        <item>West</item>
+        <item>Northwest</item>
+        <item>North</item>
+        <item>Whirl wind</item>
+    </string-array>
+    <string-array name="weather_wind_force">
+        <item>&amp;lt;10m/h</item>
+        <item>10~17m/h</item>
+        <item>17~25m/h</item>
+        <item>25~34m/h</item>
+        <item>34~43m/h</item>
+        <item>43~54m/h</item>
+        <item>54~65m/h</item>
+        <item>65~77m/h</item>
+        <item>77~89m/h</item>
+        <item>89~102m/h</item>
+    </string-array>
+    <string-array name="svox_symbols">
+        <item>㎀ picoamps</item>
+        <item>㎁ nanoamps</item>
+        <item>㎂ microamps</item>
+        <item>㎃ miliamps</item>
+        <item>㎄ kiloamps</item>
+        <item>㎈ calorie</item>
+        <item>㎉ kilocalorie</item>
+        <item>㎊ picofarad</item>
+        <item>㎋ nanofarad</item>
+        <item>㎌ microfarad</item>
+        <item>㎍ microgram</item>
+        <item>㎎ miligram</item>
+        <item>㎏ kilogram</item>
+        <item>㎐ hertz</item>
+        <item>㎑ kilohertz</item>
+        <item>㎒ megahertz</item>
+        <item>㎓ gigahertz</item>
+        <item>㎔ terahertz</item>
+        <item>㎕ microliter</item>
+        <item>㎖ mililiter</item>
+        <item>㎗ deciliter</item>
+        <item>㎘ kiloliter</item>
+        <item>㎞ kilometer</item>
+        <item>㎙ femtometer</item>
+    </string-array>
+    <string-array name="svox_timezones">
+        <item>ADT</item>
+        <item>AFT</item>
+        <item>AKDT</item>
+        <item>AKST</item>
+        <item>ALMT</item>
+        <item>AMST</item>
+        <item>AMT</item>
+        <item>ANAST</item>
+        <item>ANAT</item>
+        <item>AQTT</item>
+        <item>ART</item>
+        <item>AST</item>
+        <item>AZOST</item>
+        <item>AZOT</item>
+        <item>AZST</item>
+        <item>AZT</item>
+        <item>BNT</item>
+        <item>BOT</item>
+        <item>BRST</item>
+        <item>BRT</item>
+        <item>BST</item>
+        <item>BTT</item>
+        <item>CAST</item>
+        <item>CAT</item>
+        <item>CCT</item>
+        <item>CDT</item>
+        <item>CEST</item>
+        <item>CET</item>
+        <item>CHADT</item>
+        <item>CHAST</item>
+        <item>CKT</item>
+        <item>CLST</item>
+        <item>CLT</item>
+        <item>COT</item>
+        <item>CST</item>
+        <item>CVT</item>
+        <item>CXT</item>
+        <item>ChST</item>
+        <item>DAVT</item>
+        <item>EASST</item>
+        <item>EAST</item>
+        <item>EAT</item>
+        <item>ECT</item>
+        <item>EDT</item>
+        <item>EEST</item>
+        <item>EET</item>
+        <item>EGST</item>
+        <item>EGT</item>
+        <item>EST</item>
+        <item>ET</item>
+        <item>FJST</item>
+        <item>FJT</item>
+        <item>FKST</item>
+        <item>FKT</item>
+        <item>FNT</item>
+        <item>GALT</item>
+        <item>GAMT</item>
+        <item>GET</item>
+        <item>GFT</item>
+        <item>GILT</item>
+        <item>GMT</item>
+        <item>GST</item>
+        <item>GYT</item>
+        <item>HAA</item>
+        <item>HAC</item>
+        <item>HADT</item>
+        <item>HAE</item>
+        <item>HAP</item>
+        <item>HAR</item>
+        <item>HAST</item>
+        <item>HAT</item>
+        <item>HAY</item>
+        <item>HKT</item>
+        <item>HLV</item>
+        <item>HNA</item>
+        <item>HNC</item>
+        <item>HNE</item>
+        <item>HNP</item>
+        <item>HNR</item>
+        <item>HNT</item>
+        <item>HNY</item>
+        <item>HOVT</item>
+        <item>ICT</item>
+        <item>IDT</item>
+        <item>IOT</item>
+        <item>IRDT</item>
+        <item>IRKST</item>
+        <item>IRKT</item>
+        <item>IRST</item>
+        <item>IST</item>
+        <item>JST</item>
+        <item>KGT</item>
+        <item>KRAST</item>
+        <item>KRAT</item>
+        <item>KST</item>
+        <item>KUYT</item>
+        <item>LHDT</item>
+        <item>LHST</item>
+        <item>LINT</item>
+        <item>MAGST</item>
+        <item>MAGT</item>
+        <item>MART</item>
+        <item>MAWT</item>
+        <item>MDT</item>
+        <item>MESZ</item>
+        <item>MEZ</item>
+        <item>MHT</item>
+        <item>MMT</item>
+        <item>MSD</item>
+        <item>MSK</item>
+        <item>MST</item>
+        <item>MUT</item>
+        <item>MVT</item>
+        <item>MYT</item>
+        <item>NCT</item>
+        <item>NDT</item>
+        <item>NFT</item>
+        <item>NOVST</item>
+        <item>NOVT</item>
+        <item>NPT</item>
+        <item>NST</item>
+        <item>NUT</item>
+        <item>NZDT</item>
+        <item>NZST</item>
+        <item>OMSST</item>
+        <item>OMST</item>
+        <item>PDT</item>
+        <item>PET</item>
+        <item>PETST</item>
+        <item>PETT</item>
+        <item>PGT</item>
+        <item>PHOT</item>
+        <item>PHT</item>
+        <item>PKT</item>
+        <item>PMDT</item>
+        <item>PMST</item>
+        <item>PONT</item>
+        <item>PST</item>
+        <item>PT</item>
+        <item>PWT</item>
+        <item>PYST</item>
+        <item>PYT</item>
+        <item>RET</item>
+        <item>SAMT</item>
+        <item>SAST</item>
+        <item>SBT</item>
+        <item>SCT</item>
+        <item>SGT</item>
+        <item>SRT</item>
+        <item>SST</item>
+        <item>TAHT</item>
+        <item>TFT</item>
+        <item>TJT</item>
+        <item>TKT</item>
+        <item>TLT</item>
+        <item>TMT</item>
+        <item>TVT</item>
+        <item>ULAT</item>
+        <item>UYST</item>
+        <item>UYT</item>
+        <item>UZT</item>
+        <item>VET</item>
+        <item>VLAST</item>
+        <item>VLAT</item>
+        <item>VUT</item>
+        <item>WAST</item>
+        <item>WAT</item>
+        <item>WDT</item>
+        <item>WEST</item>
+        <item>WESZ</item>
+        <item>WET</item>
+        <item>WEZ</item>
+        <item>WFT</item>
+        <item>WGST</item>
+        <item>WGT</item>
+        <item>WIB</item>
+        <item>WIT</item>
+        <item>WITA</item>
+        <item>WST</item>
+        <item>WT</item>
+        <item>YAKST</item>
+        <item>YAKT</item>
+        <item>YAPT</item>
+        <item>YEKST</item>
+        <item>YEKT</item>
+    </string-array>
+    <string-array name="svox_big_numbers">
+        <item>×10^2/ times ten to the second</item>
+        <item>×10^3/ times ten to the third</item>
+        <item>×10^4/ times ten to the forth</item>
+        <item>×10^5/ times ten to the fifth</item>
+        <item>×10^/ times ten to the </item>
+    </string-array>
+</resources>

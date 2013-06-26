@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/custom_wakeup_command" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/custom_command_recording_custom_wakeup_command"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/custom_command_rl_ll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/land_control_view" android:layout_above="@id/regular_control_view">
+        <ScrollView android:id="@id/recordScrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/custom_command_recording_rl_recordScrollView">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/custom_command_recording_rl_ll_ll">
+                <TextView android:id="@id/titleCustomCommand" android:background="@drawable/voice_talk_message_01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_wakeup_tts_TAP_BUTTON_BELOW_UNLOCK" style="@style/custom_command_recording_rl_ll_titleCustomCommand" />
+                <LinearLayout android:orientation="vertical" android:id="@id/customCommandHintLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/custom_command_recording_rl_ll_customCommandHintLayout">
+                    <ImageView android:id="@id/initbody" android:layout_width="fill_parent" android:src="@drawable/voice_talk_setting" style="@style/custom_command_recording_rl_ll_initBody" />
+                    <TextView android:id="@id/CustomCommandHint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_wakeup_idle_hint" style="@style/custom_command_recording_rl_ll_customCommandHint" />
+                </LinearLayout>
+                <include android:id="@id/record_body" android:visibility="gone" layout="@layout/dialog_custom_wake_up_record_body" />
+                <include android:id="@id/error_body" android:visibility="gone" layout="@layout/dialog_custom_wake_up_error_body" />
+                <include android:id="@id/end_body" android:visibility="gone" layout="@layout/dialog_custom_wake_up_end_body" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <fragment android:id="@id/regular_control_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" class="com.vlingo.midas.gui.RegularControlFragment" />
+    <fragment android:id="@id/land_control_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" class="com.vlingo.midas.gui.LandRegularControlFragment" />
+</RelativeLayout>

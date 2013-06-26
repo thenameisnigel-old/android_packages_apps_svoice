@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.TaskWidget android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/stylesWidgetTaskMainControl"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/task_container" android:background="@drawable/voice_talk_screen_custom_popup" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/stylesWidgetTaskTask_container">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/task_row_title" android:background="@drawable/voice_talk_custom_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/task_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/stylesWidgetTaskTask_title" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/task_row_dueto" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/stylesWidgetTaskTask_row_dueto">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dueto" style="@style/stylesWidgetTaskSomeTask" />
+            <TextView android:id="@id/task_date" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/stylesWidgetTaskTask_date" />
+        </LinearLayout>
+        <View android:id="@id/reminder_bottom" android:background="#ffbbbbbb" android:layout_width="wrap_content" style="@style/stylesWidgetTaskReminder_bottom" />
+        <LinearLayout android:id="@id/task_row_reminder" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/stylesWidgetTaskTask_row_dueto">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reminder" style="@style/stylesWidgetTaskSomeTask" />
+            <TextView android:id="@id/task_reminder_date" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/stylesWidgetTaskTask_date" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/task_button" android:background="@drawable/voice_talk_screen_custom_popup_03" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/stylesWidgetTaskTask_button">
+            <com.vlingo.midas.gui.customviews.Button android:textColor="@color/widget_button_color" android:id="@id/btn_cancel_task" android:background="@drawable/btn_overlay_button" android:layout_width="fill_parent" android:text="@string/cancel_btn" android:layout_weight="1.0" style="@style/stylesWidgetTaskBtn_cancel_task" />
+            <com.vlingo.midas.gui.customviews.Button android:textColor="@color/widget_button_color" android:id="@id/task_confirm" android:background="@drawable/btn_overlay_button" android:layout_width="fill_parent" android:text="@string/save_btn" android:layout_weight="1.0" style="@style/stylesWidgetTask_confirm" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_below="@id/task_container" style="@style/widget_common_shadow_styles" />
+</com.vlingo.midas.gui.widgets.TaskWidget>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="22.0sp" android:textColor="#ff9cafb8" android:id="@id/description_wake_up_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="10.0dip" android:minHeight="68.0dip" android:text="@string/iux_wake_up_1" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iux_wake_up_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voice_talk_setting_help_3" android:minWidth="433.0dip" android:minHeight="120.0dip" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iux_wake_up_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/voice_talk_setting_help_4" android:minWidth="405.0dip" android:minHeight="83.0dip" />
+            <TextView android:textSize="22.0sp" android:textColor="#ff9cafb8" android:id="@id/description_wake_up_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:minHeight="34.0dip" android:text="@string/iux_wake_up_2" />
+            <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/help_change_now_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip">
+                <Button android:textSize="20.0sp" android:textStyle="normal" android:textColor="#ffd7d7d7" android:id="@id/help_change_now" android:background="@drawable/btn_iux_default_enabled" android:padding="0.0dip" android:layout_width="460.0dip" android:layout_height="52.0dip" />
+                <TextView android:textSize="18.0dip" android:textColor="@drawable/iux_btn_color" android:id="@id/help_change_now_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/change_now" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="22.0sp" android:textColor="#ff9cafb8" android:id="@id/description_wake_up_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:minHeight="34.0dip" android:text="@string/iux_wake_up_3" />
+            <TextView android:textSize="22.0sp" android:textColor="#ff9cafb8" android:id="@id/description_wake_up_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:minHeight="34.0dip" android:text="@string/iux_wake_up_3" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iux_wake_up_3" android:layout_width="405.0dip" android:layout_height="183.0dip" android:src="@drawable/voice_talk_setting_help_5" android:scaleType="fitCenter" />
+            <TextView android:textSize="22.0sp" android:textColor="#ff9cafb8" android:id="@id/description_wake_up_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:minHeight="136.0dip" android:text="@string/iux_wake_up_4" />
+            <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/listen_example_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip">
+                <Button android:textSize="20.0sp" android:textStyle="normal" android:textColor="#ffd7d7d7" android:id="@id/listen_example" android:background="@drawable/btn_iux_default_enabled" android:padding="0.0dip" android:layout_width="460.0dip" android:layout_height="52.0dip" />
+                <TextView android:textSize="18.0dip" android:textColor="@drawable/iux_btn_color" android:id="@id/help_change_now_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Listen example" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

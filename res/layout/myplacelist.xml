@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/myPlacelist_text_container" android:background="@drawable/myplace_list_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/myplace_linearlayout_style">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/myPlaceTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/myplace_title" style="@style/myplace_textview_style" />
+            <TextView android:id="@id/myPlaceAlertTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/myplace_alert_summary" android:layout_below="@id/myPlaceTextView" android:layout_alignLeft="@id/myPlaceTextView" style="@style/myplace_alert_textview_style" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@drawable/tw_list_divider_holo_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ListView android:id="@id/myPlaceListView" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/myplace_list_style" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.ScheduleSingleWidget android:gravity="center" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/schedule_single_container" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/widget_schedule_single">
+        <include layout="@layout/widget_schedule_body" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_below="@id/schedule_single_container" style="@style/widget_common_shadow_styles" />
+</com.vlingo.midas.gui.widgets.ScheduleSingleWidget>

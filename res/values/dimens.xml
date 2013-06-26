@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_margin_left">20.0dip</dimen>
+    <dimen name="widget_margin_right">20.0dip</dimen>
+    <dimen name="wcis_para_marginTop">1.0dip</dimen>
+    <dimen name="wcis_para_marginBottom">20.0dip</dimen>
+    <dimen name="wcis_heading_size">18.0dip</dimen>
+    <dimen name="wcis_subheading_size">18.0dip</dimen>
+    <dimen name="help_widget_image_size">48.0dip</dimen>
+    <dimen name="help_widget_title_size">21.0dip</dimen>
+    <dimen name="action_bar_switch_padding">16.0dip</dimen>
+    <dimen name="drive_schedule_date_size">69.0dip</dimen>
+    <dimen name="drive_schedule_location_size">110.0dip</dimen>
+    <dimen name="drive_schedule_land_size">92.0dip</dimen>
+    <dimen name="drive_schedule_title_size">37.0dip</dimen>
+    <dimen name="drive_schedule_list_height">104.0dip</dimen>
+    <dimen name="drive_schedule_list_land_height">83.0dip</dimen>
+    <dimen name="item_schedule_choice_height">71.0dip</dimen>
+    <dimen name="item_contact_list_height">70.0dip</dimen>
+    <dimen name="item_memo_choice_height">72.0dip</dimen>
+    <dimen name="item_task_choice_height">61.0dip</dimen>
+    <dimen name="item_application_choice_height">65.0dip</dimen>
+    <dimen name="MultiWindow_level0_height">62.0dip</dimen>
+    <dimen name="MultiWindow_centerbar_half_height">9.0dip</dimen>
+    <dimen name="MultiWindow_landscape_half">258.0dip</dimen>
+    <dimen name="app_defaultsize_w">640.0dip</dimen>
+    <dimen name="app_defaultsize_h">400.0dip</dimen>
+    <dimen name="app_minimumsize_w">640.0dip</dimen>
+    <dimen name="app_minimumsize_h">400.0dip</dimen>
+    <dimen name="item_naver_local_search_height">105.0dip</dimen>
+</resources>

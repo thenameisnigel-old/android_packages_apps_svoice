@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/linearLayout1" android:background="@drawable/voice_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearHelpTextClick" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <ImageView android:id="@id/imgWidgetSubIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/voice_ux_help_list_msg" android:scaleType="fitCenter" />
+            <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/txtWidgetSubheading" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:text="Call contacts" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip">
+            <TextView android:textSize="17.0dip" android:textColor="#ffffd800" android:id="@id/txtStartQuotationMarks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <TextView android:textSize="17.0dip" android:textColor="#ff999999" android:id="@id/txtWidgetExample" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Call lulu on her mobile" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="6.0dip">
+        <ImageButton android:id="@id/button_incar" android:background="@drawable/voice_button_blue" android:layout_width="75.0dip" android:layout_height="fill_parent" android:src="@drawable/voice_icon_voice" android:scaleType="center" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/button_driving_mode" android:background="@drawable/voice_button" android:layout_width="75.0dip" android:layout_height="fill_parent" android:src="@drawable/voice_icon_driving_off" android:scaleType="center" />
+            <ImageView android:id="@id/img_voice_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.5dip" android:layout_marginRight="12.5dip" android:layout_marginBottom="14.0dip" android:src="@drawable/voice_bar_off" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" style="@style/item_social_type_linear_1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" style="@style/item_social_type_linear_2">
+        <TextView android:ellipsize="end" android:id="@id/social_type" android:layout_width="fill_parent" android:maxLines="1" android:singleLine="true" android:drawablePadding="10.0dip" style="@style/item_social_type_social_type" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="#ffbbbbbb" android:layout_width="fill_parent" style="@style/item_social_type_divider" />
+</LinearLayout>

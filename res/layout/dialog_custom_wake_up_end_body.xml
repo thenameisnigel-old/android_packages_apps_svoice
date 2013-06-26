@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.wakeupsetting.CustomWakeUpRecordEnd android:layout_gravity="top|center" android:id="@id/custom_wake_up_record_end" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/custom_wake_up_end_body" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/styleCustomWakeUpEndBodyMainControl">
+        <ImageView android:layout_gravity="top|center" android:id="@id/wake_up_setting" android:background="@drawable/voice_talk_setting_icon_01" android:layout_centerHorizontal="true" style="@style/styleCustomWakeUpEndBodyWake_up_setting" />
+        <LinearLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/wake_up_setting" style="@style/styleCustomWakeUpEndBodyLinearAfterWakeUp">
+            <com.vlingo.midas.gui.customviews.Button android:textColor="@color/widget_button_color" android:id="@id/adapt_button" android:background="@drawable/btn_overlay_button" android:layout_width="fill_parent" android:text="@string/try_again" android:layout_weight="1.0" style="@style/styleCustomWakeUpEndBodyDone_button" />
+            <com.vlingo.midas.gui.customviews.Button android:textColor="@color/widget_button_color" android:id="@id/done_button" android:background="@drawable/btn_overlay_button" android:layout_width="fill_parent" android:text="@string/done" android:layout_weight="1.0" style="@style/styleCustomWakeUpEndBodyAdapt_button" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.samsung.wakeupsetting.CustomWakeUpRecordEnd>

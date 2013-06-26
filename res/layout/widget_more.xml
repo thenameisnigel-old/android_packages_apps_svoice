@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="@color/widget_button_color" android:gravity="center" android:id="@id/counts" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.vlingo.midas.gui.customviews.Button android:textSize="20.0dip" android:textColor="@color/widget_button_color" android:id="@id/btn_more" android:background="@drawable/btn_overlay_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="51.0dip" android:text="@string/core_qa_more" android:layout_weight="1.0" />
+</merge>

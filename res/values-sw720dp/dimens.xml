@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_margin_left">22.0dip</dimen>
+    <dimen name="widget_margin_right">22.0dip</dimen>
+    <dimen name="item_schedule_choice_height">82.0dip</dimen>
+    <dimen name="item_contact_list_height">70.0dip</dimen>
+    <dimen name="item_memo_choice_height">72.0dip</dimen>
+    <dimen name="item_naver_local_search_height">108.0dip</dimen>
+    <dimen name="scroll_view_padding">14.0dip</dimen>
+    <dimen name="relative_layout_margin_right">50.0dip</dimen>
+    <dimen name="item_naver_movie_choice_height">121.0dip</dimen>
+</resources>

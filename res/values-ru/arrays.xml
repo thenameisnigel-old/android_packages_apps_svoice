@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="monthMatchers">
+        <item>январь</item>
+        <item>февраль</item>
+        <item>март</item>
+        <item>апрель</item>
+        <item>май</item>
+        <item>июнь</item>
+        <item>июль</item>
+        <item>август</item>
+        <item>сентябрь</item>
+        <item>октябрь</item>
+        <item>ноябрь</item>
+        <item>декабрь</item>
+    </string-array>
+    <string-array name="dayMatchers">
+        <item>понедельник</item>
+        <item>вторник</item>
+        <item>среда</item>
+        <item>четверг</item>
+        <item>пятница</item>
+        <item>суббота</item>
+        <item>воскресенье</item>
+    </string-array>
+    <string-array name="weather_sunny">
+        <item>В$[day] будет солнечно.</item>
+        <item>В$[day] не забудьте взять солнцезащитные очки.</item>
+        <item>В$[day] будет $[temp]° и очень солнечно.</item>
+    </string-array>
+    <string-array name="weather_sunny_today">
+        <item>$[day] солнечно.</item>
+        <item>Не забудьте $[day] взять солнцезащитные очки.</item>
+        <item>$[day] $[cur_temp]° и очень солнечно.</item>
+    </string-array>
+    <string-array name="weather_partly_sunny">
+        <item>В$[day] будет $[temp]° с переменной облачностью.</item>
+        <item>В$[day] будет переменная облачность.</item>
+        <item>В$[day] ожидается солнце с незначительной облачностью.</item>
+        <item>В$[day] будет $[temp]° и малооблачно.</item>
+        <item>В$[day] ожидается $[temp]° и переменная облачность.</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_today">
+        <item>$[day] $[cur_temp]° с переменной облачностью.</item>
+        <item>$[day] переменная облачность.</item>
+        <item>$[day] солнечно с незначительной облачностью.</item>
+        <item>$[day] $[cur_temp]° и малооблачная погода.</item>
+        <item>$[day] $[cur_temp]° и переменная облачность.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy">
+        <item>В$[day] будет облачно, температура — $[temp]°.</item>
+        <item>В$[day] будет $[temp]° и облачно весь день.</item>
+        <item>Похоже, В$[day] будет облачно, температура — $[temp]°.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_today">
+        <item>$[day] облачно, температура — $[cur_temp]°.</item>
+        <item>$[day] $[cur_temp]° и облачно весь день.</item>
+        <item>Похоже, $[day] ожидается облачный день и $[cur_temp]°.</item>
+    </string-array>
+    <string-array name="weather_foggy">
+        <item>Похоже, В$[day] будет туман.</item>
+        <item>Ожидается туман и $[temp]°.</item>
+        <item>В$[day] будет туман, не забудьте включить фары.</item>
+    </string-array>
+    <string-array name="weather_foggy_today">
+        <item>Похоже, $[day] ожидается туман.</item>
+        <item>На улице туман и $[cur_temp]°.</item>
+        <item>$[day] туман, не забудьте включить фары.</item>
+    </string-array>
+    <string-array name="weather_showers">
+        <item>Похоже, В$[day] ожидается дождь.</item>
+        <item>В$[day] ожидается $[temp]°, сплошная облачность и дождь.</item>
+        <item>В$[day] может понадобиться зонтик.</item>
+        <item>В$[day] будет $[temp]°, облачно с осадками.</item>
+        <item>В$[day] наденьте резиновые сапоги.</item>
+    </string-array>
+    <string-array name="weather_showers_today">
+        <item>Похоже, $[day] ожидается дождь.</item>
+        <item>$[day] ожидается $[cur_temp]°, сплошная облачность и дождь.</item>
+        <item>$[day] может понадобиться зонтик.</item>
+        <item>$[day] $[cur_temp]°, облачно с осадками.</item>
+        <item>$[day] рекомендуется надеть резиновые сапоги.</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_with_showers">
+        <item>В$[day] ожидается солнечная погода с осадками.</item>
+        <item>Похоже, В$[day] будет солнечная погода с осадками.</item>
+        <item>В$[day] вам понадобится и зонтик, и солнцезащитные очки.</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_with_showers_today">
+        <item>$[day] ожидается солнечная погода с осадками.</item>
+        <item>Похоже, $[day] ожидается солнечная погода с осадками.</item>
+        <item>$[day] вам понадобится и зонтик, и солнцезащитные очки.</item>
+    </string-array>
+    <string-array name="weather_thunderstorms">
+        <item>Похоже, В$[day] ожидаются грозы с температурой $[temp]°.</item>
+        <item>В$[day] будут грозы.</item>
+        <item>В$[day] ожидается облачная погода с дождями и грозами.</item>
+        <item>В$[day] обещают $[temp]°, облачность и грозы.</item>
+        <item>В$[day] ожидаются грозы.</item>
+    </string-array>
+    <string-array name="weather_thunderstorms_today">
+        <item>Похоже, $[day] нас ждут грозы с температурой $[cur_temp]°.</item>
+        <item>$[day] ожидаются грозы.</item>
+        <item>$[day] ожидается облачная погода с дождями и грозами.</item>
+        <item>$[day] обещают $[cur_temp]°, облачность и грозы.</item>
+        <item>$[day] ожидаются грозы.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_thunder_showers">
+        <item>В$[day] будут дожди с грозами.</item>
+        <item>Похоже, В$[day] будут дожди с грозами и $[temp]°.</item>
+        <item>В$[day] вы услышите раскаты грома.</item>
+        <item>В$[day] будет $[temp]°, местами дожди с грозами.</item>
+        <item>В$[day] обещают дожди с грозами.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_thunder_showers_today">
+        <item>$[day] нас ждут дожди с грозами.</item>
+        <item>Похоже, $[day] ожидаются дожди с грозами и $[cur_temp]°.</item>
+        <item>$[day] вы услышите раскаты грома.</item>
+        <item>$[day] $[cur_temp]°, местами дожди с грозами.</item>
+        <item>$[day] нас ждут дожди с грозами.</item>
+    </string-array>
+    <string-array name="weather_rainy">
+        <item>В$[day] возьмите с собой зонтик.</item>
+        <item>В$[day] не забудьте надеть резиновые сапоги.</item>
+    </string-array>
+    <string-array name="weather_rainy_today">
+        <item>Рекомендуем $[day] взять с собой зонтик.</item>
+        <item>Рекомендуем $[day] надеть резиновые сапоги.</item>
+    </string-array>
+    <string-array name="weather_flurries">
+        <item>В$[day] будет пасмурно, небольшой снег, температура $[temp]°.</item>
+        <item>Похоже, В$[day] будет небольшой снег и $[temp]°.</item>
+        <item>В$[day] не забудьте надеть зимние сапоги.</item>
+        <item>В$[day] будет $[temp]° и небольшой снег.</item>
+        <item>В$[day] будет небольшой снег.</item>
+    </string-array>
+    <string-array name="weather_flurries_today">
+        <item>$[day] пасмурно, небольшой снег, температура $[cur_temp]°.</item>
+        <item>Похоже, $[day] ожидается небольшой снег и $[cur_temp]°.</item>
+        <item>Рекомендуем $[day] надеть зимние сапоги.</item>
+        <item>$[day] $[cur_temp]° и небольшой снег.</item>
+        <item>$[day] ожидается небольшой снег.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_flurries">
+        <item>В$[day] будет пасмурно, небольшой снег, температура $[temp]°.</item>
+        <item>Похоже, В$[day] будет небольшой снег и $[temp]°.</item>
+        <item>В$[day] не забудьте надеть зимние сапоги.</item>
+        <item>В$[day] будет $[temp]° и небольшой снег.</item>
+        <item>В$[day] будет небольшой снег.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_flurries_today">
+        <item>$[day] пасмурно, небольшой снег, температура $[cur_temp]°.</item>
+        <item>Похоже, $[day] ожидается небольшой снег и $[cur_temp]°.</item>
+        <item>Рекомендуем $[day] надеть зимние сапоги.</item>
+        <item>$[day] $[cur_temp]° и небольшой снег.</item>
+        <item>$[day] ожидается небольшой снег.</item>
+    </string-array>
+    <string-array name="weather_snow">
+        <item>Похоже, В$[day] будет снег и $[temp]°.</item>
+        <item>В$[day] будет снег.</item>
+        <item>В$[day] будет снег, одевайтесь тепло.</item>
+        <item>В$[day] не забудьте надеть зимние сапоги.</item>
+    </string-array>
+    <string-array name="weather_snow_today">
+        <item>Похоже, $[day] нас ждет снег и $[cur_temp]°.</item>
+        <item>На улице идет снег.</item>
+        <item>На улице идет снег, одевайтесь тепло.</item>
+        <item>Не забудьте $[day] надеть зимние сапоги.</item>
+    </string-array>
+    <string-array name="weather_ice">
+        <item>Похоже, В$[day] будет гололёд и $[temp]°.</item>
+        <item>В$[day] будет $[temp]°, на дорогах гололедица.</item>
+        <item>В$[day] ожидается сильный мороз.</item>
+        <item>Будьте осторожны: В$[day] ожидается гололед и всего $[temp]°.</item>
+        <item>Захватите с собой перчатки: В$[day] будет $[temp]° и скользко.</item>
+    </string-array>
+    <string-array name="weather_ice_today">
+        <item>Похоже, $[day] ожидается гололёд и $[cur_temp]°.</item>
+        <item>$[day] $[cur_temp]°, на дорогах гололедица.</item>
+        <item>$[day] очень холодно.</item>
+        <item>Будьте осторожны: $[day] ожидается гололед и всего $[cur_temp]°.</item>
+        <item>Рекомендуем захватить с собой перчатки: $[day] $[cur_temp]° и скользко.</item>
+    </string-array>
+    <string-array name="weather_mixed_rain_and_snow">
+        <item>В$[day] будет идти снег с дождём.</item>
+        <item>В$[day] будет $[temp]°, на дорогах слякоть.</item>
+        <item>В$[day] ожидается дождь со снегом.</item>
+        <item>В$[day] будет мокрый снег, температура — $[temp]°.</item>
+    </string-array>
+    <string-array name="weather_mixed_rain_and_snow_today">
+        <item>На улице снег с дождём.</item>
+        <item>$[day] $[cur_temp]°, на дорогах слякоть.</item>
+        <item>На улице идет дождь со снегом.</item>
+        <item>На улице мокрый снег, температура — $[cur_temp]°.</item>
+    </string-array>
+    <string-array name="weather_hot">
+        <item>В$[day] ожидается жаркий день.</item>
+        <item>В$[day] будет жарко, температура — $[temp]°.</item>
+        <item>В$[day] ожидается высокая температура.</item>
+        <item>Похоже, В$[day] будет жарко, температура — $[temp]°.</item>
+    </string-array>
+    <string-array name="weather_hot_today">
+        <item>$[day] жарко.</item>
+        <item>$[day] жарко, температура — $[cur_temp]°.</item>
+        <item>$[day] очень жарко.</item>
+        <item>Похоже, $[day] ожидается жара, температура — $[cur_temp]°.</item>
+    </string-array>
+    <string-array name="weather_cold">
+        <item>В$[day] ожидается холодная погода.</item>
+        <item>В$[day] будет прохладно, температура $[temp]°, не забудьте одеть шарф и перчатки.</item>
+        <item>В$[day] температура не поднимется выше $[temp]°. Одевайтесь тепло!</item>
+        <item>В$[day] будет $[temp]°, не забудьте одеть пальто.</item>
+        <item>Похоже, В$[day] ожидается холодная погода с температурой $[temp]°.</item>
+    </string-array>
+    <string-array name="weather_cold_today">
+        <item>На улице холодно.</item>
+        <item>На улице холодно, температура $[cur_temp]°, не забудьте одеть шарф и перчатки.</item>
+        <item>$[day] $[cur_temp]°. Одевайтесь тепло!</item>
+        <item>$[day] $[cur_temp]°, рекомендуем одеть пальто.</item>
+        <item>Похоже, $[day] ожидается холодная погода с температурой $[cur_temp]°.</item>
+    </string-array>
+    <string-array name="weather_windy">
+        <item>В$[day] наденьте шапку, будет сильный ветер.</item>
+        <item>Похоже, В$[day] будет ветрено.</item>
+        <item>В$[day] будет ветрено, температура — $[temp].</item>
+        <item>В$[day] будет хороший день для запуска воздушного змея.</item>
+        <item>В$[day] ожидается ветреная погода.</item>
+    </string-array>
+    <string-array name="weather_windy_today">
+        <item>Наденьте $[day] шапку, на улице сильный ветер.</item>
+        <item>Похоже, $[day] на улице ветрено.</item>
+        <item>$[day] ветрено, температура — $[temp].</item>
+        <item>$[day] хороший день для запуска воздушного змея.</item>
+        <item>$[day] ветрено.</item>
+    </string-array>
+    <string-array name="weather_clear">
+        <item>Похоже, В$[day] небо будет ясным.</item>
+        <item>В$[day] будет ясно, температура — $[temp].</item>
+        <item>В$[day] будет безоблачно.</item>
+        <item>Похоже, В$[day] ожидается ясная погода с температурой $[temp]°.</item>
+        <item>Похоже, В$[day] будет ясно с температурой $[temp]°.</item>
+    </string-array>
+    <string-array name="weather_clear_today">
+        <item>Похоже, $[day] ожидается ясный день.</item>
+        <item>$[day] ясно, температура — $[temp].</item>
+        <item>$[day] безоблачно.</item>
+        <item>Похоже, $[day] ясно, температура — $[cur_temp]°.</item>
+        <item>Похоже, $[day] ожидается ясная погода с температурой $[cur_temp]°</item>
+    </string-array>
+    <string-array name="weather_moslty_clear">
+        <item>Похоже, В$[day] ожидается малооблачная погода с температурой $[temp]°.</item>
+        <item>В$[day] будет малооблачно с температурой $[temp]°.</item>
+        <item>В$[day] будет не очень облачно.</item>
+        <item>В$[day] порадует нас малооблачной погодой.</item>
+        <item>В$[day] ожидается малооблачная погода с температурой $[temp]°.</item>
+    </string-array>
+    <string-array name="weather_moslty_clear_today">
+        <item>Похоже, $[day] ожидается малооблачная погода с температурой $[cur_temp]°.</item>
+        <item>$[day] малооблачно, температура — $[cur_temp]°.</item>
+        <item>$[day] не очень облачно.</item>
+        <item>$[day] небо почти безоблачное.</item>
+        <item>$[day] ожидается малооблачная погода с температурой $[cur_temp]°.</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_night">
+        <item>В$[day] будет облачно, температура — $[temp]°.</item>
+        <item>В$[day] будет $[temp]° и облачно весь день.</item>
+        <item>Похоже, В$[day] будет облачно, температура — $[temp]°.</item>
+    </string-array>
+    <string-array name="weather_phenomenon">
+        <item>Солнечно</item>
+        <item>Облачно</item>
+        <item>Сильная облачность</item>
+        <item>Ливень</item>
+        <item>Гроза</item>
+        <item>Гроза с градом</item>
+        <item>Снег с дождём</item>
+        <item>Небольшой дождик</item>
+        <item>Дождь</item>
+        <item>Сильный дождь</item>
+        <item>Ураган</item>
+        <item>Сильный ураган</item>
+        <item>Сильный шторм</item>
+        <item>Небольшой снег</item>
+        <item>Лёгкий снег</item>
+        <item>Снегопад</item>
+        <item>Сильный снегопад</item>
+        <item>Снежная буря</item>
+        <item>Туман</item>
+        <item>Мокрый снег</item>
+        <item>Пыльная буря</item>
+        <item>Лёгкий дождь, местами умеренный</item>
+        <item>Умеренный дождь, местами сильный</item>
+        <item>Сильный дождь, местами штормовой</item>
+        <item>Шторм, местами сильный</item>
+        <item>Сильный шторм, местами очень сильный</item>
+        <item>Лёгкий снег, местами умеренный</item>
+        <item>Умеренный снег, местами сильный</item>
+        <item>Сильный снегопад, местами метели</item>
+        <item>Пыль</item>
+        <item>Песок</item>
+        <item>Песчаная буря</item>
+    </string-array>
+    <string-array name="weather_wind_direction">
+        <item>Безветрено</item>
+        <item>Северо-восток</item>
+        <item>Восток</item>
+        <item>Юго-восток</item>
+        <item>Юг</item>
+        <item>Юго-запад</item>
+        <item>Запад</item>
+        <item>Северо-запад</item>
+        <item>Север</item>
+        <item>Ураганный ветер</item>
+    </string-array>
+    <string-array name="weather_wind_force">
+        <item>&amp;lt;16 км/час</item>
+        <item>16~27 км/час</item>
+        <item>27~40 км/час</item>
+        <item>40~55 км/час</item>
+        <item>55~69 км/час</item>
+        <item>69~87 км/час</item>
+        <item>87~105 км/час</item>
+        <item>105~124 км/час</item>
+        <item>124~143 км/час</item>
+        <item>143~164 км/час</item>
+    </string-array>
+    <string-array name="core_russian_weekdays">
+        <item>0 index is unused - no not delete</item>
+        <item>в воскресенье</item>
+        <item>в понедельник</item>
+        <item>во вторник</item>
+        <item>в среду</item>
+        <item>в четверг</item>
+        <item>в пятницу</item>
+        <item>в субботу</item>
+    </string-array>
+</resources>

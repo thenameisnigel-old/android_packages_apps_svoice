@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="monthMatchers">
+        <item>いちがつ</item>
+        <item>にがつ</item>
+        <item>さんがつ</item>
+        <item>しがつ|よんがつ</item>
+        <item>ごがつ</item>
+        <item>ろくがつ</item>
+        <item>しちがつ|なながつ</item>
+        <item>はちがつ</item>
+        <item>くがつ</item>
+        <item>じゅうがつ</item>
+        <item>じゅういちがつ</item>
+        <item>じゅうにがつ</item>
+    </string-array>
+    <string-array name="dayMatchers">
+        <item>にち曜日|にち曜</item>
+        <item>げつ曜日|げつ曜</item>
+        <item>か曜日|か曜</item>
+        <item>すい曜日|すい曜</item>
+        <item>もく曜日|もく曜</item>
+        <item>きん曜日|きん曜</item>
+        <item>ど曜日|ど曜</item>
+    </string-array>
+    <string-array name="weather_sunny">
+        <item>$[day]は晴れでしょう</item>
+        <item>$[day]は紫外線対策が必要になるでしょう</item>
+        <item>$[day]は最高気温が$[temp]℃、日差しが強くなる見込みです</item>
+    </string-array>
+    <string-array name="weather_sunny_today">
+        <item>$[day]は晴れです</item>
+        <item>$[day]は紫外線対策が必要です</item>
+        <item>$[day]は日差しの強い一日で、現在の気温は$[cur_temp]℃です</item>
+    </string-array>
+    <string-array name="weather_partly_sunny">
+        <item>$[day]は最高気温が$[temp]℃、曇り時々晴れでしょう</item>
+        <item>$[day]は曇り時々晴れの見込みです</item>
+        <item>$[day]は晴れ時々曇りでしょう</item>
+        <item>$[day]は最高気温が$[temp]℃、雲の少ない一日になるでしょう</item>
+        <item>$[day]は最高気温が$[temp]℃、曇りで所により晴れでしょう</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_today">
+        <item>$[day]は曇り時々晴れで、現在の気温は$[cur_temp]℃です</item>
+        <item>$[day]は曇り時々晴れです</item>
+        <item>$[day]は晴れ時々曇りです</item>
+        <item>$[day]は雲の少ない一日です。今の気温は$[cur_temp]℃です</item>
+        <item>$[day]は曇り所により晴れで、現在の気温は$[cur_temp]℃です</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy">
+        <item>$[day]は曇り、最高気温は$[temp]℃となる見込みです</item>
+        <item>$[day]は最高気温が$[temp]℃、一日中曇りでしょう</item>
+        <item>$[day]は曇り、最高気温が$[temp]℃となりそうです</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_today">
+        <item>$[day]は曇り、現在の気温は$[temp]です</item>
+        <item>$[day]は一日中曇りで、現在は気温が$[cur_temp]℃です</item>
+        <item>$[day]は曇り空、現在の気温は$[cur_temp]℃です</item>
+    </string-array>
+    <string-array name="weather_foggy">
+        <item>$[day]は霧がかかるでしょう</item>
+        <item>$[day]は最高気温が$[temp]℃、霧の深い一日となる見込みです</item>
+        <item>$[day]は霧が出る見込みです。視界が悪くなりそうですのでご注意ください</item>
+    </string-array>
+    <string-array name="weather_foggy_today">
+        <item>$[day]は霧がかかっています</item>
+        <item>現在の気温は$[cur_temp]℃です。$[day]は霧の深い一日です</item>
+        <item>$[day]は霧です。視界が悪いことがありますのでご注意ください</item>
+    </string-array>
+    <string-array name="weather_showers">
+        <item>$[day]はにわか雨があるでしょう</item>
+        <item>$[day]は最高気温が$[temp]℃、曇りで一時雨の見込みです</item>
+        <item>$[day]は一時雨になるでしょう。傘をお忘れなく</item>
+        <item>$[day]は最高気温が$[temp]℃、曇り時々雨でしょう</item>
+        <item>$[day]は長靴が必要になるでしょう</item>
+    </string-array>
+    <string-array name="weather_showers_today">
+        <item>$[day]はにわか雨があります</item>
+        <item>$[day]は曇りで一時雨です。今の気温は$[cur_temp]℃です</item>
+        <item>$[day]は一時雨です。傘をお忘れなく</item>
+        <item>$[day]は曇りで時々雨が降ります。現在の気温は$[cur_temp]℃です</item>
+        <item>$[day]は長靴でのお出かけをおすすめします</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_with_showers">
+        <item>$[day]は雨時々晴れの見込みです</item>
+        <item>$[day]は雨が降りますが、一時晴れ間も見えるでしょう</item>
+        <item>$[day]は晴雨兼用の傘があるとよいかもしれません</item>
+    </string-array>
+    <string-array name="weather_partly_sunny_with_showers_today">
+        <item>$[day]は雨時々晴れです</item>
+        <item>$[day]は雨一時晴れです</item>
+        <item>$[day]は晴雨兼用の傘があるとよいでしょう</item>
+    </string-array>
+    <string-array name="weather_thunderstorms">
+        <item>$[day]は最高気温が$[temp]℃、雨で雷を伴うでしょう</item>
+        <item>$[day]は雨で雷を伴う見込みです</item>
+        <item>$[day]は雲が多く、雷や雨もある一日になるでしょう</item>
+        <item>$[day]の最高気温は$[temp]℃、雷雨の見込みです</item>
+        <item>$[day]は雷雨の見込みです。ご注意ください</item>
+    </string-array>
+    <string-array name="weather_thunderstorms_today">
+        <item>$[day]は雷を伴う雨で、現在の気温は$[cur_temp]℃です</item>
+        <item>$[day]は雨で雷を伴います</item>
+        <item>$[day]は雲が多く、雷や雨もある一日です</item>
+        <item>$[day]の天気は雷雨です。現在、気温は$[cur_temp]℃です</item>
+        <item>$[day]は雷雨にご注意ください</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_thunder_showers">
+        <item>$[day]は雷を伴う雨になりそうです</item>
+        <item>$[day]は最高気温が$[temp]℃、雷を伴う雨の見込みです</item>
+        <item>$[day]は雷が発生するでしょう。ご注意ください</item>
+        <item>$[day]は最高気温が$[temp]℃、曇りで一時雷を伴う雨となる見込みです</item>
+        <item>$[day]は、一時雷を伴う雨があるでしょう</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_thunder_showers_today">
+        <item>$[day]は雷を伴う雨です</item>
+        <item>$[day]は雷を伴う雨が降っています。現在の気温は$[cur_temp]℃です</item>
+        <item>$[day]は雷が発生しています。ご注意ください</item>
+        <item>$[day]は曇りで一時雷を伴う雨が降ります。今の気温は$[cur_temp]℃です</item>
+        <item>$[day]は曇りで、雷を伴う雨があります</item>
+    </string-array>
+    <string-array name="weather_rainy">
+        <item>$[day]は雨でしょう。傘をお忘れなく</item>
+        <item>$[day]は長靴がよいでしょう</item>
+    </string-array>
+    <string-array name="weather_rainy_today">
+        <item>$[day]は傘をお忘れなく</item>
+        <item>$[day]は長靴をお忘れなく</item>
+    </string-array>
+    <string-array name="weather_flurries">
+        <item>$[day]は最高気温が$[temp]℃、曇り時々雪となるでしょう</item>
+        <item>$[day]は最高気温が$[temp]℃、雪がちらつくでしょう</item>
+        <item>$[day]は雪用のブーツがよいでしょう</item>
+        <item>$[day]は最高気温が$[temp]℃、一時雪となるでしょう</item>
+        <item>$[day]は曇り一時雪の見込みです</item>
+    </string-array>
+    <string-array name="weather_flurries_today">
+        <item>$[day]は曇り時々雪です。現在の気温は$[cur_temp]℃です</item>
+        <item>$[day]は一日雪がちらつきます。今の気温は$[cur_temp]℃です</item>
+        <item>$[day]は雪用のブーツをお忘れなく</item>
+        <item>$[day]は雪がちらついており、現在の気温は$[cur_temp]℃です</item>
+        <item>$[day]は曇り一時雪です</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_flurries">
+        <item>$[day]は最高気温が$[temp]℃、曇り時々雪となるでしょう</item>
+        <item>$[day]は最高気温が$[temp]℃、雪がちらつくでしょう</item>
+        <item>$[day]は雪用のブーツがよいでしょう</item>
+        <item>$[day]は最高気温が$[temp]℃、一時雪となるでしょう</item>
+        <item>$[day]は曇り一時雪の見込みです</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_with_flurries_today">
+        <item>$[day]は曇り時々雪です。現在の気温は$[cur_temp]℃です</item>
+        <item>$[day]は一日雪がちらつきます。今の気温は$[cur_temp]℃です</item>
+        <item>$[day]は雪用のブーツをお忘れなく</item>
+        <item>$[day]は雪がちらついており、現在の気温は$[cur_temp]℃です</item>
+        <item>$[day]は曇り一時雪です</item>
+    </string-array>
+    <string-array name="weather_snow">
+        <item>$[day]は最高気温が$[temp]℃、雪となるでしょう</item>
+        <item>$[day]は雪が降るでしょう</item>
+        <item>$[day]は雪が降る見込みです。暖かくしてお出かけください</item>
+        <item>$[day]は雪の予報です。雪用のブーツをお忘れなく</item>
+    </string-array>
+    <string-array name="weather_snow_today">
+        <item>$[day]は雪が降っており、現在の気温は$[cur_temp]℃です</item>
+        <item>$[day]は所により、雪が降っています</item>
+        <item>$[day]は雪です。暖かくしてお出かけください</item>
+        <item>$[day]は雪です。雪用のブーツをお忘れなく</item>
+    </string-array>
+    <string-array name="weather_ice">
+        <item>$[day]は最高気温が$[temp]℃、氷が張る寒さです</item>
+        <item>$[day]は最高気温が$[temp]℃、厳しい寒さになるでしょう</item>
+        <item>$[day]は凍えるほどの寒さになるでしょう</item>
+        <item>$[day]は気温が$[temp]℃までしか上がらない見込みです。路面が凍結する恐れがあるので足元にご注意ください</item>
+        <item>$[day]は最高気温が$[temp]℃、寒い一日になります。手袋をお忘れなく</item>
+    </string-array>
+    <string-array name="weather_ice_today">
+        <item>$[day]は氷が張っているかもしれません。現在の気温は$[cur_temp]℃です</item>
+        <item>$[day]は寒さが厳しい一日です。現在の気温は$[cur_temp]℃です</item>
+        <item>$[day]は凍えるほどの寒さです</item>
+        <item>$[day]は路面が凍っているので足元にご注意ください。現在の気温は$[cur_temp]℃と低くなっています</item>
+        <item>$[day]は寒い一日です。現在の気温は$[cur_temp]℃。手袋をお忘れなく</item>
+    </string-array>
+    <string-array name="weather_mixed_rain_and_snow">
+        <item>$[day]はみぞれになりそうです。</item>
+        <item>$[day]は最高気温が$[temp]℃、雨時々雪でしょう</item>
+        <item>$[day]の天気はみぞれになる見込みです</item>
+        <item>$[day]は最高気温が$[temp]℃、みぞれになるでしょう</item>
+    </string-array>
+    <string-array name="weather_mixed_rain_and_snow_today">
+        <item>$[day]はみぞれです。</item>
+        <item>$[day]は雨時々雪で、現在の気温は$[cur_temp]℃です</item>
+        <item>$[day]の天気はみぞれです</item>
+        <item>$[day]はみぞれで、現在の気温は$[cur_temp]℃です</item>
+    </string-array>
+    <string-array name="weather_hot">
+        <item>$[day]は暑くなりそうです</item>
+        <item>$[day]は最高気温が$[temp]℃で、とても暑い一日になるでしょう</item>
+        <item>$[day]は気温がかなり高くなる見込みです。熱中症にご注意ください</item>
+        <item>$[day]は暑く、最高気温は$[temp]℃になるでしょう</item>
+    </string-array>
+    <string-array name="weather_hot_today">
+        <item>$[day]は暑い一日です</item>
+        <item>$[day]は一日とても暑く、現在は気温が$[cur_temp]℃あります</item>
+        <item>$[day]は気温がかなり高くなっています。熱中症にご注意ください</item>
+        <item>$[day]は暑い一日で、現在の気温は$[cur_temp]℃です</item>
+    </string-array>
+    <string-array name="weather_cold">
+        <item>$[day]は寒くなりそうです</item>
+        <item>$[day]は最高気温が$[temp]℃で、寒くなるでしょう。外出時は帽子とマフラーがあるとよいでしょう</item>
+        <item>$[day]は最高気温が$[temp]℃の見込みです。暖かい服装でお出かけください</item>
+        <item>$[day]は最高気温が$[temp]℃、コートが必要になるでしょう</item>
+        <item>$[day]は寒く、最高気温は$[temp]℃でしょう</item>
+    </string-array>
+    <string-array name="weather_cold_today">
+        <item>$[day]は寒い一日です</item>
+        <item>$[day]は寒く、現在の気温は$[cur_temp]℃です。外出時は帽子とマフラーがあるとよいでしょう</item>
+        <item>現在の気温は$[cur_temp]℃です。$[day]は暖かい服装でお出かけください</item>
+        <item>$[day]はコートを忘れないようにしてください。今の気温は$[cur_temp]℃です</item>
+        <item>$[day]は寒い一日で、現在は気温が$[cur_temp]℃です</item>
+    </string-array>
+    <string-array name="weather_windy">
+        <item>$[day]は風が吹くでしょう。帽子をしっかり押さえてください</item>
+        <item>$[day]は風の強い日になるでしょう</item>
+        <item>$[day]は一日風が吹き、最高気温は$[temp]℃になる見込みです</item>
+        <item>$[day]は凧揚げに最高の日になるでしょう</item>
+        <item>$[day]は強風になるでしょう</item>
+    </string-array>
+    <string-array name="weather_windy_today">
+        <item>$[day]は風が吹いています。帽子をしっかり押さえてください</item>
+        <item>$[day]は風が強く吹いています</item>
+        <item>$[day]は風があり、現在の気温は$[cur_temp]℃です</item>
+        <item>$[day]は凧揚げに最高の日です</item>
+        <item>$[day]は強風の一日です</item>
+    </string-array>
+    <string-array name="weather_clear">
+        <item>$[day]はよく晴れた日になるでしょう</item>
+        <item>$[day]は最高気温が$[temp]℃で、澄み切った青空になるでしょう</item>
+        <item>$[day]は雲一つないよく晴れた日になるでしょう</item>
+        <item>$[day]は最高気温が$[temp]℃、よく澄んだ良い天気になる見込みです</item>
+        <item>$[day]は快晴で、最高気温は$[temp]℃になるでしょう</item>
+    </string-array>
+    <string-array name="weather_clear_today">
+        <item>$[day]はよく晴れています</item>
+        <item>$[day]は空が澄み切っています。現在の気温は$[cur_temp]℃です</item>
+        <item>$[day]は雲一つないよく晴れた日です</item>
+        <item>$[day]はよく澄んだ良い天気で、現在は気温が$[cur_temp]℃あります</item>
+        <item>$[day]は快晴で、現在の気温は$[cur_temp]℃です</item>
+    </string-array>
+    <string-array name="weather_moslty_clear">
+        <item>$[day]は最高気温が$[temp]℃、おおむね快晴で、所により曇りになるでしょう</item>
+        <item>$[day]は最高気温が$[temp]℃、所により曇りますが、おおむね快晴でしょう</item>
+        <item>$[day]は雲の少ない良い天気になる見込みです</item>
+        <item>$[day]は雲の少ない一日になりそうです</item>
+        <item>$[day]は最高気温が$[temp]℃、晴れで、所により曇るでしょう</item>
+    </string-array>
+    <string-array name="weather_moslty_clear_today">
+        <item>$[day]はおおむね快晴で、所により曇りです。今は気温が$[cur_temp]℃あります</item>
+        <item>現在の気温は$[cur_temp]℃。$[day]は所により曇りですが、おおむね快晴です</item>
+        <item>$[day]は雲の少ない良い天気です</item>
+        <item>$[day]は雲の少ない一日です</item>
+        <item>$[day]は晴れで、所により曇ります。現在の気温は$[cur_temp]℃です</item>
+    </string-array>
+    <string-array name="weather_mostly_cloudy_night">
+        <item>$[day]は曇り、最高気温は$[temp]℃となる見込みです</item>
+        <item>$[day]は最高気温が$[temp]℃、一日中曇りでしょう</item>
+        <item>$[day]は曇り、最高気温が$[temp]℃となりそうです</item>
+    </string-array>
+</resources>

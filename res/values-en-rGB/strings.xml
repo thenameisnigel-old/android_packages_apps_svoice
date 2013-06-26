@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_tts_local_required_engine_name">SVox</string>
+    <string name="phrasespotter_SEARCH_GRAMMAR_RES_NAME">en_gb_hg_tuned1_endsil_cg</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" style="@style/item_schedule_choice_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/event_list_check" android:src="@drawable/voice_talk_event_list_check" android:layout_alignParentTop="true" style="@style/item_schedule_choice_imageview_1" />
+    <TextView android:gravity="bottom" android:id="@id/schedule_title" android:layout_width="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/event_list_check" android:layout_alignParentTop="true" style="@style/item_schedule_choice_textview_1" />
+    <TextView android:gravity="bottom" android:id="@id/schedule_date" android:layout_width="wrap_content" android:layout_below="@id/schedule_title" android:layout_alignLeft="@id/schedule_title" style="@style/item_schedule_choice_textview_2" />
+    <TextView android:gravity="bottom" android:id="@id/schedule_time" android:layout_width="wrap_content" android:layout_toRightOf="@id/schedule_date" android:layout_alignTop="@id/schedule_date" style="@style/item_schedule_choice_textview_3" />
+    <View android:id="@id/divider" android:layout_width="wrap_content" android:layout_below="@id/schedule_date" style="@style/item_schedule_choice_view_1" />
+</RelativeLayout>

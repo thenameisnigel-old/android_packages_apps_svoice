@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.MessageReadbackBodyHiddenWidget android:orientation="vertical" android:id="@id/widget_answer_question" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/widget_messagereadbackbodyhidden_widget_answer_question"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/widget_messagereadbackbodyhidden_style_relativelayout">
+        <LinearLayout android:orientation="vertical" android:id="@id/message_container" android:background="@drawable/voice_talk_screen_custom_popup" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/widget_messagereadbackbodyhidden_style_linearlayout_1">
+            <LinearLayout android:orientation="horizontal" android:id="@id/msg_title" android:background="@drawable/voice_talk_custom_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/widget_messagereadbackbodyhidden_style_linearlayout_2">
+                <com.vlingo.midas.gui.customviews.TextView android:layout_gravity="center_vertical" android:id="@id/message_title_from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg_from" style="@style/widget_messagereadbackbodyhidden_style_textview_1" />
+                <com.vlingo.midas.gui.customviews.TextView android:layout_gravity="center_vertical" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Joe Pirone" style="@style/widget_messagereadbackbodyhidden_style_textview_2" />
+            </LinearLayout>
+            <com.vlingo.midas.gui.customviews.TextView android:layout_gravity="center_vertical" android:id="@id/msg_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SMS message" android:editable="false" style="@style/widget_messagereadbackbodyhidden_style_textview_3" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/message_readback_button_container" android:background="@drawable/voice_talk_screen_custom_popup_03" android:layout_width="fill_parent" style="@style/widget_messagereadbackbodyhidden_style_linearlayout_3">
+                <com.vlingo.midas.gui.customviews.Button android:id="@id/btn_readout" android:background="@drawable/btn_overlay_button" android:text="@string/readout_btn" android:layout_weight="1.0" style="@style/widget_messagereadbackbodyhidden_style_button_1" />
+                <com.vlingo.midas.gui.customviews.Button android:id="@id/btn_callback" android:background="@drawable/btn_overlay_button" android:text="@string/call" android:layout_weight="1.0" style="@style/widget_messagereadbackbodyhidden_style_button_2" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.vlingo.midas.gui.widgets.MessageReadbackBodyHiddenWidget>

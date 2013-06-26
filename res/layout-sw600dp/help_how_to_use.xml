@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/btn_container">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="22.0sp" android:textColor="#ff9cafb8" android:id="@id/description_what_you_want_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="30.0dip" android:minHeight="68.0dip" android:text="@string/iux_what_you_want_1" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iux_help_1" android:layout_width="601.0dip" android:layout_height="wrap_content" android:src="@drawable/voice_talk_setting_help_1" android:minHeight="120.0dip" />
+            <TextView android:textSize="22.0sp" android:textColor="#ff9cafb8" android:id="@id/description_what_you_want_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="30.0dip" android:minHeight="68.0dip" android:text="@string/iux_what_you_want_2" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iux_help_2" android:layout_width="601.0dip" android:layout_height="wrap_content" android:src="@drawable/voice_talk_setting_help_2" android:minHeight="120.0dip" />
+            <TextView android:textSize="22.0sp" android:textColor="#ff9cafb8" android:id="@id/description_what_you_want_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="30.0dip" android:minHeight="34.0dip" android:text="@string/iux_what_you_want_3" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iux_help_3" android:layout_width="433.0dip" android:layout_height="wrap_content" android:src="@drawable/voice_talk_setting_help_3" android:minHeight="120.0dip" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iux_help_4" android:layout_width="405.0dip" android:layout_height="wrap_content" android:src="@drawable/voice_talk_setting_help_4" android:minHeight="83.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

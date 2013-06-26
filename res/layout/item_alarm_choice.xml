@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/item_alarm_choice_style_linearlayout">
+        <LinearLayout android:orientation="vertical" android:id="@id/alarm_item_leftside" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip">
+                <TextView android:gravity="bottom" android:id="@id/alarm_item_hour" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" style="@style/item_alarm_choice_style_alarm_items" />
+                <TextView android:gravity="bottom" android:id="@id/alarm_item_colon" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/item_alarm_choice_style_alarm_items" />
+                <TextView android:gravity="bottom" android:id="@id/alarm_item_min" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" style="@style/item_alarm_choice_style_alarm_items" />
+                <TextView android:gravity="bottom" android:id="@id/alarm_item_ampm" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" style="@style/item_alarm_choice_style_alarm_item_ampm" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <View android:layout_width="6.0dip" android:layout_height="fill_parent" />
+                <TextView android:id="@id/alarm_item_sunday" android:text="@string/sun1" style="@style/AlarmListText.Days" />
+                <View android:layout_width="5.669983dip" android:layout_height="fill_parent" />
+                <TextView android:id="@id/alarm_item_monday" android:text="@string/mon1" style="@style/AlarmListText.Days" />
+                <View android:layout_width="5.669983dip" android:layout_height="fill_parent" />
+                <TextView android:id="@id/alarm_item_tuesday" android:text="@string/tue1" style="@style/AlarmListText.Days" />
+                <View android:layout_width="5.669983dip" android:layout_height="fill_parent" />
+                <TextView android:id="@id/alarm_item_wednesday" android:text="@string/wed1" style="@style/AlarmListText.Days" />
+                <View android:layout_width="5.669983dip" android:layout_height="fill_parent" />
+                <TextView android:id="@id/alarm_item_thursday" android:text="@string/thu1" style="@style/AlarmListText.Days" />
+                <View android:layout_width="5.669983dip" android:layout_height="fill_parent" />
+                <TextView android:id="@id/alarm_item_friday" android:text="@string/fri1" style="@style/AlarmListText.Days" />
+                <View android:layout_width="5.669983dip" android:layout_height="fill_parent" />
+                <TextView android:id="@id/alarm_item_saturday" android:text="@string/sat1" style="@style/AlarmListText.Days" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:gravity="right|center" android:layout_gravity="right|center" android:id="@id/alarm_enable" android:background="@drawable/voice_talk_alarm_off" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginTop="1.0dip" />
+    </LinearLayout>
+    <View android:id="@id/alarm_divider" android:background="#ffbbbbbb" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+</LinearLayout>

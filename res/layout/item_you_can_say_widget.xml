@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/item_you_can_say_widget_normal_view_container">
+        <ImageView android:id="@id/item_you_can_say_widget_thumnail" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/item_you_can_say_widget_thumnail" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/item_you_can_say_widget_thumnail" style="@style/item_you_can_say_widget_normal_text_container">
+            <TextView android:textColor="#ff000000" android:id="@id/item_you_can_say_widget_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_wcis_dial" android:includeFontPadding="false" style="@style/item_you_can_say_widget_title" />
+            <TextView android:textColor="#ff007ad2" android:id="@id/item_you_can_say_widget_command" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_wcis_dial_sub1" android:includeFontPadding="false" style="@style/item_you_can_say_widget_command" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/item_you_can_say_widget_examples_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/item_you_can_say_widget_examples_container">
+        <TextView android:textStyle="bold" android:textColor="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/examples" android:includeFontPadding="false" style="@style/item_you_can_say_widget_examples_title" />
+        <TextView android:textColor="#ff666666" android:id="@id/item_you_can_say_widget_examples" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="!put examples here" android:includeFontPadding="false" style="@style/item_you_can_say_widget_examples" />
+    </LinearLayout>
+</LinearLayout>

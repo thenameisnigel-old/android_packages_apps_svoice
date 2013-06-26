@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.DrivingModeCallActivity android:orientation="vertical" android:background="@drawable/driving_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/layout_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:layout_width="fill_parent" android:layout_height="60.0dip" android:src="@drawable/greeting_ani_ready" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="7.0dip" android:paddingTop="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:background="@drawable/emily_temp_img" android:layout_width="fill_parent" android:layout_height="432.0dip">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/driving_call_title_bg" android:layout_width="fill_parent" android:layout_height="95.0dip">
+                <LinearLayout android:gravity="top|left|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="13.0dip" android:layout_marginTop="14.0dip">
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="35.0dip" android:textColor="#fffefefe" android:id="@id/widget_drive_call_title" android:layout_width="275.0dip" android:layout_height="wrap_content" android:text="Emily Blunt" android:includeFontPadding="false" />
+                        <TextView android:textSize="22.0dip" android:textColor="#fffefefe" android:id="@id/widget_drive_call_phone_number" android:layout_width="275.0dip" android:layout_height="wrap_content" android:text="010-2222-3333" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageView android:layout_gravity="right" android:layout_width="39.0dip" android:layout_height="39.0dip" android:src="@drawable/driving_icon_call" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="4.0dip" android:layout_above="@id/layout_bottom">
+        <Button android:textSize="38.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:background="@drawable/driving_call_btn_answer" android:visibility="gone" android:layout_width="170.0dip" android:layout_height="109.0dip" android:text="Answer" android:layout_weight="1.0" />
+        <Button android:textSize="38.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:background="@drawable/driving_call_btn_reject" android:layout_width="170.0dip" android:layout_height="109.0dip" android:layout_marginLeft="6.0dip" android:text="Reject" android:layout_weight="1.0" />
+    </LinearLayout>
+</com.vlingo.midas.gui.widgets.DrivingModeCallActivity>

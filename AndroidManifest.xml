@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="11000001" android:versionName="11.0.0.1" android:installLocation="auto" package="com.vlingo.midas"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:resizeable="true" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="com.sec.android.widgetapp.q1_penmemo.permission.READ" />
+    <uses-permission android:name="com.sec.android.widgetapp.q1_penmemo.permission.WRITE" />
+    <uses-permission android:name="com.sec.android.permission.READ_MEMO" />
+    <uses-permission android:name="com.sec.android.permission.WRITE_MEMO" />
+    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER" />
+    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT" />
+    <uses-permission android:name="com.sec.android.app.clockpackage.permission.READ_ALARM" />
+    <uses-permission android:name="com.sec.android.app.clockpackage.permission.WRITE_ALARM" />
+    <uses-permission android:name="com.sec.android.app.twdvfs.DVFS_BOOSTER_PERMISSION" />
+    <uses-permission android:name="android.Manifest.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="com.infraware.provider.SNoteProvider.permission.READ" />
+    <uses-permission android:name="com.infraware.provider.SNoteProvider.permission.WRITE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="com.sec.android.app.sns3.permission.SNS_FB_ACCESS_TOKEN" />
+    <uses-permission android:name="com.samsung.music.permission.READ_MUSIC_STORAGE" />
+    <uses-permission android:name="com.sec.android.daemonapp.ap.yonhapnews.permission.YONHAP_DAEMON_ACCESS_PROVIDER" />
+    <application android:theme="@*android:style/Theme.DeviceDefault" android:label="@string/app_name" android:icon="@drawable/svoice" android:name="com.vlingo.midas.VlingoApplication" android:debuggable="false" android:largeHeap="true">
+        <uses-library android:name="com.sec.android.app.multiwindow" android:required="false" />
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true" />
+        <activity android:theme="@style/MidasBlackMainTheme" android:label="@string/app_name" android:name=".gui.ConversationActivity" android:stateNotNeeded="true" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH_LONG_PRESS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="6">
+                <action android:name="android.intent.action.VOICE_COMMAND" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="6">
+                <action android:name="android.speech.action.VOICE_SEARCH_HANDS_FREE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.action.SVOICE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.CAR_DOCK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.CAR_MODE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.CAR_MODE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.vlingo.midas.action.DEBUG_VOICE_COMMAND" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.vlingo.midas.action.DEBUG_ASR_AND_NLU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.vlingo.midas.action.DEBUG_NLU_LOGGING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.vlingo.midas.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <meta-data android:name="android.nfc.disable_beam_default" android:value="true" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".phrasespotter.SeamlessRecoActivity" android:taskAffinity="com.vlingo.midas.backgroundphrasespotting" android:stateNotNeeded="true" android:excludeFromRecents="true" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:theme="@style/MidasBlackTheme" android:name=".iux.IUXCompoundActivity" android:taskAffinity="com.vlingo.midas" android:excludeFromRecents="true" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/MidasBlackTheme" android:name=".help.HelpScreen" android:taskAffinity="com.vlingo.midas" android:excludeFromRecents="true" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:theme="@style/MidasBlackTheme" android:name=".help.AboutScreen" android:taskAffinity="com.vlingo.midas" android:excludeFromRecents="true" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden" android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:theme="@style/CustomTheme" android:name=".social.SocialAccountActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden|adjustNothing" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:name=".gui.SaveScreen" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden" android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:theme="@style/MidasBlackTheme" android:name=".help.WCISCompositionScreen" android:taskAffinity="com.vlingo.midas" android:excludeFromRecents="true" android:configChanges="keyboard|keyboardHidden|screenSize" android:windowSoftInputMode="adjustPan" />
+        <activity android:theme="@style/MidasBlackTheme" android:name=".help.WhatCanISayScreen" android:taskAffinity="com.vlingo.midas" android:excludeFromRecents="true" />
+        <activity android:theme="@style/MidasBlackTheme" android:name=".help.HelpHowToUseScreen" />
+        <activity android:theme="@style/MidasBlackTheme" android:name=".help.HelpHandwritingScreen" />
+        <activity android:theme="@style/MidasBlackTheme" android:name=".help.HelpEditWhatYouSaidScreen" />
+        <activity android:theme="@style/MidasBlackTheme" android:name=".help.HelpWakeUpScreen" />
+        <activity android:theme="@style/MidasBlackTheme" android:name=".settings.SettingsScreen" android:launchMode="singleTask" android:configChanges="orientation|screenSize|fontScale" android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name="com.vlingo.midas.settings.debug.DebugSettings" />
+        <receiver android:name=".SystemStateBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.VOICE_COMMAND" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+                <action android:name="com.vlingo.client.app.action.APPLICATION_STATE_CHANGED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.samsung.myplace.BTNotificationHandler">
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.ACL_CONNECTED" />
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED" />
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.samsung.myplace.WIFINofiticationHandler">
+            <intent-filter>
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".tss.PlayTTSBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.vlingo.midas.tss.PlayTTS" />
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.vlingo.midas.provider.VlingoConfigProvider" android:exported="true" android:authorities="com.vlingo.client.vlingoconfigprovider" />
+        <receiver android:name="com.vlingo.core.internal.safereaderimpl.BootStartSaferReaderReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.vlingo.core.internal.lmtt.LMTTServiceBootStart">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.vlingo.midas.DeviceConfigurationReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.vlingo.client.app.action.CHECK_DOUBLE_TAP_CONFIG" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.samsung.bargeinsetting.UpdatePreferenceReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.vlingo.core.internal.vlservice.ServiceEnableBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service android:label="Samsung powered by Vlingo" android:name="com.vlingo.core.internal.recognition.service.VlingoVoiceRecognitionService" android:enabled="false">
+            <intent-filter>
+                <action android:name="android.speech.RecognitionService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.speech" android:resource="@xml/recognizer" />
+        </service>
+        <service android:name="com.vlingo.core.internal.userlogging.UALService" />
+        <service android:name="com.vlingo.core.internal.vlservice.VlingoApplicationService">
+            <intent-filter>
+                <action android:name="com.vlingo.client.app.action.ACTIVITY_STATE_CHANGED" />
+                <action android:name="com.vlingo.client.app.action.CLOSE_APPLICATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:label="Audio Playback Service" android:name="com.vlingo.core.internal.audio.AudioPlaybackService" />
+        <service android:label="SafeReader" android:name="com.vlingo.core.internal.safereader.SafeReaderService" android:exported="false" />
+        <service android:label="Seamless Recognition" android:name="com.vlingo.midas.phrasespotter.SeamlessRecoService" android:taskAffinity="com.vlingo.midas.backgroundphrasespotting">
+            <intent-filter>
+                <action android:name="com.vlingo.midas.SeamlessRecognition" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:label="Audio Playback Service" android:name=".audio.AudioPlaybackService" />
+        <service android:name="com.vlingo.core.internal.lmtt.LMTTService" />
+        <activity android:theme="@style/MidasBlackTheme" android:label="@string/wakeup_setting_dialog_title" android:name="com.samsung.wakeupsetting.CustomWakeupSettingActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VOICE_SETTING_SET_WAKEUP_COMMAND" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/MidasBlackTheme" android:label="@string/voice_input_control_title" android:name="com.samsung.bargeinsetting.VoiceInputControlSettings" android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VOICE_SETTING_BARGEIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/MidasBlackTheme" android:label="@string/driving_mode_settings_title" android:name="com.vlingo.midas.settings.DrivingModeSettings" android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.DRIVING_MODE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/MidasBlackTheme" android:name="com.samsung.myplace.MyPlaceActivity" android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.SVOICE_MY_PLACE_SELECT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/MidasBlackTheme" android:name="com.samsung.wakeupsetting.CustomCommandRecordingActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VOICE_SETTING_LOCK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/MidasTheme" android:name="com.samsung.wakeupsetting.NavigationSetting" android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WAKEUP_COMMAND_NAVIGATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/CustomTheme" android:label="@string/app_name" android:name=".drivingmode.DrivingModeMessagingActivity" android:stateNotNeeded="true" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VOICE_DRIVINGMODE_MESSAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:resource="@dimen/app_defaultsize_w" />
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:resource="@dimen/app_defaultsize_h" />
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:resource="@dimen/app_minimumsize_w" />
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:resource="@dimen/app_minimumsize_h" />
+        <meta-data android:name="com.sec.android.multiwindow.STYLE" android:value="fixedRatio" />
+    </application>
+</manifest>

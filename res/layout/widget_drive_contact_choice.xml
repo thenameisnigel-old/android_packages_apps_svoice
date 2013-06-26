@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.DrivingContactChoiceWidget android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/listview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_marginTop="7.0dip" layout="@layout/widget_drive_common_choice" />
+</com.vlingo.midas.gui.widgets.DrivingContactChoiceWidget>

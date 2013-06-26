@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlingo.midas.gui.widgets.MapWidget android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/voice_talk_map_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" style="@style/widget_map_style">
+        <com.google.android.maps.MapView android:enabled="true" android:id="@id/map_view" android:clickable="true" android:layout_width="fill_parent" android:layout_height="334.0dip" android:apiKey="@string/MAPS_API_KEY" />
+    </LinearLayout>
+</com.vlingo.midas.gui.widgets.MapWidget>

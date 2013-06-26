@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="0.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.vlingo.midas.gui.customviews.TextView android:textStyle="normal" android:gravity="center" android:id="@id/prompt_wakeup_textview" android:background="@drawable/wake_up_command" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/widget_margin_left" android:layout_marginRight="@dimen/widget_margin_right" android:text="abc" android:includeFontPadding="false" style="@style/dialog_bubble_wakeup_style" />
+</LinearLayout>
